@@ -1,14 +1,11 @@
 # erdos2021-project
 Final project for the Erdos Institute 2021 data-science bootcamp
 
-# runner
-Data science code for the runner that will call the engine in project-vignette.
-
 # Installation
 
 0.
  
-> git clone --recursive 
+> git clone --recursive git@github.com:fhidalgor/erdos2021-project.git
     
 1. Install `poetry` and `pyenv`, you can get more information on how to do it on your local machine here:
 

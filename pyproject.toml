@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "erdos2021-project"
+version = "0.0.1"
+description = "environment for the project"
+authors = ["Frank Hidalgo <fhidalgoruiz@berkeley.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+requests = "^2.25.1"
+pydantic = "^1.8.1"
+mypy = "^0.812"
+pylint = "^2.8.2"
+yapf = "^0.31.0"
+ipython = "^7.22.0"
+ipykernel = "^5.5.3"
+jupyter = "^1.0.0"
+lab = "^6.3"
+unittest = "^0.0"
+pytest = "^6.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

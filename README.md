@@ -25,10 +25,13 @@ Final project for the Erdos Institute 2021 data-science bootcamp
 
 > poetry install
 
-4. Run compile to make sure everything is ok.
+4. To add packages to `poetry` use:
+> poetry add package
+
+5. Run compile to make sure everything is ok.
 > ./compile.sh
 
-5. Run tests. Make sure your variables are set in `env` file.
+6. Run tests. Make sure your variables are set in `env` file.
 > ./test.sh
 
 # Code style YAPF

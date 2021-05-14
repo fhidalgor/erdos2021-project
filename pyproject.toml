@@ -18,6 +18,7 @@ transformers = "^4.5.1"
 ipykernel = "^5.5.4"
 wordfreq = "^2.5.0"
 
+
 [tool.poetry.dev-dependencies]
 
 [build-system]

@@ -8,7 +8,8 @@ from engine.wrappers.wrapper import Wrapper
 
 class ElectraWrapper(Wrapper):
     """
-    Wrapper for the electra pretrained model.
+    Wrapper for the electra pretrained model. It takes an input note, and
+    it returns the note with the the short forms replaced by the long forms.
     """
     def __init__(self, note: str) -> None:
         self.note = note

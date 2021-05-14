@@ -54,3 +54,6 @@ put this in the configurations list
             "console": "integratedTerminal",
             "envFile": "${workspaceFolder}/.env"
         }
+        
+# Medal Github repo
+https://github.com/BruceWen120/medal

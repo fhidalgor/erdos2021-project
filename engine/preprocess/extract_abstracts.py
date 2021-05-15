@@ -4,7 +4,7 @@ import time
 from multiprocessing import Pool
 
 # Path to the raw xml files and output path for the txt files
-INPUT_PATH: str = ("datasets/pubmed/raw_xml/")
+INPUT_PATH: str = ("datasets/pubmed/xml_abstracts/")
 OUTPUT_PATH: str = ("datasets/pubmed/extracted_abstracts/")
 
 # Number of processes in the multipool
@@ -25,7 +25,7 @@ class ExtractPubmedAbstracts:
         When the instance of the class is executed, it will extract the
         abstracts of pubmed into a txt file.
         """
-        self.batch_extract_abstracts()
+        self.batch_run()
 
     def extract_abstracts(self, filename: str) -> list:
         """
@@ -53,7 +53,7 @@ class ExtractPubmedAbstracts:
         with open(os.path.join(self.output_path, new_filename), 'w') as filehandle:
             filehandle.writelines("%s\n" % abstract for abstract in abstracts)
 
-    def batch_extract_abstracts(self) -> None:
+    def batch_run(self) -> None:
         """
         This function multiprocesses extract_save.
         """

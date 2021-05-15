@@ -5,7 +5,7 @@ from multiprocessing import Pool
 
 # Path to the .txt files and output path
 INPUT_PATH: str = ("datasets/pubmed/extracted_abstracts/")
-OUTPUT_PATH: str = ("datasets/pubmed/clean_abstracts/")
+OUTPUT_PATH: str = ("datasets/pubmed/tokenized_abstracts/")
 
 # Number of processes in the multipool
 PROCESSES = 11
@@ -14,24 +14,24 @@ PROCESSES = 11
 class TokenizePubmedAbstracts:
     """
     This class will tokenize the abstracts of the .txt pubmed files.
-    Will remove punctuation, stop words, digits that are not in contact with
+    Will remove punctuation and digits that are not in contact with
     a non-digit character.
     """
     def __init__(self) -> None:
         self.input_path = INPUT_PATH
         self.output_path = OUTPUT_PATH
-        self.preprocessor = Preprocessor(num_words_to_remove=50, remove_punctuation=True)
+        self.preprocessor = Preprocessor(num_words_to_remove=-1, remove_punctuation=True)
 
     def __call__(self) -> None:
         """
         When the instance of the class is executed, it will extract the
         abstracts of pubmed into a txt file.
         """
-        self.batch_tokenize_abstracts()
+        self.batch_run()
 
     def tokenize_abstracts(self, filename: str) -> list:
         """
-        Will load the txt file with the abstracts and tokeniz them.
+        Will load the txt file with the abstracts and tokenize them.
         """
         # Open file with abstracts
         with open(os.path.join(self.input_path, filename), 'r') as filehandle:
@@ -51,7 +51,7 @@ class TokenizePubmedAbstracts:
         with open(os.path.join(self.output_path, new_filename), 'w') as filehandle:
             filehandle.writelines("%s\n" % abstract for abstract in abstracts_tokenized)
 
-    def batch_tokenize_abstracts(self) -> None:
+    def batch_run(self) -> None:
         """
         This function multiprocesses extract_save.
         """
@@ -64,3 +64,7 @@ class TokenizePubmedAbstracts:
 
         # Print the run time
         print("--- %s seconds ---" % (time.time() - start_time))
+
+
+obj = TokenizePubmedAbstracts()
+obj()

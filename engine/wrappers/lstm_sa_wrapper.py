@@ -67,7 +67,7 @@ class LSTMWrapper(Wrapper):
             elif model == 'rnn_sa':
                 net = LSTM_SA;
         with torch.no_grad():
-            idx = torch.tensor([val]);
+            idx = torch.tensor([index]);
             sents, locs, labels = train_data[idx];
             outputs = net(sents, locs);
 

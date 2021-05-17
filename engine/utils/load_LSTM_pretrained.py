@@ -25,7 +25,7 @@ def __build_model(model_class, ckpt, pretrained=True, device='cpu', progress=Tru
     return net
 
 def lstm(pretrained=True, device='cpu', progress=True, check_hash=True):
-    from utils.LSTM import RNN
+    from engine.utils.LSTM import RNN
     return __build_model(
         RNN,
         ckpt="https://github.com/BruceWen120/medal/releases/download/data/lstm.pt",
@@ -34,7 +34,7 @@ def lstm(pretrained=True, device='cpu', progress=True, check_hash=True):
 
 
 def lstm_sa(pretrained=True, device='cpu', progress=True, check_hash=True):
-    from util.LSTM_SA import RNNAtt
+    from engin.util.LSTM_SA import RNNAtt
     return __build_model(
         RNNAtt,
         ckpt="https://github.com/BruceWen120/medal/releases/download/data/lstm_sa.pt",

@@ -41,15 +41,7 @@ class LSTMWrapper(Wrapper):
 
     def test_MeDAL_csv(index : int, data_dir, adam_path, emb_path, model='rnn' pretrained=False):
         # Load data
-        train, valid, test, label_to_ix = \
-        load_dataframes(data_dir=data_dir, data_filename='.csv', adam_path=adam_path)
-
-        print("Data loaded")
-        # Create word index and load Fasttext embedding matrix
-        tokenizer = FastTextTokenizer(verbose=True)
-        tokenizer.build_word_index(train.TEXT, valid.TEXT, test.TEXT, list(label_to_ix.keys()));
-        tokenizer.build_embedding_matrix(emb_path);
-        print("Tokenizer Built");
+        tokenizer = get_LSTM_tokenizer(data_dir, adam_path, emb_path);
 
         DEVICE = torch.device(f"cuda" if torch.cuda.is_available() else "cpu")
 

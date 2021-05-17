@@ -1,8 +1,13 @@
 import torch
 import torch.nn.functional as F
 from torch import nn
+from tqdm import tqdm
 import pandas as pd
-import os, pickle
+import os
+import pickle
+import numpy as np
+import fasttext
+from itertools import compress
 
 # Load short forms dataframe
 ADAM_DF: pd.DataFrame = pd.read_csv("datasets/adam/valid_adam.txt", sep='\t')
@@ -115,3 +120,16 @@ class EmbeddingsDataset(torch.utils.data.Dataset):
         labels = torch.tensor(batch_df['LABEL_NUM'].values)
         labels = labels.to(self.device)
         return padded, torch.tensor(locs), labels
+
+def get_LSTM_tokenizer(data_dir, adam_path, emb_path):
+    train, valid, test, label_to_ix = \
+    load_dataframes(data_dir=data_dir, data_filename='.csv', adam_path=adam_path)
+
+    print("Data loaded")
+    # Create word index and load Fasttext embedding matrix
+    tokenizer = FastTextTokenizer(verbose=True)
+    tokenizer.build_word_index(train.TEXT, valid.TEXT, test.TEXT, list(label_to_ix.keys()));
+    tokenizer.build_embedding_matrix(emb_path);
+    print("Tokenizer Built");
+
+    return tokenizer;

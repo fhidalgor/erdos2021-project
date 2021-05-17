@@ -1,6 +1,8 @@
 import torch
 import torch.nn.functional as F
 from torch import nn
+import pandas as pd
+import os, pickle
 
 # Load short forms dataframe
 ADAM_DF: pd.DataFrame = pd.read_csv("datasets/adam/valid_adam.txt", sep='\t')

@@ -45,6 +45,12 @@ class LSTMWrapper(Wrapper):
 
         DEVICE = torch.device(f"cuda" if torch.cuda.is_available() else "cpu")
 
+        train = pd.read_csv(os.path.join(data_dir, 'train.csv'), engine='c')
+        adam_df = pd.read_csv(adam_path, sep='\t')
+        unique_labels = adam_df.EXPANSION.unique()
+        label_to_ix = {label: ix for ix, label in enumerate(unique_labels)}
+        train['LABEL_NUM'] = train.LABEL.apply(lambda l: label_to_ix[l]);
+
         train_data = EmbeddingsDataset(train, tokenizer=tokenizer, device=DEVICE);
         #valid_data = EmbeddingsDataset(valid, tokenizer=tokenizer, device=DEVICE);
         #test_data = EmbeddingsDataset(test, tokenizer=tokenizer, device=DEVICE);
@@ -71,7 +77,7 @@ class LSTMWrapper(Wrapper):
         print('Actual: ')
         print(adam_df['EXPANSION'].iloc[labels.numpy()])
         print('Actual: ')
-        print(train["LABEL"][val])
+        print(train["LABEL"][index])
 
         return pLabels, labels;
 

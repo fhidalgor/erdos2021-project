@@ -1,33 +1,33 @@
-from engine.preprocess.preprocessing import Preprocessor
+"""
+Module that contains the code to tokenize and remove digits that are not
+part of words in the corpus and punctuation.
+"""
 import os
-import time
-from multiprocessing import Pool
 
-# Path to the .txt files and output path
-INPUT_PATH: str = ("datasets/pubmed/extracted_abstracts/")
-OUTPUT_PATH: str = ("datasets/pubmed/tokenized_abstracts/")
-
-# Number of processes in the multipool
-PROCESSES = 11
+from engine.preprocess.preprocessing import Preprocessor
+from engine.preprocess.preprocess_superclass import Preprocess
 
 
-class TokenizePubmedAbstracts:
+class Tokenize(Preprocess):
     """
-    This class will tokenize the abstracts of the .txt pubmed files.
-    Will remove punctuation and digits that are not in contact with
-    a non-digit character.
+    This class will tokenize, remove punctuation and digits that are not
+    in contact with a non-digit character.
     """
     def __init__(self) -> None:
-        self.input_path = INPUT_PATH
-        self.output_path = OUTPUT_PATH
+        super().__init__()
+        self.input_path = self.input_path + "extracted_abstracts"
+        self.output_path = self.output_path + "tokenized_abstracts"
         self.preprocessor = Preprocessor(num_words_to_remove=-1, remove_punctuation=True)
 
     def __call__(self) -> None:
         """
-        When the instance of the class is executed, it will extract the
-        abstracts of pubmed into a txt file.
+        This class will tokenize, remove punctuation and digits that are not
+        in contact with a non-digit character.
         """
-        self.batch_run()
+        if not os.path.exists(self.output_path):
+            os.makedirs(self.output_path)
+
+        super().batch_run()
 
     def tokenize_abstracts(self, filename: str) -> list:
         """
@@ -42,29 +42,11 @@ class TokenizePubmedAbstracts:
 
         return abstracts_tokenized
 
-    def tokenize_save(self, filename: str) -> None:
+    def single_run(self, filename: str) -> None:
         """
         Will take a list of tokenized abstracts and write it in a .txt file.
         """
         abstracts_tokenized: list = self.tokenize_abstracts(filename)
-        new_filename: str = os.path.splitext(filename)[0] + "_tokenized.txt"
+        new_filename: str = os.path.splitext(filename)[0] + "_nodigits.txt"
         with open(os.path.join(self.output_path, new_filename), 'w') as filehandle:
             filehandle.writelines("%s\n" % abstract for abstract in abstracts_tokenized)
-
-    def batch_run(self) -> None:
-        """
-        This function multiprocesses extract_save.
-        """
-        # Get initial time
-        start_time: float = time.time()
-
-        # Extract the abstracts and save to txt in a multiprocess manner
-        with Pool(processes=PROCESSES) as pool:
-            pool.map(self.tokenize_save, os.listdir(self.input_path))
-
-        # Print the run time
-        print("--- %s seconds ---" % (time.time() - start_time))
-
-
-obj = TokenizePubmedAbstracts()
-obj()

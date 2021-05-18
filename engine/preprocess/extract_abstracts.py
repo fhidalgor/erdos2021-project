@@ -1,31 +1,32 @@
+"""
+This Module hosts the class that will extract the abstracts of the raw
+.xml pubmed files and return .txt files.
+"""
 import xml.etree.ElementTree as ET
 import os
-import time
-from multiprocessing import Pool
 
-# Path to the raw xml files and output path for the txt files
-INPUT_PATH: str = ("datasets/pubmed/xml_abstracts/")
-OUTPUT_PATH: str = ("datasets/pubmed/extracted_abstracts/")
-
-# Number of processes in the multipool
-PROCESSES = 11
+from engine.preprocess.preprocess_superclass import Preprocess
 
 
-class ExtractPubmedAbstracts:
+class ExtractPubmedAbstracts(Preprocess):
     """
     This class will extract the abstracts of the raw .xml pubmed files
     and return .txt files.
     """
     def __init__(self) -> None:
-        self.input_path = INPUT_PATH
-        self.output_path = OUTPUT_PATH
+        super().__init__()
+        self.input_path = self.input_path + "xml_abstracts"
+        self.output_path = self.output_path + "extracted_abstracts"
 
     def __call__(self) -> None:
         """
         When the instance of the class is executed, it will extract the
         abstracts of pubmed into a txt file.
         """
-        self.batch_run()
+        if not os.path.exists(self.output_path):
+            os.makedirs(self.output_path)
+
+        super().batch_run()
 
     def extract_abstracts(self, filename: str) -> list:
         """
@@ -42,7 +43,7 @@ class ExtractPubmedAbstracts:
                     abstracts.append(" ".join(child[0].text.split()))
         return abstracts
 
-    def extract_save(self, filename: str) -> None:
+    def single_run(self, filename: str) -> None:
         """
         Will take a list of abstracts and write it in a .txt file.
         Performance wise it was 2.5x faster to save the abstracts on a list and
@@ -52,17 +53,3 @@ class ExtractPubmedAbstracts:
         new_filename: str = os.path.splitext(filename)[0] + ".txt"
         with open(os.path.join(self.output_path, new_filename), 'w') as filehandle:
             filehandle.writelines("%s\n" % abstract for abstract in abstracts)
-
-    def batch_run(self) -> None:
-        """
-        This function multiprocesses extract_save.
-        """
-        # Get initial time
-        start_time: float = time.time()
-
-        # Extract the abstracts and save to txt in a multiprocess manner
-        with Pool(processes=PROCESSES) as pool:
-            pool.map(self.extract_save, os.listdir(self.input_path))
-
-        # Print the run time
-        print("--- %s seconds ---" % (time.time() - start_time))

@@ -1,8 +1,17 @@
+"""
+Module that contains text preprocessing util functions.
+"""
 import re
-from typing import Iterable, List
 from wordfreq import top_n_list, tokenize  # type: ignore
 
 TOKENS_REG = re.compile(r"(?u)\b\w+\b")
+
+
+def simple_preprocess(text: str) -> str:
+    """
+    Strips punctuation and returns lower case.
+    """
+    return " ".join(TOKENS_REG.findall(text.lower()))
 
 
 class Preprocessor:
@@ -15,21 +24,12 @@ class Preprocessor:
         self.stopwords = set(top_n_list("en", self.num_words_to_remove, wordlist='best'))
         self.remove_punctuation = remove_punctuation
 
-    def simple_preprocess(self, text: str) -> str:
-        """
-        Strips punctuation and returns lower case.
-        """
-        return " ".join(TOKENS_REG.findall(text.lower()))
-
-    def preprocess_sentences(self, sentences: Iterable[str]) -> List[str]:
-        return [self.preprocess(sent) for sent in sentences]
-
     def preprocess(self, sentence: str) -> str:
         """
         Remove punctuation, digits and stop words.
         """
         if self.remove_punctuation:
-            sentence = self.simple_preprocess(sentence)
+            sentence = simple_preprocess(sentence)
         else:
             sentence = sentence.lower()
 
@@ -41,7 +41,7 @@ class Preprocessor:
             ]
         else:
             # remot stop digits only
-            tokens: list = [word for word in tokenize(sentence, "en") if not word.isdigit()]
+            tokens = [word for word in tokenize(sentence, "en") if not word.isdigit()]
         return " ".join(tokens)
 
     def remove_stop_words(self, sentence: str) -> str:

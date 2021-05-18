@@ -1,3 +1,6 @@
+"""
+Module with some text processing functions used by the wrappers.
+"""
 import re
 from typing import Tuple
 from wordfreq import top_n_list

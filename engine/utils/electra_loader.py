@@ -1,3 +1,6 @@
+"""
+Module that loads the electra model and the electra tokenizer.
+"""
 import pandas as pd
 from torch.hub import load
 from transformers import ElectraTokenizer

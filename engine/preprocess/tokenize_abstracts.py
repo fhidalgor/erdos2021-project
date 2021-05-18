@@ -4,7 +4,7 @@ part of words in the corpus and punctuation.
 """
 import os
 
-from engine.preprocess.preprocessing import Preprocessor
+from engine.utils.preprocessing import Preprocessor
 from engine.preprocess.preprocess_superclass import Preprocess
 
 
@@ -28,6 +28,11 @@ class Tokenize(Preprocess):
             os.makedirs(self.output_path)
 
         super().batch_run()
+
+    def batch_run(self) -> None:
+        """
+        Empty because the super class method is used.
+        """
 
     def tokenize_abstracts(self, filename: str) -> list:
         """

@@ -1,6 +1,8 @@
+"""
+Module with the sub class of the wrappers to use on Electra.
+"""
 import torch
 from engine.utils.text_processing import locate_short_forms, replace_short_forms
-from engine.utils.electra_loader import ADAM_DF
 from engine.utils.electra_loader import ELECTRA
 from engine.utils.electra_loader import ELECTRA_TOKENIZER
 from engine.wrappers.wrapper import Wrapper
@@ -12,8 +14,7 @@ class ElectraWrapper(Wrapper):
     it returns the note with the the short forms replaced by the long forms.
     """
     def __init__(self, note: str) -> None:
-        self.note = note
-        self.df_dictionary = ADAM_DF
+        super().__init__(note)
         self.tokenizer = ELECTRA_TOKENIZER
         self.model = ELECTRA
 

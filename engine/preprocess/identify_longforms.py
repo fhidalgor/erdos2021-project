@@ -8,7 +8,7 @@ from typing import List, Tuple, Optional, Match
 import re
 import pandas as pd
 
-from engine.preprocess.preprocessing import Preprocessor
+from engine.utils.preprocessing import Preprocessor
 from engine.preprocess.preprocess_superclass import Preprocess
 
 
@@ -34,6 +34,11 @@ class IdentifyLongForms(Preprocess):
 
         super().batch_run()
 
+    def batch_run(self) -> None:
+        """
+        Empty because the super class method is used.
+        """
+
     def indentify_long_forms(self, abstract: str) -> Tuple[List[str], List[Tuple[int, int]]]:
         """
         Given an abstract, it will identify the long forms and their span.
@@ -47,18 +52,16 @@ class IdentifyLongForms(Preprocess):
         spans: List[Tuple[int, int]] = []
         for long_form, short_form in self.dictionary.items():
             if long_form in abstract:  # Doing string search first speeds up the process
-                if short_form not in abstract:
-                    if re.findall(
-                            r"\b%s\b" % re.escape(short_form), abstract,
-                            re.IGNORECASE) == []:  # using re.escape to escape special characters
-                        expression: Optional[Match[str]] = re.search(
-                            r"\b%s\b" % re.escape(long_form),
-                            abstract,
-                        )
-                        # Check that the long form was found in the text
-                        if expression is not None:
-                            long_forms.append(expression.group())
-                            spans.append(expression.span())
+                if re.findall(r"\b%s\b" % re.escape(short_form), abstract,
+                              re.IGNORECASE) == []:  # using re.escape to escape special characters
+                    expression: Optional[Match[str]] = re.search(
+                        r"\b%s\b" % re.escape(long_form),
+                        abstract,
+                    )
+                    # Check that the long form was found in the text
+                    if expression is not None:
+                        long_forms.append(expression.group())
+                        spans.append(expression.span())
         return long_forms, spans
 
     def single_run(self, filename: str) -> None:

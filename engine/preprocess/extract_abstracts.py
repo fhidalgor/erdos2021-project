@@ -28,6 +28,11 @@ class ExtractPubmedAbstracts(Preprocess):
 
         super().batch_run()
 
+    def batch_run(self) -> None:
+        """
+        Empty because the super class method is used.
+        """
+
     def extract_abstracts(self, filename: str) -> list:
         """
         This function will take an .xml file and extract the pubmed abstracts.

@@ -1,3 +1,6 @@
+"""
+Module with the super class of the wrappers to use the trained MeDAL models.
+"""
 from abc import ABC, abstractmethod
 from engine.utils.electra_loader import ADAM_DF
 

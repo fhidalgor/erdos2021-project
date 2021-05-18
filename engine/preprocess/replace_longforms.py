@@ -7,30 +7,8 @@ from typing import List, Tuple
 import random
 import pandas as pd
 
-from engine.preprocess.preprocessing import Preprocessor
+from engine.utils.preprocessing import Preprocessor, delete_overlapping_tuples
 from engine.preprocess.preprocess_superclass import Preprocess
-
-
-def delete_overlapping_tuples(list_tuples: List[Tuple[int, int]]) -> List[Tuple[int, int]]:
-    """
-    Given a list of tuples, delete the tuples that overlap.
-    Will first sort the tuples and keeps the first tuple.
-    """
-    # Sort tuples
-    sorted_tuples = sorted(list_tuples, key=lambda x: x[0])
-
-    # Create list with first tuple element
-    clean_tuples: List[Tuple[int, int]] = [sorted_tuples[0]]
-    # Iterate over tuples and sequentially compare with the i tuple
-    if len(list_tuples) > 1:
-        i: int = 0
-        for tup in sorted_tuples[1 :]:
-            if (tup[1] >= clean_tuples[i][0] and tup[0] <= clean_tuples[i][1]):
-                pass
-            else:
-                clean_tuples.append(tup)
-                i = i + 1
-    return clean_tuples
 
 
 class ReplaceLongForms(Preprocess):
@@ -40,7 +18,7 @@ class ReplaceLongForms(Preprocess):
     You can define the probability of a substitution, and the min length
     of the abstracts.
     """
-    def __init__(self, probability: float, length_abstract: int) -> None:
+    def __init__(self, probability: float = 1, length_abstract: int = 200) -> None:
         super().__init__()
         self.input_path = self.input_path + str("identified_abstracts")
         self.output_path = self.output_path + str("replaced_abstracts")
@@ -55,8 +33,12 @@ class ReplaceLongForms(Preprocess):
         """
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
-
         super().batch_run()
+
+    def batch_run(self) -> None:
+        """
+        Empty because the super class method is used.
+        """
 
     def decision(self) -> bool:
         """

@@ -85,4 +85,4 @@ class IdentifyLongForms(Preprocess):
 
         # Export to csv
         new_filename: str = os.path.splitext(filename)[0] + "_longforms.csv"
-        df_results.to_csv(os.path.join(self.output_path, new_filename))
+        df_results.to_csv(os.path.join(self.output_path, new_filename), index = False)

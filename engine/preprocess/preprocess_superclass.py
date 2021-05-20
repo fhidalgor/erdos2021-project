@@ -13,7 +13,7 @@ import pandas as pd
 ADAM_DF: pd.DataFrame = pd.read_csv("datasets/adam/valid_adam.txt", sep='\t')
 
 # Number of processes in the multipool
-PROCESSES = 11
+PROCESSES = 10
 
 # Path to the .txt files and output path
 INPUT_PATH: str = ("datasets/pubmed/")
@@ -32,8 +32,8 @@ class Preprocess(ABC):  # pylint: disable=too-few-public-methods
             zip(self.df_dictionary.EXPANSION, self.df_dictionary.PREFERRED_AB)
         )
         self.processes = PROCESSES
-        self.input_path = INPUT_PATH
-        self.output_path = OUTPUT_PATH
+        self.input_path: str = INPUT_PATH
+        self.output_path: str = OUTPUT_PATH
 
     @abstractmethod
     def __call__(self):

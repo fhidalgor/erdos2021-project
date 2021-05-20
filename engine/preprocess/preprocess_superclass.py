@@ -40,6 +40,8 @@ class Preprocess(ABC):  # pylint: disable=too-few-public-methods
         """
         When called, will run the batch_run.
         """
+        if not os.path.exists(self.output_path):
+            os.makedirs(self.output_path)
 
     @abstractmethod
     def single_run(self, filename: str):

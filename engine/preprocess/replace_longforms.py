@@ -3,11 +3,11 @@ Module that contains the code to replace the long forms by short forms
 in the corpus.
 """
 import os
-from typing import List, Tuple, Dict
+from typing import List, Tuple
 import random
-import pandas as pd
 import string
 from collections import OrderedDict
+import pandas as pd
 
 from engine.utils.preprocessing import Preprocessor, delete_overlapping_tuples
 from engine.preprocess.preprocess_superclass import Preprocess
@@ -28,10 +28,14 @@ class ReplaceLongForms(Preprocess):
         self.preprocessor = Preprocessor(num_words_to_remove=50, remove_punctuation=False)
         self.length_abstract = length_abstract
         self.len_batch_key = 8
-        self.long_form_counts: OrderedDict[str, int] = OrderedDict(dict.fromkeys(self.dictionary.keys(),0))
-        self.long_form_loc: OrderedDict[str, list]  = OrderedDict({key: [] for key in self.dictionary.keys()})  
+        self.long_form_counts: OrderedDict[str, int] = OrderedDict(
+            dict.fromkeys(self.dictionary.keys(), 0)
+        )
+        self.long_form_loc: OrderedDict[str, list] = OrderedDict({
+            key: [] for key in self.dictionary.keys()
+        })
         # ^ Creating the dict with dict.fromkeys was appending to all keys, that is why I changed
-        
+
     def __call__(self) -> None:
         """
         When the instance of the class is executed, it will replace the
@@ -57,8 +61,11 @@ class ReplaceLongForms(Preprocess):
         Function to generate a unique key for each abstract using the
         pubmed file name and the row.
         """
-        return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(self.len_batch_key))
-    
+        return ''.join(
+            random.choice(string.ascii_uppercase + string.digits)
+            for _ in range(self.len_batch_key)
+        )
+
     def replace_abstract(
         self,
         abstract: str,
@@ -111,8 +118,8 @@ class ReplaceLongForms(Preprocess):
         df_results: pd.DataFrame = pd.DataFrame(
             columns=['long_forms', 'span_short_form', 'replaced_abstract', 'unique_key']
         )
-        batch_key : str = self.generate_key()
-        
+        batch_key: str = self.generate_key()
+
         for i, row in df_abstracts.iterrows():
             # check that the list is not empy and the length of the abstract.
             if row['long_forms'] != [] and len(row['abstract']) > self.length_abstract:
@@ -137,9 +144,11 @@ class ReplaceLongForms(Preprocess):
 
         # Export df to csv
         new_filename: str = "{}.csv".format(batch_key)
-        df_results.to_csv(os.path.join(self.output_path, new_filename), index = False)
-        
+        df_results.to_csv(os.path.join(self.output_path, new_filename), index=False)
+
         # Export dictionary to csv
-        df_counts = pd.DataFrame(list(self.long_form_counts.items()),columns = ['long_form','counts'])
+        df_counts = pd.DataFrame(
+            list(self.long_form_counts.items()), columns=['long_form', 'counts']
+        )
         df_counts['unique_key'] = list(self.long_form_loc.values())
-        df_counts.to_csv(os.path.join(self.output_path, "counts.csv"), index = False)
+        df_counts.to_csv(os.path.join(self.output_path, "counts.csv"), index=False)

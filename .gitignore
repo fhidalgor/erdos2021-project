@@ -140,3 +140,10 @@ dmypy.json
 ./.git/objects/pack/tmp_pack_WXiIxQ
 ./.git/objects/pack/tmp_pack_mH4pVE
 ./literature/Deep-Learning-with-PyTorch.pdf
+
+# Data
+datasets/medal/csv
+
+# Caches
+.DS_Store
+*.DS_Store

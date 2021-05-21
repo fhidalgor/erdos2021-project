@@ -1,0 +1,601 @@
+0).
+Abbr = TCA
+Prediction = transluminal coronary angioplasty
+Actual = transluminal coronary angioplasty
+Predict = Actual?: True
+
+1).
+Abbr = CRC
+Prediction = colorectal adenocarcinoma
+Actual = colorectal adenocarcinoma
+Predict = Actual?: True
+
+2).
+Abbr = NFP
+Prediction = notforprofit
+Actual = notforprofit
+Predict = Actual?: True
+
+3).
+Abbr = HIV-1
+Prediction = human immunodeficiency virus type
+Actual = human immunodeficiency virus type
+Predict = Actual?: True
+
+4).
+Abbr = ECMO
+Prediction = extracorporeal membrane oxygenation
+Actual = extracorporeal membrane oxygenation
+Predict = Actual?: True
+
+5).
+Abbr = att
+Prediction = attachment site
+Actual = attachment site
+Predict = Actual?: True
+
+6).
+Abbr = PG
+Prediction = percutaneous gastrostomy
+Actual = percutaneous gastrostomy
+Predict = Actual?: True
+
+7).
+Abbr = IVM
+Prediction = intravital microscopy
+Actual = intravital microscopy
+Predict = Actual?: True
+
+8).
+Abbr = CMN
+Prediction = congenital melanocytic nevi
+Actual = congenital melanocytic nevi
+Predict = Actual?: True
+
+9).
+Abbr = EEG
+Prediction = electroencephalograph
+Actual = electrical activity of the brain
+Predict = Actual?: False
+
+10).
+Abbr = ARG
+Prediction = autoradiography
+Actual = autoradiographic
+Predict = Actual?: False
+
+11).
+Abbr = FMRP
+Prediction = fragile x mental retardation protein
+Actual = fmr protein
+Predict = Actual?: False
+
+12).
+Abbr = NLP
+Prediction = natural language processing
+Actual = natural language processing
+Predict = Actual?: True
+
+13).
+Abbr = EMG
+Prediction = electromyographic activity
+Actual = electromyographically
+Predict = Actual?: False
+
+14).
+Abbr = HF
+Prediction = hydrogen fluoride
+Actual = hydrogen fluoride
+Predict = Actual?: True
+
+15).
+Abbr = NCA
+Prediction = neutrophil chemotactic activity
+Actual = neutrophil chemotactic activity
+Predict = Actual?: True
+
+16).
+Abbr = ARVD
+Prediction = arrhythmogenic right ventricular dysplasia
+Actual = arrhythmogenic right ventricular dysplasia
+Predict = Actual?: True
+
+17).
+Abbr = CAV
+Prediction = cardiac allograft vasculopathy
+Actual = cardiac allograft vasculopathy
+Predict = Actual?: True
+
+18).
+Abbr = CBs
+Prediction = cannabinoids
+Actual = cannabinoids
+Predict = Actual?: True
+
+19).
+Abbr = CHF
+Prediction = patients with chronic heart failure
+Actual = patients with chronic heart failure
+Predict = Actual?: True
+
+20).
+Abbr = OEC
+Prediction = oxygenevolving complex
+Actual = oxygenevolving complex
+Predict = Actual?: True
+
+21).
+Abbr = ODE
+Prediction = ordinary differential equation
+Actual = ordinary differential equation
+Predict = Actual?: True
+
+22).
+Abbr = PFC
+Prediction = pulmonary barotrauma
+Actual = persistent fetal circulation
+Predict = Actual?: False
+
+23).
+Abbr = LCIS
+Prediction = lobular carcinoma in situ
+Actual = lobular carcinoma in situ
+Predict = Actual?: True
+
+24).
+Abbr = VE
+Prediction = virtual environment
+Actual = virtual environment
+Predict = Actual?: True
+
+25).
+Abbr = VBS
+Prediction = vertebrobasilar system
+Actual = vertebrobasilar system
+Predict = Actual?: True
+
+26).
+Abbr = RCM
+Prediction = reflectance confocal microscopy
+Actual = reflectance confocal microscopy
+Predict = Actual?: True
+
+27).
+Abbr = ABG
+Prediction = arterial blood gas
+Actual = arterial blood gas
+Predict = Actual?: True
+
+28).
+Abbr = TRs
+Prediction = terminal repeats
+Actual = terminal repeats
+Predict = Actual?: True
+
+29).
+Abbr = HE
+Prediction = hamster embryo
+Actual = hamster embryo
+Predict = Actual?: True
+
+30).
+Abbr = PC1
+Prediction = first principal component
+Actual = first principal component
+Predict = Actual?: True
+
+31).
+Abbr = PBG
+Prediction = phenylbiguanide
+Actual = phenylbiguanide
+Predict = Actual?: True
+
+32).
+Abbr = CSs
+Prediction = corticosteroids
+Actual = corticosteroids
+Predict = Actual?: True
+
+33).
+Abbr = OF
+Prediction = immunostaining
+Actual = osmotic fragility
+Predict = Actual?: False
+
+34).
+Abbr = BP
+Prediction = ovulation rate
+Actual = benzophenone
+Predict = Actual?: False
+
+35).
+Abbr = WBRT
+Prediction = whole brain irradiation
+Actual = whole brain irradiation
+Predict = Actual?: True
+
+36).
+Abbr = AFT
+Prediction = accelerated failure time
+Actual = accelerated failure time
+Predict = Actual?: True
+
+37).
+Abbr = RS
+Prediction = renin secretion
+Actual = renin substrate
+Predict = Actual?: False
+
+38).
+Abbr = ILM
+Prediction = internal limiting membrane
+Actual = inner limiting membrane
+Predict = Actual?: False
+
+39).
+Abbr = ECL
+Prediction = electrochemiluminescence
+Actual = electrochemiluminescent
+Predict = Actual?: False
+
+40).
+Abbr = ST
+Prediction = shortterm
+Actual = shortterm
+Predict = Actual?: True
+
+41).
+Abbr = FAO
+Prediction = fatty acid oxidation
+Actual = fatty acid betaoxidation
+Predict = Actual?: False
+
+42).
+Abbr = LCM
+Prediction = lincomycin
+Actual = lincomycin
+Predict = Actual?: True
+
+43).
+Abbr = EBL
+Prediction = estimated blood loss
+Actual = estimated blood loss
+Predict = Actual?: True
+
+44).
+Abbr = OEC
+Prediction = oviductal epithelial cells
+Actual = oviductal epithelial cells
+Predict = Actual?: True
+
+45).
+Abbr = PHQ
+Prediction = patient health questionnaire
+Actual = patient health questionnaire
+Predict = Actual?: True
+
+46).
+Abbr = DMD
+Prediction = duchenne muscular dystrophy
+Actual = duchenne muscular dystrophy
+Predict = Actual?: True
+
+47).
+Abbr = BS
+Prediction = griseofulvin
+Actual = blasticidin s
+Predict = Actual?: False
+
+48).
+Abbr = MIF
+Prediction = migration inhibition
+Actual = migration inhibition
+Predict = Actual?: True
+
+49).
+Abbr = CSD
+Prediction = cambridge structural database
+Actual = cambridge structural database
+Predict = Actual?: True
+
+50).
+Abbr = BAEC
+Prediction = bovine aorta
+Actual = bovine aorta
+Predict = Actual?: True
+
+51).
+Abbr = ECS
+Prediction = elective caesarean section
+Actual = elective caesarean section
+Predict = Actual?: True
+
+52).
+Abbr = UGT
+Prediction = udpglucuronosyl transferase
+Actual = udpglucuronosyl transferase
+Predict = Actual?: True
+
+53).
+Abbr = PPH
+Prediction = primary pulmonary hypertension
+Actual = postprandial hypotension
+Predict = Actual?: False
+
+54).
+Abbr = GTTs
+Prediction = glucose tolerance tests
+Actual = glucose tolerance tests
+Predict = Actual?: True
+
+55).
+Abbr = VS
+Prediction = vegetative state
+Actual = vegetative state
+Predict = Actual?: True
+
+56).
+Abbr = ASDs
+Prediction = autism spectrum disorders
+Actual = autism spectrum disorders
+Predict = Actual?: True
+
+57).
+Abbr = SA
+Prediction = status asthmaticus
+Actual = status asthmaticus
+Predict = Actual?: True
+
+58).
+Abbr = DNP
+Prediction = antidinitrophenyl
+Actual = antidinitrophenol
+Predict = Actual?: False
+
+59).
+Abbr = IMC
+Prediction = intimamedia complex
+Actual = intimamedia complex
+Predict = Actual?: True
+
+60).
+Abbr = CPM
+Prediction = cefpiramide
+Actual = cefpiramide
+Predict = Actual?: True
+
+61).
+Abbr = DFT
+Prediction = density functional theory
+Actual = density functional theory
+Predict = Actual?: True
+
+62).
+Abbr = EBA
+Prediction = expanded bed adsorption
+Actual = expanded bed adsorption
+Predict = Actual?: True
+
+63).
+Abbr = MAO
+Prediction = monoamine oxidase activity
+Actual = monoamine oxidase activity
+Predict = Actual?: True
+
+64).
+Abbr = TBW
+Prediction = total body weight
+Actual = total body water
+Predict = Actual?: False
+
+65).
+Abbr = SCID
+Prediction = severe combined immunodeficient mice
+Actual = severe combined immunodeficient mice
+Predict = Actual?: True
+
+66).
+Abbr = AA
+Prediction = aplastic anemia
+Actual = aplastic anemia
+Predict = Actual?: True
+
+67).
+Abbr = SD
+Prediction = semantic differential
+Actual = semantic differential
+Predict = Actual?: True
+
+68).
+Abbr = Epi
+Prediction = epicardium
+Actual = epicardium
+Predict = Actual?: True
+
+69).
+Abbr = ASE
+Prediction = amplified spontaneous emission
+Actual = amplified spontaneous emission
+Predict = Actual?: True
+
+70).
+Abbr = HT
+Prediction = hormone therapy
+Actual = hormone therapy
+Predict = Actual?: True
+
+71).
+Abbr = HFI
+Prediction = hereditary fructose intolerance
+Actual = hereditary fructose intolerance
+Predict = Actual?: True
+
+72).
+Abbr = PP
+Prediction = pentose phosphate
+Actual = pentose phosphate
+Predict = Actual?: True
+
+73).
+Abbr = MR
+Prediction = methicillinresistant
+Actual = methicillinresistant
+Predict = Actual?: True
+
+74).
+Abbr = Ca/Cr
+Prediction = calciumcreatinine ratio
+Actual = calciumcreatinine ratio
+Predict = Actual?: True
+
+75).
+Abbr = NAC
+Prediction = nacetylcysteine
+Actual = antioxidant nacetyllcysteine
+Predict = Actual?: False
+
+76).
+Abbr = SCRs
+Prediction = skin conductance responses
+Actual = skin conductance responses
+Predict = Actual?: True
+
+77).
+Abbr = CC
+Prediction = corpus callosum
+Actual = corpus callosum
+Predict = Actual?: True
+
+78).
+Abbr = CFA
+Prediction = craniofacial anomalies
+Actual = craniofacial anomalies
+Predict = Actual?: True
+
+79).
+Abbr = FPA
+Prediction = dipicolinic acid
+Actual = fluorescence polarization anisotropy
+Predict = Actual?: False
+
+80).
+Abbr = HRP
+Prediction = retrograde transport of horseradish peroxidase
+Actual = retrograde axonal transport of horseradish peroxidase
+Predict = Actual?: False
+
+81).
+Abbr = PI
+Prediction = plasma insulin
+Actual = plasma insulin
+Predict = Actual?: True
+
+82).
+Abbr = IS
+Prediction = immunosuppressed
+Actual = immunosuppressed
+Predict = Actual?: True
+
+83).
+Abbr = TS
+Prediction = total sleep
+Actual = total sleep
+Predict = Actual?: True
+
+84).
+Abbr = CRC
+Prediction = lung adenocarcinoma
+Actual = colorectal adenocarcinoma
+Predict = Actual?: False
+
+85).
+Abbr = CV
+Prediction = coefficient of variance
+Actual = coefficient of variance
+Predict = Actual?: True
+
+86).
+Abbr = DRO
+Prediction = differential reinforcement of other behavior
+Actual = differential reinforcement of other behavior
+Predict = Actual?: True
+
+87).
+Abbr = SCCs
+Prediction = semicircular canals
+Actual = semicircular canals
+Predict = Actual?: True
+
+88).
+Abbr = SA
+Prediction = south australia
+Actual = south australia
+Predict = Actual?: True
+
+89).
+Abbr = m/z
+Prediction = masstocharge
+Actual = masstocharge ratio
+Predict = Actual?: False
+
+90).
+Abbr = PP
+Prediction = pneumoperitoneum
+Actual = pneumoperitoneum
+Predict = Actual?: True
+
+91).
+Abbr = TVT
+Prediction = tensionfree vaginal tape
+Actual = tensionfree vaginal tape
+Predict = Actual?: True
+
+92).
+Abbr = Se
+Prediction = staphylococcus epidermidis
+Actual = secretor
+Predict = Actual?: False
+
+93).
+Abbr = MZ
+Prediction = marginal zone
+Actual = marginal zone
+Predict = Actual?: True
+
+94).
+Abbr = BUN
+Prediction = blood urea nitrogen
+Actual = blood urea nitrogen
+Predict = Actual?: True
+
+95).
+Abbr = GAs
+Prediction = genetic algorithms
+Actual = genetic algorithms
+Predict = Actual?: True
+
+96).
+Abbr = ts
+Prediction = triceps surae
+Actual = triceps surae
+Predict = Actual?: True
+
+97).
+Abbr = Ki-67
+Prediction = proliferation marker
+Actual = proliferation marker
+Predict = Actual?: True
+
+98).
+Abbr = ERT
+Prediction = estrogen replacement therapy
+Actual = estrogen replacement therapy
+Predict = Actual?: True
+
+99).
+Abbr = ACT
+Prediction = combination therapy
+Actual = alphaantichymotrypsin
+Predict = Actual?: False
+
+Accuracy Score = 0.78

@@ -143,7 +143,11 @@ dmypy.json
 
 # Data
 datasets/medal/csv
+*.csv
 
-# Caches
+# Mac OS Files
 .DS_Store
 *.DS_Store
+
+# Testing random code
+test.py

@@ -22,11 +22,11 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
     def __getitem__(self, idxs):
         
         # Code to remove entries that are larger than the max length size
-        batch_df = self.df.iloc[idxs]
-        # ic(batch_df['TEXT'].apply(lambda string: len(string.split())))
-        filter = batch_df['TEXT'].apply(lambda string: len(string.split()) < self.max_length).to_list()
-        # ic(idxs, filter)
-        idxs = list(compress(idxs, filter))
+        # batch_df = self.df.iloc[idxs]
+        # # ic(batch_df['TEXT'].apply(lambda string: len(string.split())))
+        # filter = batch_df['TEXT'].apply(lambda string: len(string.split()) < self.max_length).to_list()
+        # # ic(idxs, filter)
+        # idxs = list(compress(idxs, filter))
 
 
         batch_df = self.df.iloc[idxs]

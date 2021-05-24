@@ -17,13 +17,10 @@ from datetime import datetime
 # max is the maximum number of batchs. If max is negative, it runs all batches.
 def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
     
+    size = len(train_data)
+
     # Switches model to training mode.
     model.train()
-    
-    # size = len(train_data)
-
-    # List of all values for the loss. Output at the end.
-    loss_list = []
 
     # Loads indexes of training data
     train_loader = DataLoader(
@@ -32,6 +29,10 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
         batch_size=batch_size
     )
     
+    # List of all values for the loss. Output at the end.
+    loss_list = []
+    # For computing accuracy
+    correct = 0
 
     for batch, idx in enumerate(tqdm(train_loader)):
         # print(idx)
@@ -42,23 +43,29 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
         # Compute prediction and loss
         pred = model(X, loc)
         loss = loss_fn(pred, y)
-
+        
         # Backpropagation
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
+        loss_value = loss.item()
+        batch_correct = (pred.argmax(1) == y).type(torch.float).sum().item()
+        correct += batch_correct
+        loss_list.append(loss_value)
+
         if max > 0:
             if batch >= max:
-                print("Max iterations reached.")
+                print("\nMax iterations reached.")
+                size = max*batch_size
                 break
 
-        if batch % 2 == 0:
-            loss = loss.item()
-            print(f"\nloss: {loss:>7f}")
-            loss_list.append(loss)
-
-    return loss_list
+        if batch % 5 == 0 and batch != 0:
+            print(f"\nbatch loss: {loss_value:>7f} | batch accuracy: {batch_correct/batch_size:>7f}")
+    
+    loss_list = np.array(loss_list)
+    accuracy = correct/size
+    return loss_list, accuracy
 
 # Tests the model on the validation data
 def valid_loop(valid_data, model, loss_fn):
@@ -72,7 +79,7 @@ def valid_loop(valid_data, model, loss_fn):
     with torch.no_grad():
         for id in tqdm(range(size)):
             idx = torch.tensor([id])
-            print(id, idx)
+            # print(id, idx)
             X = valid_data[idx][0]
             loc = valid_data[idx][1]
             y = valid_data[idx][2]
@@ -82,7 +89,15 @@ def valid_loop(valid_data, model, loss_fn):
 
     valid_loss /= size
     correct /= size
-    print(f"Validation: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {valid_loss:>8f} \n")
+    print(f"Validation: \nAccuracy: {(100*correct):>0.1f}% | Average loss: {valid_loss:>8f} \n")
+    return valid_loss, correct
+
+# Save the model in its current state.
+def save_move(model, save_dir):
+    now = datetime.now()
+    now_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
+    torch.save(model, os.path.join(save_dir, f"{now_formatted}_one_abbr_Electra.pt"))
+    print("Model saved")
 
 def main():
 
@@ -98,18 +113,18 @@ def main():
     tokenizer = ELECTRA_TOKENIZER
 
     # Data
-    train_df = pd.read_csv("datasets/medal/one_abbr/train.csv")
+    train_df = pd.read_csv("datasets/medal/one_abbr/train_max_256.csv")
     dictionary_file = "datasets/medal/one_abbr/dict.txt"
     output_size = 12 # Should be set to the size of the dictionary
     train_data = MedalDatasetTokenizer(train_df, tokenizer, dictionary_file)
 
-    valid_df = pd.read_csv("datasets/medal/one_abbr/valid.csv")
+    valid_df = pd.read_csv("datasets/medal/one_abbr/valid_max_256.csv")
     valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file)
 
     # Hyperparameters
     learning_rate = 2e-5
     batch_size = 16
-    epochs = 1
+    epochs = 2
     
     # Model
     model = Electra(output_size=output_size, device=device)
@@ -121,26 +136,18 @@ def main():
     # Train the model
     for t in range(epochs):
         print(f"Epoch {t+1}\n-------------------------------")
-        loss = train_loop(train_data, model, loss_fn, optimizer, batch_size = batch_size,\
-            max = 4, device = device)
-
-        # # Testing whether the loss function changes
-        # sample_size = 20
-        # first100 = np.array(loss[:sample_size])
-        # last100 = np.array(loss[-sample_size:])
-        # print("Initial", np.mean(first100), np.std(first100))
-        # print("Final", np.mean(last100), np.std(last100))
-        loss = np.array(loss)
-        print(f"\nEpoch {t} | Mean Loss: {np.mean(loss)} | Std: {np.std(loss)}")
         
-        # valid_loop(valid_data, model, loss_fn)
+        loss_array, train_accuracy = train_loop(train_data, model, loss_fn, optimizer, batch_size = batch_size,\
+            max = 6)
+        train_loss = np.mean(loss_array)
+        print(f"\nEpoch {t+1} Finished \nAccuracy: {train_accuracy} | Average Loss: {train_loss:>7f}")
+        
+        valid_loss, valid_accuracy = valid_loop(valid_data, model, loss_fn)
 
-    # Save the model in its current state.
-    save_dir = "saves"
-    now = datetime.now()
-    now_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
-    torch.save(model, os.path.join(save_dir, f"{now_formatted}_one_abbr_model.pt"))
-    print("Model saved")
+        with open("saves/loss.txt", "a") as file:
+            file.writelines(f"\n{t+1},{train_loss},{train_accuracy},{valid_loss},{valid_accuracy}")
+
+    
 
     
 

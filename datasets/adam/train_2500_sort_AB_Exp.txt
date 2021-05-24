@@ -1,0 +1,4132 @@
+PREFERRED_AB	EXPANSION
+AA	active avoidance
+AA	acupuncture analgesia
+AA	acute appendicitis
+AA	adjuvant arthritic
+AA	adjuvant arthritis
+AA	adjuvantinduced arthritic
+AA	adrenal androgen
+AA	adrenal autoantibodies
+AA	afferent arteriolar
+AA	aggregative adherence
+AA	alcohol abuse
+AA	alcoholpreferring
+AA	allergic asthma
+AA	allyl alcohol
+AA	alopecia areata
+AA	ambient air
+AA	aminoacid
+AA	amyloid angiopathy
+AA	amyloid protein
+AA	androgen ablation
+AA	aplastic anaemia
+AA	aplastic anemia
+AA	arachidonate
+AA	arachidonic
+AA	arachidonic acid
+AA	aromatase activity
+AA	ascaris antigen
+AA	atomic absorption
+AA	atopic asthmatic
+AA	normal haemoglobin
+AA	rats with adjuvantinduced arthritis
+AA	secondary
+AA	secondary amyloidosis
+AC	aberrant crypts
+AC	acebutolol
+AC	acetone
+AC	acid ceramidase
+AC	acromioclavicular
+AC	activated carbon
+AC	activated charcoal
+AC	activation coefficient
+AC	activity coefficient
+AC	acute cholecystitis
+AC	adherent cells
+AC	aesthetic component
+AC	affinity chromatography
+AC	air conduction
+AC	allergic conjunctivitis
+AC	allyl chloride
+AC	alternating
+AC	amniocentesis
+AC	amygdaloid complex
+AC	anchor cell
+AC	anterior chamber
+AC	anterior commissure
+AC	anticoagulant
+AC	anticoagulation
+AC	aortic constriction
+AC	apatite cement
+AC	arachnoid cysts
+AC	arm circumference
+AC	arterial compliance
+AC	articular cartilage
+AC	artificial circulation
+AC	asbestos cement
+AC	attenuation correction
+AC	attenuationcorrected
+AC	atypical carcinoid
+AC	axillary clearance
+AC	doxorubicin and cyclophosphamide
+AC	patients had alcoholic cirrhosis
+AD	acute diarrhea
+AD	adult
+AD	adultdirected
+AD	affective disorders
+AD	afterdischarge
+AD	alcohol dependence
+AD	alzheimers disease patients
+AD	alzheimertype dementia
+AD	androgen deprivation
+AD	anoxic depolarization
+AD	anterodorsal
+AD	anterodorsal thalamic nucleus
+AD	aortic diameter
+AD	aortic dissection
+AD	apparent digestibility
+AD	arrhythmogenic dose
+AD	atherogenic diet
+AD	atopic dermatitis
+AD	atypical depression
+AD	autoimmune diseases
+AD	autonomic dysfunction
+AD	autonomic dysreflexia
+AD	autosomal dominant
+AD	axillary dissection
+AD	dementia of the alzheimer type
+AE	absence epilepsy
+AE	absolute error
+AE	acoustic emission
+AE	acridinium ester
+AE	acrodermatitis enteropathica
+AE	acute exacerbation
+AE	aerobic exercise
+AE	aldrin epoxidase
+AE	allylestrenol
+AE	alveolar echinococcosis
+AE	anion exchange
+AE	aqueous extract
+AE	assimilation efficiency
+AE	atopic eczema
+AE	avian encephalomyelitis
+AH	abdominal hysterectomy
+AH	abductor hallucis
+AH	absolute humidity
+AH	absorptive hypercalciuria
+AH	adenoid hypertrophy
+AH	adenomatous hyperplasia
+AH	adult height
+AH	alcoholic hepatitis
+AH	alveolar hemorrhage
+AH	ancestral haplotype
+AH	aniline hydrochloride
+AH	anterior horn
+AH	anterior hypothalamic
+AH	aqueous humour
+AH	artificial heart
+AH	assisted hatching
+AH	ataxic hemiparesis
+AH	atriohis
+AH	atypical hyperplasia
+AH	autonomic hyperreflexia
+AH	paf acetylhydrolase
+AH	patients with acute hepatitis
+AH	rat ascites hepatoma
+AI	acute ileus
+AI	adequate intake
+AI	adrenal incidentalomas
+AI	adrenal insufficiency
+AI	amelogenesis imperfecta
+AI	anchorageindependent
+AI	aortic incompetence
+AI	aortic insufficiency
+AI	apoptotic
+AI	apoptotic index
+AI	artificial intelligence
+AI	artificially inseminated
+AI	associationinduction
+AI	astragalus injection
+AI	primary auditory area
+AI	primary auditory field
+AL	acute leukaemia
+AL	ad lib
+AL	ad libitum
+AL	adductor longus
+AL	amyotrophic leukospongiosis
+AL	annulate lamellae
+AL	antennal lobe
+AL	anterior lobe
+AL	anterolateral
+AL	argon laser
+AL	assisted living
+AL	attachment levels
+AL	atypical lymphocytes
+AL	axial length
+AL	lateral nucleus of amygdala
+AL	ligament
+AL	light chain amyloidosis
+AL	patients with primary amyloidosis
+AL	primary systemic amyloidosis
+AM	acetoxymethyl
+AM	acetoxymethyl ester
+AM	actomyosin
+AM	adrenal medulla
+AM	alternative medicine
+AM	alveolar
+AM	ambulatory monitoring
+AM	amniotic membrane
+AM	amplitude modulated
+AM	amplitude modulation
+AM	amygdaloid
+AM	anteromedial
+AM	anteromedial nucleus
+AM	apparent motion
+AM	arbuscular mycorrhiza
+AM	arbuscular mycorrhizal
+AM	arithmetic mean
+AM	artemether
+AM	aseptic meningitis
+AM	astragalus membranaceus
+AM	autobiographical memory
+AM	sinusoidally amplitudemodulated
+AO	acridine orange
+AO	active oxygen
+AO	adaptive optics
+AO	adultonset
+AO	adverse outcome
+AO	age of onset
+AO	airway obstruction
+AO	albino oxford
+AO	aldehyde oxidase
+AO	antisense oligonucleotide
+AO	aortic output
+AO	aqueous oxygen
+AO	arterial occlusion
+AP	abasic
+AP	absolute pitch
+AP	absolute power
+AP	accelerated phase
+AP	accessory processes
+AP	accumulation of caminopyrine
+AP	actinic prurigo
+AP	activation peptide
+AP	acupuncture
+AP	acute pancreatitis
+AP	acute pneumonia
+AP	adaptor protein
+AP	adductor pollicis
+AP	adult periodontitis
+AP	aerosolized pentamidine
+AP	alpha antiplasmin
+AP	alternative pathway
+AP	alveolar permeability
+AP	ammonium perchlorate
+AP	amyloid p
+AP	anaphylactoid purpura
+AP	angina pectoris
+AP	annular pancreas
+AP	anterior pagoda
+AP	anterior to posterior
+AP	anteriorposterior
+AP	antigen presentation
+AP	antiplasmin
+AP	antipsychotic
+AP	antipyrine
+AP	apatite
+AP	apomorphine
+AP	apurinic
+AP	area postrema
+AP	artificial perilymph
+AP	ascorbyl palmitate
+AP	asthmatic patients
+AP	autologous plasma
+AP	available p
+AP	available phosphorus
+AP	average power
+AR	access recirculation
+AR	acid resistance
+AR	acoustic reflex
+AR	acoustic rhinometry
+AR	acrosomereacted
+AR	active recovery
+AR	active renin
+AR	acute allograft rejection
+AR	acute rejection
+AR	adaptive response
+AR	adrenoceptor
+AR	airway reactivity
+AR	airway responsiveness
+AR	allergic rhinitis
+AR	amphiregulin
+AR	anaphylactoid reactions
+AR	androgen receptor gene
+AR	anhydroretinol
+AR	anterior resection
+AR	antigen retrieval
+AR	aortic regurgitation
+AR	apoptotic rate
+AR	applied relaxation
+AR	artificially reared
+AR	aspect ratio
+AR	atrophic rhinitis
+AR	attributable risk
+AR	augmented reality
+AR	autoregressive
+AR	autoregulation
+AR	autosomal recessive
+AS	absence seizures
+AS	acetosyringone
+AS	active
+AS	actual survival
+AS	actuarial survival
+AS	affective style
+AS	aggregation substance
+AS	alkaline secretion
+AS	alphasynuclein
+AS	alport syndrome
+AS	alternative splicing
+AS	ammonium sulfate
+AS	ammonium sulphate
+AS	anabolic steroids
+AS	anaphylactic shock
+AS	androgen suppression
+AS	angelis salt
+AS	angiosarcoma
+AS	ankylosing spondylarthritis
+AS	antisaccades
+AS	antisense
+AS	antiserum
+AS	anxiety sensitivity
+AS	argininosuccinate synthase
+AS	arteriosclerosis
+AS	artificial saliva
+AS	asparagine synthetase
+AS	assisted suicide
+AS	atherosclerotic
+AS	autologous serum
+AS	plasmodium chabaudi chabaudi
+AS	sickle trait
+AS	stress
+AT	acceleration time
+AT	acetyltransferase
+AT	achilles tendon
+AT	activation time
+AT	active tension
+AT	adeninethymine
+AT	adipose tissue
+AT	alopecia totalis
+AT	ambient temperature
+AT	anterior tibialis
+AT	antithrombin
+AT	area tempestas
+AT	assistive technology
+AT	atrial tachycardia
+AT	autogenic training
+AT	catalase inhibitor aminotriazole
+BA	bacillary angiomatosis
+BA	background activity
+BA	basilar
+BA	benzaldehyde
+BA	benzamide
+BA	benzoic acid
+BA	benzyl alcohol
+BA	biliary atresia
+BA	bioavailability
+BA	biogenic amines
+BA	blood agar
+BA	bone age
+BA	brachial artery
+BA	bronchial asthma
+BA	butyl acrylate
+BA	butyric acid
+BA	lymphoma cell bioassay
+BA	mgl benzylaminopurine
+BA	nbenzyladenine
+BA	nbutyl acrylate
+BC	bacitracin
+BC	bacterial cellulose
+BC	basaloid carcinoma
+BC	basic copy
+BC	bile canaliculi
+BC	biliary complications
+BC	biochemical control
+BC	biotin carboxylase
+BC	biventer cervicis
+BC	black carbon
+BC	bladder capacity
+BC	blast crisis
+BC	blastic crisis
+BC	body composition
+BC	body condition
+BC	brachium conjunctivum
+BC	bronchoconstriction
+BC	bronchogenic cyst
+BC	bulbocavernosus
+BD	basal diet
+BD	base deficit
+BD	behcets disease
+BD	bicarbonate dialysis
+BD	biotinylated dextran
+BD	bladder drainage
+BD	body dissatisfaction
+BD	bone density
+BD	bony defect
+BD	brain death
+BD	brownian dynamics
+BL	bacterial levan
+BL	basal lamina
+BL	bilateral
+BL	blood loss
+BL	blood lymphocytes
+BL	blue light
+BL	body length
+BL	bone loss
+BL	borderline
+BL	borderline lepromatous
+BL	borderline lepromatous leprosy
+BL	brassinolide
+BL	bright light
+BL	bronchial lavage
+BM	bacterial meningitis
+BM	barretts metaplasia
+BM	basal medium
+BM	biological monitoring
+BM	blood meal
+BM	bone metastases
+BM	bone metastasis
+BM	brain metastases
+BM	breast milk
+BM	bronchial mucosa
+BM	buccal mucosa
+BP	backpropagation
+BP	bacterial pneumonia
+BP	basilar papilla
+BP	beet pulp
+BP	bells palsy
+BP	bench press
+BP	benzapyrene
+BP	benzoapyrene
+BP	benzophenone
+BP	bereitschaftspotential
+BP	binding potential
+BP	biphenyl
+BP	bipolar
+BP	blastic phase
+BP	blood plasma
+BP	bodily pain
+BP	bovine pericardium
+BP	bowenoid papulosis
+BP	brachial plexus
+BP	brevipedicellus
+BP	british pharmacopoeia
+BP	bullous pemphigoid
+BP	hbenzoapyrene
+BP	metabolism of benzoapyrene
+BP	myelin basic protein
+BP	systolic and diastolic blood pressures
+BP	total biopterin
+BR	balbiani ring
+BR	base rate
+BR	basic region
+BR	bed rest
+BR	benzamide riboside
+BR	biochemical response
+BR	blink rate
+BR	blink reflex
+BR	bone resorption
+BR	brassinosteroid
+BR	breathing rate
+BR	bronchial reactivity
+BS	bjorkshiley
+BS	black smoke
+BS	blasticidin s
+BS	blood serum
+BS	blood sugar
+BS	body surface
+BS	bone scan
+BS	bone scintigraphy
+BS	borg scale
+BS	brain stem
+BS	brainstem
+BS	bronchial secretions
+BS	bulbospongiosus
+BS	bundle sheath
+BS	bursting strength
+BT	bacterial translocation
+BT	beef tallow
+BT	behavior therapy
+BT	benzenetriol
+BT	bioavailable testosterone
+BT	blast transformation
+BT	blastic transformation
+BT	bleeding time
+BT	borderline tuberculoid
+BT	borderline tuberculoid leprosy
+BT	bovine trypsin
+BT	bovine turbinate
+BT	brain tumors
+BT	bretylium tosylate
+BT	modified blalocktaussig
+CA	abnormalities
+CA	assay
+CA	caffeic acid
+CA	cancer
+CA	cancer antigen
+CA	candida albicans
+CA	capsid
+CA	carbonate apatite
+CA	cardiac arrest
+CA	catecholaminergic
+CA	catheter ablation
+CA	caucasian american
+CA	cellular automata
+CA	cellular automaton
+CA	cellulose acetate
+CA	cerebellar atrophy
+CA	cerebral atrophy
+CA	cerebral autoregulation
+CA	choanal atresia
+CA	cholate
+CA	cholic
+CA	chronological age
+CA	cluster analysis
+CA	cobblestone areas
+CA	cochlear aqueduct
+CA	coldacclimated
+CA	coldacclimated rats
+CA	communityacquired
+CA	condyloma acuminata
+CA	condyloma acuminatum
+CA	condylomata acuminata
+CA	congruence angle
+CA	conjoint analysis
+CA	constitutively active
+CA	contact angle
+CA	contrast arteriography
+CA	controlled atmosphere
+CA	conventional angiography
+CA	conventional arteriography
+CA	conversation analysis
+CA	cornu ammonis
+CA	corpora allata
+CA	corpora amylacea
+CA	corpus allatum
+CA	correspondence analysis
+CA	cortical area
+CA	cortisone acetate
+CA	cytosine arabinoside
+CA	highly polymorphic
+CA	plasma catecholamines
+CA	weeks of conceptional age
+CB	branch
+CB	calciumbinding proteins calbindin
+CB	carbon black
+CB	centroblastic
+CB	chlorobenzene
+CB	chronic bronchitis
+CB	clenbuterol
+CB	cocoa butter
+CB	cognitivebehavioral
+CB	conduction block
+CB	cord blood
+CB	core biopsy
+CB	covalent binding
+CB	cuprolinic blue
+CB	cutting balloon
+CC	cage control
+CC	calf circumference
+CC	cell culture
+CC	central complex
+CC	centrocytic
+CC	cervical cancer
+CC	cervical carcinoma
+CC	chest circumference
+CC	cholangiocarcinomas
+CC	choledochal cyst
+CC	chondrocalcinosis
+CC	choriocapillaris
+CC	choriocarcinoma
+CC	clear cell
+CC	clomiphene
+CC	closing capacity
+CC	coiledcoil
+CC	collagenous colitis
+CC	colloidal carbon
+CC	colon cancer
+CC	colorectal cancer
+CC	community care
+CC	complete chimerism
+CC	complete donor chimerism
+CC	compliance coefficient
+CC	contractile component
+CC	conventional chemotherapy
+CC	conventional cholecystectomy
+CC	conventional colonoscopy
+CC	conventional cytogenetics
+CC	coronary calcification
+CC	coronary calcium
+CC	corpora cardiaca
+CC	corpora cavernosa
+CC	corpus callosum
+CC	corpus cardiacum
+CC	corpus cavernosum
+CC	crosscorrelation
+CC	crosssectional compliance
+CC	cryptogenic cirrhosis
+CC	cyclocytidine
+CD	alphacyclodextrin
+CD	cadaver donor
+CD	campomelic dysplasia
+CD	capillary density
+CD	carbidopa
+CD	cardiac death
+CD	cardiac denervation
+CD	cardiacdenervated
+CD	catalytic domain
+CD	cerebellar degeneration
+CD	cervical dystonia
+CD	cesarean delivery
+CD	characteristic delay
+CD	chlordecone
+CD	choline deficiency
+CD	cholinedevoid
+CD	choroidal detachment
+CD	circular dichroic
+CD	circular dichroism spectroscopy
+CD	clostridium difficile
+CD	cluster designation
+CD	cocaine dependent
+CD	coefficient of dispersion
+CD	colloidal dispersion
+CD	color doppler
+CD	colostrumdeprived
+CD	communication deviance
+CD	compact disc
+CD	compact disk
+CD	conduction delay
+CD	contact dermatitis
+CD	contrastdetail
+CD	cool dry
+CD	coronary diameter
+CD	cortical dysplasia
+CD	cotreldubousset
+CD	crohns disease
+CD	cumulative dose
+CD	cytosine deaminase
+CD	rats fed a cholinedeficient
+CE	california encephalitis
+CE	capillary electrophoretic
+CE	capsule endoscopy
+CE	carbohydrateelectrolyte
+CE	carboplatin and etoposide
+CE	cardiac events
+CE	carotid endarterectomy
+CE	carpentieredwards
+CE	cataract extraction
+CE	catechol estrogens
+CE	cell extracts
+CE	central
+CE	centrifugal elutriation
+CE	chemoembolization
+CE	chest expansion
+CE	chicken embryo
+CE	cholesterol ester
+CE	ciliary epithelium
+CE	clinical engineering
+CE	clinical examination
+CE	cloning efficiency
+CE	coefficient of error
+CE	cold exposure
+CE	collection efficiency
+CE	combinatorial extension
+CE	competitive exclusion
+CE	constant estrous
+CE	constant estrus
+CE	continuing education
+CE	contractile element
+CE	contrast echocardiography
+CE	contrast enema
+CE	contrast enhancement
+CE	converting enzyme
+CE	corneal endothelial
+CE	cornified envelope
+CE	crude extract
+CE	cycle ergometer
+CE	cycle ergometry
+CE	cystic echinococcosis
+CE	cytochalasin e
+CE	liver carboxylesterase
+CF	canadian forces
+CF	cardiac failure
+CF	cascade filtration
+CF	case fatality
+CF	cationic ferritin
+CF	cationized ferritin
+CF	cellfree
+CF	charcoalfiltered air
+CF	chicken fat
+CF	chloroform
+CF	chronic fatigue
+CF	clastogenic factors
+CF	climbing fibre
+CF	coelomic fluid
+CF	colostrumfed
+CF	complement fixation test
+CF	concentration factors
+CF	constantfrequency
+CF	continuousflow
+CF	contractile force
+CF	conventional fractionation
+CF	coronary flow
+CF	cortical fibroblasts
+CF	counting fingers
+CF	crevicular fluid
+CF	crude fiber
+CF	crude fibre
+CF	culture filtrate
+CF	cytosolic fraction
+CF	cytotoxic factor
+CF	folinic acid
+CF	function
+CG	capsular glaucoma
+CG	cardiac glycosides
+CG	catechin gallate
+CG	central gray
+CG	centre of gravity
+CG	cerebral ganglia
+CG	cholylglycine
+CG	choriogonadotropin
+CG	chromogranin
+CG	ciliary ganglia
+CG	ciliary ganglion
+CG	coagulating gland
+CG	cockcroftgault
+CG	collapsing glomerulopathy
+CG	colloidal gold
+CG	computer graphics
+CG	conjugate gradient
+CG	cryoglobulins
+CG	cycloguanil
+CG	groups
+CG	porous collagenglycosaminoglycan
+CH	calponin homology
+CH	cardiac hypertrophy
+CH	central hemodynamics
+CH	cerebral hemispheres
+CH	cerebral hemorrhage
+CH	chediakhigashi
+CH	chloral hydrate
+CH	chronic hepatitis
+CH	chronic hypoxia
+CH	chronically hypoxic
+CH	cluster headache
+CH	community hospital
+CH	concentric hypertrophy
+CH	congenital hydrocephalus
+CH	congenital hypothyroid
+CH	crypt height
+CH	cyclic hematopoiesis
+CH	heavy chain constant
+CH	heavy chain constant region
+CI	carbonyl iron
+CI	cationindependent
+CI	cerebral infarct
+CI	cervical incompetence
+CI	chemical intolerance
+CI	chilling injury
+CI	chronotropic incompetence
+CI	cochlear implantation
+CI	cold ischemia
+CI	colloidal iron
+CI	conditioned inhibition
+CI	configuration interaction
+CI	constraintinduced
+CI	continuous improvement
+CI	conventional imaging
+CI	convergence insufficiency
+CI	cumulative incidence
+CI	cylindrical inclusion
+CI	cytoplasmic inclusion
+CI	cytoplasmic incompatibility
+CL	cardiolipin
+CL	cathodoluminescence
+CL	central lateral
+CL	central lateral nucleus
+CL	centralis lateralis
+CL	chemiluminescence
+CL	chemiluminescence response
+CL	chemiluminescent
+CL	chemoluminescence
+CL	chromosome loss
+CL	clearance rate
+CL	cleft lip
+CL	confidence level
+CL	contralateral
+CL	control line
+CL	coriaria lactone
+CL	corpus luteum
+CL	crithidia luciliae
+CL	cutaneous leishmaniasis
+CL	epsiloncaprolactone
+CL	liver
+CL	lung compliance
+CL	lymph
+CL	lymph protein concentration
+CL	patients with cholelithiasis
+CL	total plasma clearance
+CM	canola meal
+CM	carbomedics
+CM	carboxymethyl
+CM	cardiac mucosa
+CM	cardiac myosin
+CM	cardiomyocyte
+CM	cardiomyopathic
+CM	cell membrane
+CM	center of mass
+CM	centromedian
+CM	centromedian nucleus
+CM	centrum medianum
+CM	cerebral malaria
+CM	cervical mucus
+CM	chiari malformation
+CM	chloroformmethanol
+CM	chorismate mutase
+CM	chronic migraine
+CM	ciliary muscle
+CM	clinical mastitis
+CM	common migraine
+CM	complementary medicine
+CM	complete hydatidiform mole
+CM	complete mole
+CM	congenital malformations
+CM	consistent mapping
+CM	contingency management
+CM	contrast material
+CM	corticomotoneuronal
+CM	cows milk
+CM	cryptococcal meningitis
+CM	culture material
+CM	cutaneous melanoma
+CM	cytokine mixture
+CM	cytoplasmic membrane
+CM	media conditioned
+CM	medium conditioned
+CM	membranes
+CM	neonatal rat cardiac myocytes
+CM	neonatal rat cardiomyocytes
+CM	vivo confocal microscopy
+CN	caudate nuclei
+CN	cavernous nerve
+CN	cerebellar nuclei
+CN	chloroacetophenone
+CN	cochlear nerve
+CN	cochlear nuclear complex
+CN	cochlear nuclei
+CN	cochlear nucleus
+CN	cognitively normal
+CN	congenital neutropenia
+CN	congenital nystagmus
+CN	contrast nephropathy
+CN	coordination number
+CN	criglernajjar
+CN	cyanopropyl
+CN	cyclic neutropenia
+CN	cyclic nucleotides
+CN	necrosis
+CP	c peptide
+CP	campylobacter pylori
+CP	campylobacter pyloridis
+CP	canal paresis
+CP	cancer procoagulant
+CP	capsular polysaccharide
+CP	carbamide peroxide
+CP	carbopol p
+CP	carboxypeptidase
+CP	cardioplegia
+CP	cardiopulmonary
+CP	categorical perception
+CP	cationic proteins
+CP	cellulose powder
+CP	center of pressure
+CP	centre of pressure
+CP	centrifugal pump
+CP	cerebellopontine
+CP	cerebral palsy
+CP	cerebral peduncle
+CP	chest pain
+CP	chloropicrin
+CP	chlorphentermine
+CP	chlorpropamide
+CP	cholestasis of pregnancy
+CP	chronic pain
+CP	chronic pancreatitis
+CP	chronic periodontitis
+CP	chronic phase
+CP	chronic progressive
+CP	chronic prostatitis
+CP	cicatricial pemphigoid
+CP	ciliary processes
+CP	classical
+CP	classical pathway
+CP	cleft palate
+CP	clobetasol propionate
+CP	clostridium perfringens
+CP	coat protein
+CP	coat protein gene
+CP	cold pressor
+CP	common peroneal
+CP	constrictive pericarditis
+CP	control patients
+CP	cor pulmonale
+CP	core particle
+CP	cortical plate
+CP	cricopharyngeal
+CP	cricopharyngeus
+CP	critical power
+CP	crude protein
+CP	cryopreserved
+CP	cyclophosphane
+CP	cysteine proteinase
+CP	polymer
+CR	cajalretzius
+CR	calciumbinding protein calretinin
+CR	caloric restriction
+CR	calorie restriction
+CR	calorierestricted
+CR	capturerecapture
+CR	cardiac rehabilitation
+CR	cardiac rupture
+CR	cardiorespiratory
+CR	cariesresistant
+CR	centric relation
+CR	charge recombination
+CR	charles river
+CR	chronic rejection
+CR	circadian rhythm
+CR	cockroach
+CR	cognitive reserve
+CR	colonization resistance
+CR	complete
+CR	complete regression
+CR	complete remission rate
+CR	complete response rate
+CR	completely
+CR	composite resin
+CR	compression ratio
+CR	computed radiographic
+CR	computed radiography
+CR	concentrationresponse
+CR	conditioned reinforcement
+CR	conditioned reward
+CR	congo red
+CR	constant routine
+CR	contractile reserve
+CR	conventional radiology
+CR	coronary risk
+CR	cortical reaction
+CR	corticosteroidresistant
+CR	crossreactive
+CR	crownrump
+CR	cysteinerich
+CR	czech republic
+CR	reactivity
+CR	remodeling
+CS	calf serum
+CS	campaniform sensilla
+CS	carcinosarcoma
+CS	cardiac surgery
+CS	cardiogenic shock
+CS	carotid stenting
+CS	casein
+CS	cavernous sinus
+CS	celiac sprue
+CS	cell saver
+CS	central sulcus
+CS	cervical spondylosis
+CS	cervical stimulation
+CS	charge separation
+CS	chemical shift
+CS	chinese spring
+CS	cholesterol sulfate
+CS	chondroitin sulphate
+CS	chondrosarcoma
+CS	chorionic somatomammotropin
+CS	chromogenic substrate
+CS	chronic sinusitis
+CS	cigarette smoke
+CS	cigarette smoking
+CS	citrate synthetase
+CS	clinical score
+CS	clinical supervision
+CS	cold storage
+CS	cold stress
+CS	completed stroke
+CS	complex spike
+CS	compressive strength
+CS	conditioned
+CS	conditioning stimulation
+CS	conduction system
+CS	congenital syphilis
+CS	conscious sedation
+CS	conservative surgery
+CS	contact sensitivity
+CS	cordyceps sinensis
+CS	corn silage
+CS	corn starch
+CS	cornsoybean meal diet
+CS	coronary sinus
+CS	coronary stenosis
+CS	coronary stenting
+CS	corpus striatum
+CS	corpuscles of stannius
+CS	corticospinal
+CS	corticosteroidsensitive
+CS	cromolyn sodium
+CS	current smokers
+CS	hb constant spring
+CS	light
+CS	ochlorobenzylidene malononitrile
+CS	patients with cerebral stroke
+CS	patients with cushings syndrome
+CS	plasma corticosterone
+CS	plasmodium falciparum circumsporozoite
+CS	saccharin
+CS	sensitive
+CS	sequence
+CS	sites
+CS	steroids
+CS	strain
+CT	alone
+CT	calf thymus
+CT	carboxyl terminus
+CT	cardiac tamponade
+CT	cardiac transplantation
+CT	celiac trunk
+CT	central tendon
+CT	cerebral toxoplasmosis
+CT	charge transport
+CT	chest tube
+CT	chlamydia
+CT	cholera enterotoxin
+CT	chorda tympani
+CT	chronic tonsillitis
+CT	clinical trial
+CT	closure time
+CT	cognitive therapy
+CT	collecting tubule
+CT	computed tomograph
+CT	computed tomographic scanning
+CT	computed tomography scanning
+CT	computed tomograpy
+CT	computerized tomograph
+CT	computerized tomographic
+CT	condensed tannins
+CT	congenital toxoplasmosis
+CT	connecticut
+CT	conservative treatment
+CT	conventional treatment
+CT	corneal thickness
+CT	cortical thickness
+CT	corticothalamic
+CT	counseling and testing
+CT	countertransport
+CT	cricothyroid
+CT	cricothyroid muscle
+CT	crista terminalis
+CT	critical thinking
+CT	cterminal
+CT	cytoplasmic tail
+CT	twitch contraction time
+DA	degree of acetylation
+DA	delayed alternation
+DA	diagnostic accuracy
+DA	dielsalder
+DA	diffuse adherence
+DA	digital angiography
+DA	direct agglutination
+DA	directional asymmetry
+DA	directional atherectomy
+DA	discriminant analysis
+DA	displaced abomasum
+DA	dissecting aneurysm
+DA	divided attention
+DA	dopaminergic
+DA	dorsal aorta
+DA	ductus arteriosus
+DA	duodenal atresia
+DA	release of hdopamine
+DD	constant dark
+DD	constant darkness
+DD	constant dim red light
+DD	continuous darkness
+DD	death domain
+DD	degree of deacetylation
+DD	delayed depolarization
+DD	deletion allele
+DD	delusional disorder
+DD	density dependence
+DD	developmental disabilities
+DD	developmental dyslexia
+DD	diastolic depolarization
+DD	diastolic diameter
+DD	diastolic dysfunction
+DD	dibenzopdioxin
+DD	differential display
+DD	digital dermatitis
+DD	disc diameters
+DD	disc displacement
+DD	disk diffusion
+DD	diverticular disease
+DD	dopaminedeficient
+DD	doubling doses
+DD	drug discrimination
+DD	duchenne dystrophy
+DD	dysthymic disorder
+DF	ankle dorsiflexors
+DF	defibrotide
+DF	delayed fluorescence
+DF	dengue fever
+DF	deposition fraction
+DF	dermal fibroblasts
+DF	dermatofibroma
+DF	developed force
+DF	dialysis fluid
+DF	dibenzofuran
+DF	dietary fiber
+DF	dietary fibre
+DF	diflunisal
+DF	discriminant function
+DF	dominant follicle
+DF	dominant frequency
+DF	dorsiflexion
+DM	defined medium
+DM	deltamethrin
+DM	dermorphin
+DM	descemets membrane
+DM	desmoplastic melanoma
+DM	diabetic group
+DM	differentiation medium
+DM	disease management
+DM	dorsal medulla
+DM	dorsomedial medulla
+DM	doublemuscled
+DM	dry mass
+DM	dry matter
+DM	dura mater
+DM	dystrophia myotonica
+DM	hladm
+DM	patients with dermatomyositis
+DM	patients with diabetes mellitus
+DP	degree of polymerisation
+DP	delayed puberty
+DP	delusional parasitosis
+DP	dermal papilla
+DP	desmoplakin
+DP	directed percolation
+DP	directional preponderance
+DP	disopyramide
+DP	disopyramide phosphate
+DP	distal pancreatectomy
+DP	distortion product
+DP	dorsal prostate
+DP	double positive
+DP	double potential
+DP	double product
+DP	dynamic programming
+DP	pattern
+DR	dahl saltresistant rats
+DR	darkreared
+DR	death receptor
+DR	delayed response
+DR	delivery room
+DR	detection rate
+DR	diabetes resistant
+DR	diabetic retinopathy
+DR	diameter reduction
+DR	dietary records
+DR	dietary restricted
+DR	dietary restriction
+DR	dietrestricted
+DR	digital radiography
+DR	distal radius
+DR	dose ratios
+DR	doseresponse
+DR	drug resistance
+DR	drugresistant
+DR	dynamic range
+DR	hladr
+DS	dahl saltsensitive hypertensive
+DS	dahl saltsensitive rats
+DS	depressive symptoms
+DS	dermatan sulfate
+DS	dermatan sulphate
+DS	desynchronized sleep
+DS	dextran sulfate
+DS	diagnostic score
+DS	diameter stenosis
+DS	diazepamsensitive
+DS	digital subtraction
+DS	direct stenting
+DS	direction selectivity
+DS	directional selectivity
+DS	directionally selective
+DS	disseminated sclerosis
+DS	distribution space
+DS	doppler sonography
+DS	duodenal switch
+DS	duplex sonography
+DS	dyad symmetry
+EA	early amniocentesis
+EA	early antigens
+EA	effect of electroacupuncture
+EA	effort angina
+EA	egg albumin
+EA	ehrlich ascites
+EA	electrical activity
+EA	electron affinity
+EA	ellagic acid
+EA	endometrial ablation
+EA	entorhinal area
+EA	epidural anaesthesia
+EA	epidural anesthesia
+EA	epileptiform activity
+EA	erythrocyte
+EA	erythrocyte aggregation
+EA	erythrocyteantibody
+EA	erythromycin acistrate
+EA	esophageal atresia
+EA	ethyl acetate
+EA	ethyl acrylate
+EA	evolutionary algorithm
+EA	igg antibodies
+EA	sensitized sheep erythrocytes
+EC	committee
+EC	complex environment
+EC	ecadherin
+EC	electrochemical
+EC	electron capture
+EC	elimination capacity
+EC	elongation complex
+EC	emergency contraception
+EC	emulsifiable concentrate
+EC	endochondral
+EC	endometrial cancer
+EC	endothelial
+EC	endothelium
+EC	energy charge
+EC	energy cost
+EC	enkephalincontaining
+EC	enriched
+EC	enriched condition
+EC	entericcoated
+EC	enterochromaffin
+EC	enzyme commission
+EC	eosinophilic cystitis
+EC	epicatechin
+EC	esophageal cancer
+EC	esophageal candidiasis
+EC	ethyl carbamate
+EC	ethyl cellulose
+EC	ethylcellulose
+EC	eurocollins
+EC	european commission
+EC	european community
+ED	deprivation
+ED	early distal
+ED	effector domain
+ED	electrodialysis
+ED	elemental diet
+ED	endogenous depression
+ED	endolymphatic duct
+ED	energy density
+ED	enteric drainage
+ED	entnerdoudoroff
+ED	enumeration district
+ED	epithelial dysplasia
+ED	equilibrium dialysis
+ED	erectile dysfunction
+ED	erythrocyte deformability
+ED	essential dynamics
+ED	external diameter
+EE	alphaethinylestradiol
+EE	emotional exhaustion
+EE	encapsulation efficiency
+EE	endocardial endothelial
+EE	endocardial endothelium
+EE	endtoend
+EE	enriched environment
+EE	environmental enrichment
+EE	eosinophilic esophagitis
+EE	erosive esophagitis
+EE	erythromycin estolate
+EE	ether extract
+EE	exercise echocardiography
+EE	exoerythrocytic
+EE	expressed emotion
+EM	egg mass
+EM	elastic modulus
+EM	electromagnetic
+EM	electron micrographs
+EM	electron microscope
+EM	electron microscopical
+EM	electronmicroscopy
+EM	emergency medicine
+EM	endometriosis
+EM	epidural morphine
+EM	episodic memory
+EM	ergonovine maleate
+EM	erythema migrans
+EM	erythema multiforme
+EM	erythrocyte membrane
+EM	esophageal manometry
+EM	estramustine
+EM	ethylmorphine
+EM	extracellular matrix
+EM	extramedullary
+EM	eye movement
+EM	eye muscle
+EP	early phase
+EP	egg production
+EP	electrophysiologic
+EP	electrophysiological
+EP	electrophysiology
+EP	emergency physician
+EP	encephalitogenic peptide
+EP	endocochlear potential
+EP	endocrineparacrine
+EP	endogenous pyrogen
+EP	enzootic pneumonia
+EP	eosinophilic pneumonia
+EP	eprostanoid
+EP	equilibrium point
+EP	escape protein
+EP	estrogenprogesterone
+EP	etoposide and cisplatin
+EP	etoposide phosphate
+EP	etoposide plus cisplatin
+EP	pge receptors
+EP	phosphoenzyme
+EP	phosphoenzyme intermediate
+EP	phosphorylated intermediate
+EP	vivo electroporation
+ER	electrical resistance
+ER	electrorheological
+ER	emergency room
+ER	endoplasmic reticular
+ER	endoscopic resection
+ER	energy restriction
+ER	energy retention
+ER	energyrestricted
+ER	enhanced reactivation
+ER	estrogen receptor status
+ER	external rotation
+ER	extraction ratio
+ER	oestrogen receptor status
+ER	oestrogen receptors
+ES	ectoplasmic specialization
+ES	electrically stimulated
+ES	electrostimulation
+ES	embolic signals
+ES	emotional stress
+ES	endometrial stromal
+ES	endostatin
+ES	endotoxic shock
+ES	endotoxin shock
+ES	engraftment syndrome
+ES	enzyme estrone sulfatase
+ES	enzymesubstrate
+ES	enzymesubstrate complex
+ES	epilepsy surgery
+ES	epileptic seizures
+ES	epithelioid sarcoma
+ES	erector spinae
+ES	erythromycin stearate
+ES	exanthem subitum
+ES	excretory and secretory
+ES	expression site
+ES	extent score
+ES	sweetened ethanol solution
+ET	ejection time
+ET	endometrial thickness
+ET	endotoxins
+ET	endotracheal
+ET	endotracheal tube
+ET	endtidal
+ET	endurance training
+ET	escherichia coli endotoxin
+ET	esotropia
+ET	essential thrombocythaemia
+ET	essential thrombocythemia
+ET	essential thrombocytosis
+ET	essential tremor
+ET	estrogen therapy
+ET	eustachian tube
+ET	evapotranspiration
+ET	evolutionary trace
+ET	exchange transfusion
+ET	exercise testing
+ET	exercise tolerance
+ET	exfoliative toxin
+FA	factor analysis
+FA	fast adapting
+FA	femoral
+FA	femoral artery
+FA	fibrinolytic activity
+FA	fibrosing alveolitis
+FA	filtered air
+FA	flip angle
+FA	fluctuating asymmetry
+FA	fluid accumulation
+FA	fluocinolone acetonide
+FA	fly ash
+FA	food allergy
+FA	fractional anisotropy
+FA	freunds adjuvant
+FC	facilitated communication
+FC	fecal coliform
+FC	feed consumption
+FC	feed conversion
+FC	fibrillar centres
+FC	flow convergence
+FC	flow cytometry
+FC	fluorocarbon
+FC	fluorocitrate
+FC	free carnitine
+FC	free cholesterol
+FC	frequency of contractions
+FC	frontal
+FC	functional class
+FC	fusarin c
+FC	fusicoccin
+FD	familial dysautonomia
+FD	familial dysbetalipoproteinemia
+FD	fascia dentata
+FD	fetal distress
+FD	fiber density
+FD	fibre density
+FD	fibrous dysplasia
+FD	field desorption
+FD	finite difference
+FD	fixation disparity
+FD	flavor dilution
+FD	food deprivation
+FD	freezedried
+FD	freezedrying
+FD	friedreichs disease
+FD	functional dyspepsia
+FM	face mask
+FM	family medicine
+FM	farnsworthmunsell
+FM	feather meal
+FM	ferromagnetic
+FM	fish meal
+FM	flunixin meglumine
+FM	fluorescence microscopy
+FM	fragrance mix
+FM	frequency modulation
+FM	full mutation
+FM	patients with fibromyalgia
+FP	facial paralysis
+FP	family physician
+FP	family planning
+FP	family practice
+FP	fast pathway
+FP	femoropopliteal
+FP	ferriprotoporphyrin ix
+FP	fibropapillomatosis
+FP	firstpass
+FP	fixation point
+FP	flavopiridol
+FP	floor plate
+FP	fluorescence polarization
+FP	fluticasone propionate
+FP	follicular phase
+FP	following lateral fluidpercussion
+FP	footpad
+FP	fungal peritonitis
+FP	fusion peptide
+FP	fusion protein
+FP	parasagittal fluidpercussion
+FP	pgf alpha
+FP	prostaglandin f
+FS	familial sinistrality
+FS	fat saturation
+FS	fat suppression
+FS	fecal streptococci
+FS	femoral shaft
+FS	fermi surface
+FS	fibrin sealant
+FS	fibrous sheath
+FS	field stimulation
+FS	fisher syndrome
+FS	flaxseed
+FS	flexible sigmoidoscopy
+FS	flexural strength
+FS	fogo selvagem
+FS	follistatin
+FS	foot shock
+FS	footshock
+FS	former smokers
+FS	fractional shortening
+FS	freeze substitution
+FS	functional status
+FS	functional systems
+FS	furosemidesensitive
+FS	patients with feltys syndrome
+FT	fast twitch
+FT	fat thickness
+FT	femurtibia
+FT	fetal thymus
+FT	filled teeth
+FT	fixedtime
+FT	flowering locus t
+FT	free t
+FT	freezethaw
+FT	frozenthawed
+FT	ftorafur
+FT	fullterm
+FT	futraful
+FT	tegafur
+GA	gallic acid
+GA	gardnerarnstein
+GA	general
+GA	general anaesthesia
+GA	general anaesthetic
+GA	general anesthesia
+GA	geographic atrophy
+GA	georgia
+GA	gibberellin
+GA	glatiramer acetate
+GA	glutaminase
+GA	glycated albumin
+GA	glycolic acid
+GA	glycyrrhetic acid
+GA	golgi apparatus
+GA	gouty arthritis
+GA	granulocyte agglutination
+GA	granuloma annulare
+GA	graphical analysis
+GA	gum arabic
+GA	gyrate atrophy
+GA	hsp inhibitor geldanamycin
+GA	metabolite glycidamide
+GC	gas chromatograph
+GC	gas chromatographic
+GC	gastric cancer
+GC	gemcitabine and cisplatin
+GC	genomic control
+GC	glassy carbon
+GC	gliomatosis cerebri
+GC	glucocorticosteroids
+GC	glycocalicin
+GC	golgi complex
+GC	gonococcal
+GC	gonococci
+GC	gonorrhea
+GC	granule cell
+GC	growth cartilage
+GC	guanine plus cytosine
+GC	guaninecytosine
+GC	gustatory cortex
+GC	human glucocerebrosidase
+GM	galactomannan
+GM	gastric metaplasia
+GM	gastric mucosa
+GM	gastrocnemius medialis muscle
+GM	gastrocnemius muscle
+GM	genetically modified
+GM	germinal matrix
+GM	gluteus maximus
+GM	gluteus medius
+GM	glyceryl methacrylate
+GM	gray matter
+GM	grey matter
+GM	growth medium
+GM	growth monitoring
+GM	rat medial gastrocnemius
+GP	against platelet glycoproteins
+GP	antiglycoprotein
+GP	general population
+GP	general practice
+GP	generalized polarization
+GP	genetic programming
+GP	globus pallidus
+GP	glucose polymer
+GP	glycolytic potential
+GP	glycophorin
+GP	goodpasture
+GP	gossypol
+GP	grampositive
+GP	growth plate
+GP	guttapercha
+GP	platelet glycoprotein
+GS	galactosialidosis
+GS	gastrocnemiussoleus
+GS	gastroschisis
+GS	general surgery
+GS	gentamicin sulfate
+GS	gestational sac
+GS	ginsenosides
+GS	gitelmans syndrome
+GS	glomerular sclerosis
+GS	glomerulosclerosis
+GS	glucosamine sulfate
+GS	glucosesensitive
+GS	glycogen synthase
+GS	graft survival
+GS	gram stain
+GS	gramicidin s
+GS	grip strength
+GS	patients with gilberts syndrome
+GT	gambling task
+GT	gene therapy
+GT	genital tubercle
+GT	germ tube
+GT	gingival tissue
+GT	gliotoxin
+GT	glucose transport
+GT	glucuronosyltransferase
+GT	glutathione transferase
+GT	granulation tissue
+GT	green tea
+GT	udpglcglycoprotein glucosyltransferase
+GT	udpglucuronosyltransferase
+HA	habitual abortion
+HA	haemagglutinating
+HA	haemagglutination
+HA	head activator
+HA	headache
+HA	health authority
+HA	hearing aid
+HA	heart area
+HA	heat acclimation
+HA	height age
+HA	hemagglutinating
+HA	hemagglutination
+HA	hemagglutination activity
+HA	hemagglutination assay
+HA	hemagglutinin glycoprotein
+HA	hemagglutinin protein
+HA	hemolytic anemia
+HA	hepatic arterial
+HA	hepatic artery
+HA	hepatocellular adenoma
+HA	hippocampal atrophy
+HA	human albumin
+HA	hydropic abortion
+HA	hydroxyapatitecoated
+HA	hyperandrogenism
+HA	hyperstriatum accessorium
+HA	hypothalamic amenorrhea
+HA	influenza a hemagglutinin
+HA	influenza virus hemagglutinin
+HA	lines of chickens selected for high
+HA	mice selectively bred for high
+HA	minor histocompatibility antigen
+HA	sperm hyperactivation
+HC	fed a highcholesterol
+HC	haemorrhagic colitis
+HC	haemorrhagic cystitis
+HC	hair cell
+HC	haptocorrin
+HC	hassalls corpuscles
+HC	healthy children
+HC	healthy comparison
+HC	helper component
+HC	hemicrania continua
+HC	hemorrhagic colitis
+HC	hemorrhagic cystitis
+HC	hepatic cirrhosis
+HC	hepatitis c
+HC	high cholesterol
+HC	hippocampal commissure
+HC	hog cholera
+HC	home care
+HC	horizontal canal
+HC	horizontal semicircular canal
+HC	huntingtons chorea
+HC	hybrid capture
+HC	hydrocephalus
+HC	hydrogen clearance
+HC	hypercholesterolaemia
+HC	plasma homocysteine
+HD	enoylcoa hydratasehydroxyacylcoa dehydrogenase
+HD	haemodialysed
+HD	haemodialysis patients
+HD	hand dermatitis
+HD	hanganutziudeicher
+HD	healthy donors
+HD	heavy distillate
+HD	heavy drinkers
+HD	helperdependent
+HD	hemodialysed
+HD	hemodialyses
+HD	hemodialysis patients
+HD	hemodialysis treatment
+HD	hemodialyzed
+HD	hemodilution
+HD	high density
+HD	hip dysplasia
+HD	hodgkins
+HD	hodgkins lymphoma
+HD	homeodomain
+HD	homozygous deletion
+HD	hormonedependent
+HD	house dust
+HD	huntingtons
+HD	huntingtons disease
+HD	hypoxic depolarization
+HD	patients on chronic haemodialysis
+HF	haemofiltration
+HF	hageman factor
+HF	halofantrine
+HF	hartreefock
+HF	heart failure
+HF	hemorrhagic fever
+HF	high fat
+HF	high fiber
+HF	high flow
+HF	high frequencies
+HF	high frequency band
+HF	highflux
+HF	highfrequency component
+HF	hip fracture
+HF	hollow fiber
+HF	hydrofluoric
+HF	hydrofluoric acid
+HF	hydrogen fluoride
+HF	hypoxic fraction
+HF	rats fed highfat
+HH	hamburger and hamilton
+HH	hamburgerhamilton
+HH	headtohead
+HH	heated humidifier
+HH	hemorrhagic hypotension
+HH	hereditary haemochromatosis
+HH	hereford
+HH	hiatal hernia
+HH	hiatus hernia
+HH	hodgkinhuxley
+HH	hyperhidrosis
+HH	hypobaric hypoxia
+HH	hypogonadotrophic hypogonadism
+HH	hyporeninemic hypoaldosteronism
+HH	hypothalamic hamartoma
+HH	hypoxic hypoxia
+HP	haematoporphyrin
+HP	haemoperfusion
+HP	health promotion
+HP	healthy persons
+HP	heat production
+HP	hemangiopericytoma
+HP	hematoporphyrin
+HP	hemoperfusion
+HP	hereditary pancreatitis
+HP	hewlettpackard
+HP	highly pathogenic
+HP	highly purified
+HP	highpass
+HP	hotplate
+HP	human plasma
+HP	hydrostatic pressure
+HP	hydroxylysyl pyridinoline
+HP	hydroxylysylpyridinoline
+HP	hyperparathyroidism
+HP	hyperpolarized
+HP	hypersensitivity pneumonitis
+HP	hypertension during pregnancy
+HP	hypoparathyroidism
+HP	hypothalamicpituitary
+HP	protein diet
+HS	bedtime
+HS	haemorrhagic septicaemia
+HS	harmonic scalpel
+HS	headspace
+HS	healthy smokers
+HS	healthy subjects
+HS	heat stress
+HS	heat stroke
+HS	heatstable
+HS	hemorrhagic shock
+HS	hemorrhagic stroke
+HS	hemosorption
+HS	heparan sulphate
+HS	hepatosplenic
+HS	hereditary spherocytosis
+HS	heterogeneous stock
+HS	hidradenitis suppurativa
+HS	highsalt diet
+HS	highspin
+HS	hindlimb suspension
+HS	hopelessness scale
+HS	horizontal system
+HS	horse serum
+HS	hs
+HS	hunger sensation
+HS	hypertrophic scar
+HS	hyposensitization
+HS	hypothalamic stimulation
+HT	harringtonine
+HT	headtotail
+HT	hemorrhagic transformation
+HT	high threshold
+HT	highly trained
+HT	hormonal therapy
+HT	hormone therapy
+HT	hypertensive patients
+HT	hypertensive subjects
+HT	hyperthyroidism
+HT	hypothermia
+HT	hypothyroidism
+HT	local hyperthermia
+HT	patients with essential hypertension
+HT	patients with hashimotos thyroiditis
+IA	acurrent
+IA	atype k current
+IA	idiopathic anaphylaxis
+IA	immune adherence
+IA	immunoadsorption
+IA	induced abortion
+IA	infantile autism
+IA	infarct area
+IA	inflammatory arthritis
+IA	inhibitory avoidance
+IA	innominate artery
+IA	insulin antibodies
+IA	interarytenoid
+IA	intestinal atresia
+IA	intimal area
+IA	intraabdominal
+IA	intracranial aneurysm
+IA	invasive aspergillosis
+IA	transient k current
+IA	transient potassium current
+IC	iliac crest
+IC	immunocytoma
+IC	impoverished
+IC	impoverished condition
+IC	impression cytology
+IC	imprint cytology
+IC	imprinting center
+IC	indeterminate colitis
+IC	indirect calorimetry
+IC	infection control
+IC	infectious centers
+IC	inferior cardiac
+IC	inferior collicular
+IC	inferior colliculus
+IC	informed consent
+IC	inspiratory capacity
+IC	integrated circuit
+IC	integrated concentration
+IC	intercalated
+IC	intercellular communication
+IC	intercostal
+IC	intermediate compartment
+IC	intermittent catheterization
+IC	intermittent claudication
+IC	internal capsule
+IC	internal carotid artery
+IC	internal control
+IC	interstitial cystitis
+IC	intracameral
+IC	intracerebral
+IC	invasive cancer
+IC	ion chromatographic
+IC	ion chromatography
+IC	ischaemic cardiopathy
+IC	ischemic cardiopathy
+IC	ischiocavernosus
+IC	systemic immunecomplex
+ID	identification
+ID	identifier
+ID	immunodiffusion
+ID	incidence density
+ID	index of difficulty
+ID	infantdirected
+ID	infective dermatitis
+ID	inhibitor of differentiation
+ID	injected dose
+ID	internal derangement
+ID	iodine deficiency
+ID	iron deficiency
+ID	isotope dilution
+ID	microm inner diameter
+ID	onedimensional
+ID	primary immunodeficiency
+IM	administered intramuscularly
+IM	imatinib mesylate
+IM	induced motion
+IM	infant mortality
+IM	infantile myofibromatosis
+IM	infectious mononucleosis
+IM	inflammatory myopathy
+IM	inner medulla
+IM	inner medullary
+IM	inner membrane
+IM	intermetatarsal
+IM	internal mammary
+IM	internal medicine
+IM	interstitial macrophages
+IM	interval mapping
+IM	intestinal metaplasia
+IM	intracellular membranes
+IM	intrahepatic metastasis
+IM	intramedullary
+IM	intramembranous
+IM	intramuscular
+IM	mcurrent
+IP	idiopathic parkinsonism
+IP	imaging plate
+IP	immunophenotype
+IP	immunoprecipitation
+IP	incontinentia pigmenti
+IP	inflammatory polyarthritis
+IP	inphase
+IP	integrated project
+IP	interference pattern
+IP	interphalangeal
+IP	interpositus nucleus
+IP	interstitial pneumonitis
+IP	intestinal permeability
+IP	inverted papilloma
+IP	ionization potential
+IP	ipriflavone
+IP	ischaemic preconditioning
+IP	nucleus interpositus
+IP	peripheral
+IP	prostacyclin receptor
+IR	calcitonin generelated peptide cgrpimmunoreactive
+IR	implantation rate
+IR	inactive renin
+IR	incomplete repair
+IR	inferior rectus
+IR	information retrieval
+IR	intermediate risk
+IR	internal rotation
+IR	ionizing irradiation
+IR	ionizing radiation
+IR	ischaemiareperfusion
+IR	min of reperfusion
+IR	nearinfrared
+IS	idiopathic scoliosis
+IS	immune serum
+IS	immune system
+IS	immunological synapse
+IS	immunoscintigraphy
+IS	immunostaining
+IS	immunosuppressed
+IS	immunosuppression
+IS	immunosuppressive
+IS	immunosuppressive substance
+IS	incentive spirometry
+IS	indoxyl sulfate
+IS	induced sputum
+IS	inescapable shock
+IS	infantile spasms
+IS	infarct size
+IS	initial segment
+IS	inner segments
+IS	insertion
+IS	ischaemic stroke
+IS	ischemic stroke
+IS	isotonic saline
+IT	ca current
+IT	immune tolerance
+IT	inferior temporal
+IT	inferior temporal cortex
+IT	inferotemporal
+IT	inferotemporal cortex
+IT	information technology
+IT	information transfer
+IT	inspection time
+IT	intensive therapy
+IT	intermediate trophoblast
+IT	intratracheal instillation
+LA	lactic acid
+LA	lactic acidosis
+LA	laparoscopic adrenalectomy
+LA	laparoscopic appendectomy
+LA	large aggregates
+LA	large aspiny
+LA	large surfactant aggregates
+LA	laser ablation
+LA	lateral amygdala
+LA	lateral nucleus of the amygdala
+LA	latex agglutination
+LA	left atria
+LA	left atrium
+LA	leucoagglutinin
+LA	leukoagglutinin
+LA	leukoaraiosis
+LA	linoleic
+LA	linoleic acid
+LA	local anaesthesia
+LA	localized adherence
+LA	longacting
+LA	los angeles
+LA	low affinity
+LA	low altitude
+LA	lowaverage
+LA	lumen area
+LA	lyme arthritis
+LA	lymphadenectomy
+LA	lymphoid aggregates
+LC	lab chow
+LC	lactobacillus casei
+LC	lamina cribrosa
+LC	lateral column
+LC	lcarnitine
+LC	leukemia cutis
+LC	lightcycler
+LC	liquid chromatographic
+LC	liquid crystalline
+LC	liver cirrhosis
+LC	local control
+LC	locus ceruleus
+LC	locus coeruleus
+LC	lowcarbohydrate
+LC	lumped constant
+LC	lung cancer
+LC	lysine clonixinate
+LD	lamina densa
+LD	lateral dorsal
+LD	laterodorsal
+LD	latissimus dorsi
+LD	ldopa
+LD	legionnaires disease
+LD	leishmania donovani
+LD	levodopa
+LD	limiting dilution
+LD	linear dichroism
+LD	lipodystrophy
+LD	loading dose
+LD	longissimus dorsi
+LD	low density
+LD	lumen diameter
+LD	luminancedefined
+LD	lyme disease
+LD	lymphocytic depletion
+LD	patients with limited disease
+LD	photoperiod
+LD	under lightdark
+LE	labelling efficiency
+LE	lateral epicondylitis
+LE	left ear
+LE	leg exercise
+LE	leg extension
+LE	lens epithelial
+LE	leucine enkephalin
+LE	leukocyte elastase
+LE	leukocyte esterase
+LE	life events
+LE	liquidexpanded
+LE	liver extract
+LE	local excision
+LE	longevans rats
+LE	loteprednol etabonate
+LE	lower extremity
+LE	luminal epithelial
+LE	luminal epithelium
+LE	lupus erythematosus
+LE	lymphedema
+LF	fed either a lowfat
+LF	lactoferrin
+LF	laparoscopic fundoplication
+LF	laser fluorescence
+LF	lassa fever
+LF	lateral funiculus
+LF	lipofuscin
+LF	liver function
+LF	local failure
+LF	low fat
+LF	low flow
+LF	low frequency band
+LF	lymphatic filariasis
+LF	lymphoid follicles
+LL	constant illumination
+LL	continuous illumination
+LL	continuous lighting
+LL	genetically lean
+LL	late luteal
+LL	lateral lemniscus
+LL	lateral longissimus
+LL	left lateral
+LL	leg length
+LL	lepromatous
+LL	lepromatous leprosy
+LL	lesion load
+LL	lining layer
+LL	long latency
+LL	longissimus lumborum
+LL	lymphoid leukosis
+LL	lysolecithin
+LM	lactose malabsorption
+LM	laryngeal mask
+LM	lean mass
+LM	left main
+LM	lentigo maligna
+LM	leptomeningeal metastases
+LM	leptomeningeal metastasis
+LM	levenbergmarquardt
+LM	light microscope
+LM	light microscopic
+LM	light microscopy
+LM	lipid microspheres
+LM	lipomannan
+LM	listeria monocytogenes
+LM	liver metastases
+LM	logical memory
+LM	longitudinal muscle
+LM	lymphatic mapping
+LM	pretectal nucleus lentiformis mesencephali
+LM	studied at the light
+LP	insulin lispro
+LP	late proximal
+LP	latency period
+LP	latent period
+LP	lateral posterior
+LP	lateral posterior nucleus
+LP	lateral prostate
+LP	lateral pyloric
+LP	leg press
+LP	legionella pneumonia
+LP	leukapheresis
+LP	leukocytic pyrogen
+LP	lichen planus
+LP	light peak
+LP	linear prediction
+LP	linear programming
+LP	link protein
+LP	long photoperiod
+LP	low passage
+LP	low protein diet
+LP	lowpressure
+LP	lumboperitoneal
+LP	luteal phase
+LP	lymphocyte predominance
+LP	lymphocyte predominant
+LP	lymphocyte proliferation
+LP	lymphocyte proliferative
+LP	lymphocytic predominance
+LP	nucleus lateralis posterior
+LP	serum lipoprotein
+LS	laparoscopic splenectomy
+LS	laparoscopic surgery
+LS	laparoscopy
+LS	laron syndrome
+LS	lateral septum
+LS	lateral suprasylvian
+LS	lateral suprasylvian area
+LS	lateral suprasylvian visual area
+LS	leigh syndrome
+LS	leukocyte scintigraphy
+LS	lichen sclerosus
+LS	lichen striatus
+LS	liquid scintillation
+LS	litter size
+LS	low salt
+LS	lowspin
+LS	lumbar spine
+LS	lung surfactant
+LS	lymphocyte stimulation
+LS	lymphoscintigraphy
+LT	after lung transplantation
+LT	anthrax lethal toxin
+LT	cysteinylleukotrienes
+LT	escherichia coli heatlabile toxin
+LT	heat labile toxin
+LT	heatlabile enterotoxin of escherichia coli
+LT	lactate threshold
+LT	lamina terminalis
+LT	large t
+LT	large tumor antigen
+LT	laryngeal tube
+LT	latency time
+LT	light transmittance
+LT	lissauers tract
+LT	longissimus thoracis
+LT	longterm
+LT	low temperature
+LT	lowthreshold
+LT	lunotriquetral
+LT	lymphocytic thyroiditis
+LT	lymphoid tissue
+MA	dmethamphetamine
+MA	macular amyloidosis
+MA	maleic anhydride
+MA	mandelic acid
+MA	maximal amplitude
+MA	maximum amplitude
+MA	mean acceleration
+MA	megestrol acetate
+MA	meglumine antimoniate
+MA	meningioangiomatosis
+MA	mental age
+MA	mental arithmetic
+MA	mesaconitine
+MA	metabolic acidosis
+MA	metastatic adenocarcinoma
+MA	methyl acrylate
+MA	methylamine
+MA	microagglutination
+MA	microbiological assay
+MA	microscopic agglutination
+MA	middleaged
+MA	migraine with aura
+MA	mitotic activity
+MA	mitotic apparatus
+MA	mitral annulus
+MA	monoamine
+MA	monoaminergic
+MA	motor activity
+MA	weeks menstrual age
+MC	magnetic coil
+MC	magnocellular
+MC	managed care
+MC	marlowecrowne social desirability scale
+MC	matched control
+MC	melanocytes
+MC	meningeal carcinomatosis
+MC	menstrual cycle
+MC	mesangial cell
+MC	methyl cellulose
+MC	methylcellulose
+MC	microcirculation
+MC	microscopic colitis
+MC	minnesota code
+MC	mitotic count
+MC	mixed cellularity
+MC	mixed chimaerism
+MC	mixed chimerism
+MC	mixed cryoglobulinaemia
+MC	mixed cryoglobulinemia
+MC	moisture content
+MC	molluscum contagiosum
+MC	monochorionic
+MC	monocomponent
+MC	monte carlo
+MC	musculocutaneous
+MC	myocardial contractility
+MC	myocarditis
+MC	myotonia congenita
+MD	macula densa
+MD	maintenance dose
+MD	major depressive disorder
+MD	mareks disease
+MD	maternal deprivation
+MD	mean defect
+MD	mean deviation
+MD	meckels diverticulum
+MD	medial dorsal
+MD	medialis dorsalis
+MD	mediodorsal
+MD	mediodorsal nucleus of the thalamus
+MD	mediodorsal thalamic nucleus
+MD	mediodorsal thalamus
+MD	methyldopa
+MD	microdensitometry
+MD	microdialysis
+MD	mixed dementia
+MD	moderate disability
+MD	moderately differentiated
+MD	molecular dynamics simulations
+MD	monocular deprivation
+MD	monocularly deprived
+MD	motiondefined
+MD	movement disorders
+MD	patients with menieres disease
+MD	thalamic mediodorsal nucleus
+ME	macular edema
+ME	magnitude estimation
+ME	malic enzyme
+ME	maximum entropy
+ME	mccollough effect
+ME	mechanical efficiency
+ME	median eminence
+ME	medical examiner
+ME	metabolisable energy
+ME	methanolic extract
+ME	methoxyethanol
+ME	middle ear
+ME	minimum evolution
+ME	moderate exercise
+ME	mouse embryo
+ME	myalgic encephalomyelitis
+ME	myoelectric
+ME	myoepithelial
+MF	fibres
+MF	increase in mutation frequency
+MF	marrow fibrosis
+MF	medium fat
+MF	membrane filter
+MF	membrane filtration
+MF	membrane fractions
+MF	methyl farnesoate
+MF	microfilament
+MF	microfiltration
+MF	micropolyspora faeni
+MF	midfrequency
+MF	milk fat
+MF	mitotic figures
+MF	mitral flow
+MF	mometasone furoate
+MF	morphogenetic furrow
+MF	mossy fibre
+MF	muscle fibers
+MF	mycosis fungoides
+MF	myelinated fibers
+MF	sequential methotrexate and fluorouracil
+MG	malachite green
+MG	mammary gland
+MG	matrigel
+MG	mean gradient
+MG	medial gastrocnemius
+MG	medial gastrocnemius muscle
+MG	medial geniculate
+MG	meningeal gliomatosis
+MG	methylglyoxal
+MG	methylguanidine
+MG	microgravity
+MG	molten globule
+MG	myasthenia gravis
+MG	mycoplasma gallisepticum
+MG	serum myoglobin
+MI	after acute myocardial infarction
+MI	cardiac remodeling after myocardial infarction
+MI	first meiotic division
+MI	first meiotic metaphase
+MI	intervention
+MI	magical ideation
+MI	meconium ileus
+MI	meiosis i
+MI	metabolic inhibition
+MI	metabolic intermediate
+MI	metaphase i
+MI	mitotic
+MI	mitotic indices
+MI	mitral insufficiency
+MI	motivational interviewing
+MI	motor imagery
+MI	multiple imputation
+MI	mutual information
+MI	myocardial infarct
+MI	myocardial infarcted
+MI	myocardial ischemia
+MI	myometrial invasion
+MI	patients after myocardial infarction
+MI	patients with acute myocardial infarction
+MI	ventricular remodeling after myocardial infarction
+ML	machine learning
+ML	macrocyclic lactone
+ML	medial lemniscus
+ML	mediallateral
+ML	midluteal
+ML	mink lung
+ML	mitochondriallysosomal
+ML	monolayer
+ML	mouse lysozyme
+ML	mucosal leishmaniasis
+ML	mullerlyer
+ML	muscle larvae
+ML	muscle length
+ML	mycobacterium leprae
+ML	myeloid leukemia
+MM	masseter muscle
+MM	maternal mortality
+MM	meningococcal meningitis
+MM	menstrual migraine
+MM	mesangial matrix
+MM	metanephric mesenchyme
+MM	methadone maintenance
+MM	michaelismenten
+MM	minimal medium
+MM	mirror movements
+MM	mitochondrial myopathy
+MM	mixed micelles
+MM	miyoshi myopathy
+MM	model
+MM	muscle mass
+MM	muscularis mucosae
+MM	mycoplasma meleagridis
+MM	myeloid metaplasia
+MM	myelomeningocele
+MP	machine perfusion
+MP	macular pigment
+MP	main process
+MP	mannoprotein
+MP	mastoparan
+MP	matching pursuit
+MP	meconium peritonitis
+MP	melphalan and prednisone
+MP	melphalanprednisone
+MP	metatarsophalangeal
+MP	methapyrilene
+MP	methyl palmoxirate
+MP	methyl prednisolone
+MP	methylphosphonate
+MP	micronized progesterone
+MP	micturition pressure
+MP	migration percentage
+MP	mitral prolapse
+MP	monopolar
+MP	motor potential
+MP	movement protein
+MP	mycoplasma pneumoniae
+MP	mycoplasma pneumoniae pneumonia
+MP	myenteric plexus
+MP	myocardial perfusion
+MP	myosin phosphatase
+MR	magnetoresistance
+MR	maillard reaction
+MR	mandelate racemase
+MR	medial rectus
+MR	median raphe
+MR	menstrual regulation
+MR	mental rotation
+MR	mentally retarded
+MR	methicillinresistant
+MR	milk replacer
+MR	mitochondriarich
+MR	mitotic rate
+MR	mitral regurgitation
+MR	molecular remission
+MR	molecular replacement
+MR	morbid risk
+MR	morphinone reductase
+MR	mortality rate
+MR	motherreared
+MR	multiresistant
+MS	chinese meishan
+MS	magnetic source
+MS	magnetic stimulation
+MS	mainstream
+MS	mainstream smoke
+MS	malignant schwannoma
+MS	manchester scale
+MS	marbling score
+MS	marijuana smokers
+MS	mass screening
+MS	mass spectral
+MS	mass spectrometer
+MS	mass spectrometric
+MS	maternal separation
+MS	maternal serum
+MS	meal size
+MS	mean sensitivity
+MS	mechanosensitive
+MS	medial septal
+MS	medial septum
+MS	median sternotomy
+MS	mental stress
+MS	methionine synthetase
+MS	middle suprasylvian
+MS	mild steel
+MS	mitral stenosis
+MS	molar substitution
+MS	morphine sulfate
+MS	motion sickness
+MS	multiplescattering
+MS	murashigeskoog
+MS	mutans streptococci
+MS	mutator strain
+MS	mycoplasma synoviae
+MT	alphamethyltestosterone
+MT	magnetization transfer
+MT	maintenance therapy
+MT	malpighian tubules
+MT	matingtype
+MT	membrane type
+MT	methanethiol
+MT	methyltestosterone
+MT	methyltrienolone
+MT	middle temporal
+MT	middle temporal area
+MT	middle temporal visual area
+MT	morphological transformation
+MT	motor threshold
+MT	myoblast transplantation
+MT	myogenic tone
+NC	change
+NC	nanocapsules
+NC	neck circumference
+NC	nephrocalcin
+NC	nephrocalcinosis
+NC	neurological complications
+NC	nitrosocimetidine
+NC	nonclassical
+NC	normal children
+NC	normal comparison
+NC	normal control group
+NC	normal cycling
+NC	normocholesterolemic
+NC	north carolina
+NC	nucleus caudatus
+NC	nucleus circularis
+NC	onto nitrocellulose
+NC	patients with neurocysticercosis
+ND	nadh dehydrogenase
+ND	nadphdiaphorase
+ND	nandrolone decanoate
+ND	neck dissection
+ND	neurologic deficit
+ND	neutral density
+ND	nicotine dependence
+ND	nocodazole
+ND	nondemented
+ND	nondisabled
+ND	nordiazepam
+ND	normal diet
+ND	normally developing
+ND	norrie disease
+ND	not detected
+ND	nucleus of darkschewitsch
+NE	lnorepinephrine
+NE	necrotic enteritis
+NE	neonatal encephalopathy
+NE	nephropathia epidemica
+NE	net energy
+NE	neuroendocrine
+NE	neuroepithelium
+NE	neutropenic enterocolitis
+NE	neutrophil elastase
+NE	nocturnal enuresis
+NE	noradrenergic
+NE	norepinephrine levels
+NE	nuclear envelope
+NE	nutcracker esophagus
+NE	nutritional encephalomalacia
+NE	release of hnorepinephrine
+NP	alcohol nonpreferring
+NP	antihydroxynitrophenylacetyl
+NP	hapten hydroxynitrophenylacetyl
+NP	hydroxynitrophenyl acetyl
+NP	hydroxynitrophenylacetyl
+NP	influenza virus nucleoprotein
+NP	metabolite norpropoxyphene
+NP	nasal polyposis
+NP	nasopharyngeal
+NP	nasopharynx
+NP	neck pressure
+NP	necrotizing pancreatitis
+NP	negative priming
+NP	neuritic plaque
+NP	neuropathic pain
+NP	neurophysin
+NP	neuropsychiatric
+NP	neuropsychological
+NP	normal plasma
+NP	normal pregnancy
+NP	normal pregnant
+NP	normal pregnant women
+NP	normal prostate
+NP	nosocomial pneumonia
+NP	noun phrase
+NP	nucleoproteins
+NP	nucleoside phosphorylase
+NP	nucleus pulposus
+NP	pnonylphenol
+NS	nanospheres
+NS	naproxen sodium
+NS	nasal secretions
+NS	natural suppressor
+NS	neck suction
+NS	negative symptoms
+NS	neostriatum
+NS	nervous system
+NS	neurosecretory
+NS	nevus sebaceus
+NS	nigrostriatal
+NS	nodular sclerosing
+NS	nodular sclerosis
+NS	nonsignificant
+NS	noonan syndrome
+NS	normal salt
+NS	normal serum
+NS	normal skin
+NS	novelty seeking
+NS	nutritional status
+NS	nutritional support
+NT	botulinum neurotoxin
+NT	natural t
+NT	neural tube
+NT	neurotensin
+NT	neutralization
+NT	neutralizing
+NT	nick translation
+NT	nontrained
+NT	nontypeable
+NT	normal training
+NT	normotension
+NT	normotensive subjects
+NT	normotest
+NT	normothermia
+NT	northern territory
+NT	nterminal
+NT	nuchal translucency
+NT	nuchal translucency thickness
+NT	nuclear transfer
+NT	nucleation time
+OC	occipital cortex
+OC	oleoresin capsicum
+OC	olivocochlear
+OC	open cholecystectomies
+OC	open colectomy
+OC	oral candidiasis
+OC	oral contraception
+OC	organ culture
+OC	organ of corti
+OC	organic carbon
+OC	organochlorine
+OC	osteochondrosis
+OC	outer cortex
+OC	ovarian cancer
+OC	oxidized cellulose
+OM	occupational medicine
+OM	olfactory mucosa
+OM	oncomodulin
+OM	oncostatin m
+OM	operative mortality
+OM	optical microscopy
+OM	oral mucosa
+OM	oral mucositis
+OM	osbornemendel
+OM	osteomalacia
+OM	osteomyelitis
+OM	otitis media
+OM	outer medulla
+OM	ovulation method
+OP	obesityprone
+OP	opening pressure
+OP	ophenanthroline
+OP	opponens pollicis
+OP	organizing pneumonia
+OP	organophosphorous
+OP	organophosphorus
+OP	oropharyngeal
+OP	oropharynx
+OP	osmotic pressure
+OP	osteoporosis
+OP	osteoporotic
+OP	outpatient
+OP	tertoctylphenol
+PA	abscess
+PA	agreement
+PA	paleostriatum augmentatum
+PA	panic attacks
+PA	particle agglutination
+PA	particle agglutination test
+PA	passive avoidance
+PA	pennsylvania
+PA	perceptual asymmetry
+PA	performance assessment
+PA	perinatal asphyxia
+PA	permeabilitysurface area product
+PA	pernicious anaemia
+PA	pernicious anemia
+PA	phenylacetate
+PA	phonological awareness
+PA	phosphatidate
+PA	photoacoustic
+PA	phthalic anhydride
+PA	physician assistant
+PA	pilocytic astrocytoma
+PA	plaque area
+PA	plasminogen activation
+PA	polyacrylate
+PA	polyamide
+PA	positive affect
+PA	positive affectivity
+PA	postabsorptive
+PA	posterioranterior
+PA	preinfarction angina
+PA	premature adrenarche
+PA	primary angioplasty
+PA	proanthocyanidin
+PA	procainamide
+PA	progressive aphasia
+PA	propionic acidaemia
+PA	propionic acidemia
+PA	proton affinity
+PA	pseudoaneurysm
+PA	pseudomonas aeruginosa
+PA	psoriatic arthropathy
+PA	pullulan acetate
+PA	pulmonary angiography
+PA	pulmonary atresia
+PA	pulse amplitude
+PA	pyloric atresia
+PA	pyrophosphate arthropathy
+PA	solitary parathyroid adenoma
+PB	barometric pressure
+PB	parabrachial
+PB	particle beam
+PB	paucibacillary
+PB	pencil beam
+PB	pentobarbital sodium
+PB	pentobarbitone
+PB	peribrachial
+PB	periodic breathing
+PB	peroneus brevis
+PB	phenobarbital sodium
+PB	phenobarbitone
+PB	phosphate buffer
+PB	poissonboltzmann
+PB	polar body
+PB	polybrene
+PB	postburn
+PB	primed burst
+PB	probenecid
+PB	prostate brachytherapy
+PB	protein breakdown
+PB	prussian blue
+PB	pulmonary blastoma
+PB	rat probasin
+PB	sodium phenylbutyrate
+PC	antiphosphocholine
+PC	antiphosphorylcholine
+PC	cells of the parvocellular
+PC	cine phasecontrast
+PC	egg lecithin
+PC	liver parenchymal cells
+PC	pachyonychia congenita
+PC	pacinian corpuscle
+PC	pancreatic carcinoma
+PC	paramyotonia congenita
+PC	parenchymal
+PC	parietal cortex
+PC	patients with pancreatic cancer
+PC	patients with prostatic cancer
+PC	pelvic control
+PC	pentose cycle
+PC	percutaneous cholecystostomy
+PC	peritoneal carcinomatosis
+PC	pharyngeal constrictor
+PC	phase contrast
+PC	phosphocitrate
+PC	phycocyanin
+PC	pineal calcification
+PC	plasma concentrations
+PC	plastocyanin
+PC	pneumotaxic center
+PC	polycarbonate
+PC	polycarbophil
+PC	positive control
+PC	postconception
+PC	posterior canal
+PC	posterior chamber
+PC	posterior compartment
+PC	preconditioned
+PC	prednicarbate
+PC	preoperative complications
+PC	primary care
+PC	primary closure
+PC	procerebral
+PC	procerebrum
+PC	procollagen
+PC	proprotein convertase
+PC	propylene carbonate
+PCA	parietal cell
+PCA	passive cutaneous anaphylactic
+PCA	passive cutaneous anaphylaxis
+PCA	patientcontrolled analgesic
+PCA	pchloroamphetamine
+PCA	pentachloroanisole
+PCA	percent cortical area
+PCA	perchloric acid
+PCA	plate count agar
+PCA	portacaval anastomosis
+PCA	portocaval anastomosis
+PCA	postconceptional age
+PCA	posterior cerebral
+PCA	posterior cortical atrophy
+PCA	posterior cricoarytenoid
+PCA	posterior cricoarytenoid muscle
+PCA	protein fragment complementation assay
+PCA	protocatechuate
+PCA	protocatechuic acid
+PCA	weeks postconceptional age
+PD	after pancreaticoduodenectomy
+PD	after pancreatoduodenectomy
+PD	along the proximodistal
+PD	cell membrane potential
+PD	coronary artery
+PD	disease of bone
+PD	disease progression
+PD	paired domain
+PD	pancreas divisum
+PD	pancreatic duct
+PD	panic disorder
+PD	parkinsonian
+PD	parkinsonism
+PD	pars distalis
+PD	perfusion defect
+PD	peripheral dose
+PD	peritoneal dialysate
+PD	peritoneal dialysis
+PD	peritoneal drainage
+PD	persistent diarrhea
+PD	persistent diarrhoea
+PD	pharmacokinetic pkpharmacodynamic
+PD	phosphate depletion
+PD	plasma desorption
+PD	plasmodesmata
+PD	platelet deposition
+PD	pneumatic dilatation
+PD	pneumatic dilation
+PD	postural drainage
+PD	potential difference across the cell membrane
+PD	power density
+PD	power doppler
+PD	preferred direction
+PD	prism dioptres
+PD	prisoners dilemma
+PD	probing pocket depth
+PD	progressed
+PD	prolidase deficiency
+PD	protein degradation
+PD	protein deposition
+PD	proton density
+PD	proximaldistal
+PD	pseudodeficiency
+PD	pulsed doppler
+PD	pupillary diameter
+PD	pyloric dilator
+PE	ace inhibitor perindopril
+PE	after phacoemulsification
+PE	agonist phenylephrine
+PE	cisplatinetoposide
+PE	days postexposure
+PE	elastase
+PE	element
+PE	errors
+PE	parietal endoderm
+PE	pectinesterase
+PE	pectus excavatum
+PE	pemphigus erythematosus
+PE	pericardial effusion
+PE	peritoneal exudate
+PE	persistent estrus
+PE	petroleum ether
+PE	pharyngoesophageal
+PE	phosphorylethanolamine
+PE	physical education
+PE	physical examination
+PE	physical exercise
+PE	phytoestrogens
+PE	pigment epithelial
+PE	pigment epithelium
+PE	pigmented ciliary epithelial
+PE	pigmented epithelial
+PE	pigmented epithelium
+PE	plasma epinephrine
+PE	plasma extravasation
+PE	plating efficiency
+PE	polyelectrolyte
+PE	polyethylene
+PE	portoenterostomy
+PE	postexposure
+PE	potential energy
+PE	power of exclusion
+PE	precedence effect
+PE	prediction error
+PE	preeclamptic
+PE	premature ejaculation
+PE	preoperative portal embolization
+PE	probability of exclusion
+PE	proliferative enteritis
+PE	proliferative enteropathy
+PE	prolonged exposure
+PE	protective efficacy
+PE	pseudomonas exotoxin
+PE	pulmonary emboli
+PE	pulmonary embolus
+PE	pulmonary emphysema
+PF	fracture face
+PF	nucleus parafascicularis
+PF	paeoniflorin
+PF	pair fed
+PF	pancreatic fistula
+PF	parafollicular
+PF	pars flaccida
+PF	patellofemoral
+PF	peak flow
+PF	peak force
+PF	peak frequency
+PF	permeability factor
+PF	photofrin
+PF	physical function
+PF	physical functioning
+PF	plasma fibrinogen
+PF	pleural fluid
+PF	posterior fossa
+PF	preterm formula
+PF	primary fibromyalgia
+PF	proflavine
+PF	proteinfree
+PF	protoplasmic face
+PF	protoplasmic fracture
+PF	pulmonary fibrosis
+PF	purkinje fibers
+PF	purpura fulminans
+PG	cartilage proteoglycan
+PG	glands
+PG	glomerular capillary hydrostatic pressure
+PG	isoprostaglandin
+PG	panax ginseng
+PG	pancreatic glucagon
+PG	pancreaticogastrostomy
+PG	paracervical ganglia
+PG	parotid gland
+PG	pathological gambling
+PG	pemphigoid gestationis
+PG	pentagastrin
+PG	percutaneous gastrostomy
+PG	periglomerular
+PG	petrosal ganglion
+PG	phenolphthalein glucuronide
+PG	phosphatidyl glycerol
+PG	pigmentary glaucoma
+PG	placebo group
+PG	plakoglobin
+PG	plasma glucose
+PG	polygalacturonase
+PG	polypoid growth
+PG	proguanil
+PG	propyl gallate
+PG	propylene glycol
+PG	protein g
+PG	proximal gastrectomy
+PG	pyoderma gangrenosum
+PG	pyogenic granuloma
+PG	pyrolytic graphite
+PG	serum pepsinogen
+PH	history
+PH	hyperplasia
+PH	palmar hyperhidrosis
+PH	partially hepatectomized
+PH	peak height
+PH	periventricular heterotopia
+PH	phenol
+PH	pleckstrin homology
+PH	posterior hypothalamus
+PH	postural hypotension
+PH	prepositus hypoglossi
+PH	proportional hazards
+PH	pubic hair
+PH	pulmonary hemorrhage
+PH	pulmonary hypoplasia
+PI	days postirradiation
+PI	hr postinoculation
+PI	hydrolysis of phosphoinositides
+PI	inferior pulvinar
+PI	inositol phospholipid
+PI	padua inventory
+PI	pain intensity
+PI	pancreatic insufficiency
+PI	pars intercerebralis
+PI	pars intermedia
+PI	peak intensity
+PI	performance improvement
+PI	peripheral iridectomy
+PI	persistently infected
+PI	phosphatidylinositide
+PI	phosphoinositol
+PI	phosphotyrosine interaction
+PI	plaque
+PI	plasma insulin
+PI	pneumatosis intestinalis
+PI	polyphosphoinositide
+PI	porcine insulin
+PI	positive ion
+PI	postinjection
+PI	primary isolates
+PI	principal investigator
+PI	proactive interference
+PI	proinsulin
+PI	proliferation indices
+PI	propidium iodide
+PI	protein i
+PI	pulmonary insufficiency
+PI	pulsatility indexes
+PI	pulse interval
+PI	putatively immune
+PI	weeks postinoculation
+PI	weeks postirradiation
+PL	lateral pulvinar
+PL	leftward promoter
+PL	pancreatic lipase
+PL	perilymph
+PL	perivitelline layer
+PL	peroneus longus
+PL	persistent lymphocytosis
+PL	photoluminescence
+PL	placebo
+PL	placental lactogen
+PL	plasmin
+PL	polyllysine
+PL	posterolateral
+PL	poultry litter
+PL	preferential looking
+PL	prelimbic
+PM	intrapulmonary metastasis
+PM	medial pulvinar
+PM	palatal myoclonus
+PM	partial mole
+PM	pasteurella multocida
+PM	patients with polymyositis
+PM	pectoralis major
+PM	perfect match
+PM	periodontal mechanosensitive
+PM	peritoneal mesothelioma
+PM	peritrophic matrix
+PM	placental malaria
+PM	pleural mesothelioma
+PM	ponsmedulla
+PM	postmenopausal
+PM	prediction model
+PM	premotor
+PM	prophylactic mastectomy
+PM	prospective memory
+PM	psoas major
+PM	psychological mindedness
+PM	pulmonary macrophages
+PM	pulmonary metastases
+PM	pyogenic meningitis
+PM	pyridoxamine
+PN	cerebellar purkinje neurons
+PN	palmerston north
+PN	papillary or nodular
+PN	parenteral nutrient
+PN	partial nephrectomy
+PN	partner notification
+PN	peripheral lymph nodes
+PN	peripheral nerve
+PN	peripheral neuroepithelioma
+PN	phosphoramidate
+PN	phrenic nerve
+PN	pontine nuclei
+PN	pontine nucleus
+PN	postnatal
+PN	processing negativity
+PN	pronuclear
+PN	pronuclei
+PN	pronucleus
+PN	pulp necrosis
+PN	purkinje neuron
+PN	pyelonephritis
+PP	pacesetter potentials
+PP	pairedpulse
+PP	pancreatic polypeptide
+PP	parkinsonian patients
+PP	particulate p
+PP	particulate phosphorus
+PP	peak power
+PP	pentose phosphate
+PP	percent positivity
+PP	perforant path
+PP	perforant pathway
+PP	peripeduncular nucleus
+PP	periportal
+PP	plasma perfusion
+PP	pleural plaques
+PP	pneumoperitoneum
+PP	polypropylene
+PP	posterior pituitary
+PP	posterior pretectal nucleus
+PP	postpartum
+PP	postprandial
+PP	precautionary principle
+PP	precocious pubarche
+PP	premature pubarche
+PP	preparatory period
+PP	prepubertal periodontitis
+PP	primary progressive
+PP	prone position
+PP	proteose peptone
+PP	protoporphyrin
+PP	pulsatile perfusion
+PP	pulse
+PP	pulse pressure
+PP	pulsus paradoxus
+PR	expression of pathogenesisrelated
+PR	paeoniae radix
+PR	pain relief
+PR	panoramic radiography
+PR	pars recta
+PR	partial regression
+PR	partial responders
+PR	passive recovery
+PR	pattern recognition
+PR	pattern reversal
+PR	perirenal
+PR	phenol red
+PR	photoreactivation
+PR	pityriasis rosea
+PR	placental restriction
+PR	plain radiography
+PR	plaque reduction
+PR	pneumatic retinopexy
+PR	polymorphic reticulosis
+PR	progressive ratio
+PR	projection reconstruction
+PR	proliferative retinopathy
+PR	prorenin
+PR	protein restriction
+PR	pseudorabies
+PR	puerto rico
+PR	pulmonary regurgitation
+PR	pulmonary rehabilitation
+PR	release
+PR	retention
+PR	under a progressiveratio
+PR	viral proteinase
+PS	capillary diffusion capacity
+PS	mutations in the presenilin
+PS	pachytene spermatocytes
+PS	palmazschatz
+PS	paradoxical sleep
+PS	partial seizures
+PS	pathologic stage
+PS	pathological stage
+PS	peak slope
+PS	pentasaccharide
+PS	peritoneal sclerosis
+PS	phosphatidyllserine
+PS	photic stimulation
+PS	photostimulation
+PS	photosystem
+PS	physiological saline
+PS	phytosterols
+PS	planar scintigraphy
+PS	polystyrene
+PS	polysulphone
+PS	porcine serum
+PS	power spectra
+PS	power spectrum
+PS	pregnenolone sulphate
+PS	prenatal stress
+PS	prenatally stressed
+PS	preparatory signal
+PS	pressure support
+PS	primary snoring
+PS	primitive streak
+PS	principal sulcus
+PS	protamine sulfate
+PS	protamine sulphate
+PS	psoriasis
+PS	psychogenic seizures
+PS	pubertal spurt
+PS	pulmonary sequestration
+PS	pulmonary stenosis
+PS	pulmonary surfactant
+PS	pyloric sphincter
+PS	pyriform sinus
+PS	pyrimethaminesulfadoxine
+PS	symptoms
+PT	pars tuberalis
+PT	patellar tendon
+PT	peak torque
+PT	percutaneous tracheostomy
+PT	perinuclear theca
+PT	permeability transition
+PT	permissive temperature
+PT	pertussis toxoid
+PT	photothermal
+PT	physical therapy
+PT	physical training
+PT	physiotherapy
+PT	picrotoxin
+PT	planum temporale
+PT	posterior tibial
+PT	posttreatment
+PT	pretectum
+PT	preterm
+PT	primary thrombocythaemia
+PT	primary thrombocythemia
+PT	primary tumour
+PT	proficiency testing
+PT	proton transfer
+PT	proximal
+PT	ptaquiloside
+PT	pulmonary trunk
+PT	pyramidal tract
+PT	tumors
+PV	parietal ventral area
+PV	patients with polycythaemia vera
+PV	patients with psoriasis vulgaris
+PV	peak velocity
+PV	pemphigus vulgaris
+PV	periventricular
+PV	peroxide value
+PV	pervanadate
+PV	phenyl valerate
+PV	pichinde virus
+PV	pityriasis versicolor
+PV	plasma viscosity
+PV	poliovirus
+PV	postvaccination
+PV	pravastatin
+PV	processus vaginalis
+PV	pulmonary valve
+PV	pulmonary venous
+PV	static pressurevolume
+RA	afferent arteriolar resistance
+RA	nucleus robustus archistriatalis
+RA	radial artery
+RA	radiographic absorptiometry
+RA	rapidly adapting
+RA	rat aorta
+RA	rectus abdominis
+RA	refractory anaemia
+RA	refractory anemia
+RA	regional anaesthesia
+RA	regional anesthesia
+RA	relative anisotropy
+RA	repeated acquisition
+RA	retinol acetate
+RA	retrograde amnesia
+RA	rheumatoid
+RA	rheumatoid arthritic
+RA	rheumatoid arthritis patients
+RA	ricin a chain
+RA	right
+RA	right atria
+RA	risk area
+RA	robust nucleus of the archistriatum
+RA	room air
+RA	rotational atherectomy
+RA	rounded atelectasis
+RC	fetal rat calvaria
+RC	radical cystectomy
+RC	rapid cycling
+RC	reaction centre
+RC	recombinant congenic
+RC	rectal cancer
+RC	referred care
+RC	regenerated cellulose
+RC	reliable change
+RC	replication complex
+RC	respiratory chain
+RC	resting zone
+RC	rib cage
+RC	rotator cuff
+RD	human rhabdomyosarcoma
+RD	raphe dorsalis
+RD	raynauds disease
+RD	reading disabled
+RD	recession depth
+RD	rectal distension
+RD	redistribution
+RD	reference diameter
+RD	regular diet
+RD	regulatory domain
+RD	reiters disease
+RD	relative dispersion
+RD	renal dysfunction
+RD	residual disease
+RD	respiratory distress
+RD	rheumatic diseases
+RD	runt domain
+RE	efferent arteriolar resistance
+RE	rapid ejaculation
+RE	rasmussens encephalitis
+RE	reflux esophagitis
+RE	rejection episodes
+RE	relative enhancement
+RE	relative error
+RE	removal efficiency
+RE	respiratory epithelium
+RE	response entropy
+RE	restriction enzyme
+RE	retained energy
+RE	reticular nucleus
+RE	reticularis thalami
+RE	retinal extract
+RE	right ear
+RE	rolandic epilepsy
+RE	running economy
+RE	thalamic reticular
+RI	radioisotope
+RI	radionuclide imaging
+RI	recombinant inbred
+RI	recurrent inhibition
+RI	regular insulin
+RI	relapse incidence
+RI	renal impairment
+RI	renal insufficiency
+RI	reperfusion injury
+RI	replicative intermediate
+RI	resistance indexes
+RI	respiratory insufficiency
+RI	retroactive interference
+RI	ribonuclease inhibitor
+RI	ribonuclease inhibitor protein
+RI	type i campdependent protein kinase
+RI	type i regulatory
+RI	type i regulatory subunit
+RM	radical mastectomy
+RM	radioactive microspheres
+RM	raphe magnus
+RM	recurrent miscarriage
+RM	red marrow
+RM	red muscle
+RM	reissners membrane
+RM	relative movement
+RM	repetition maximum
+RM	respiratory muscle
+RM	risk management
+RM	rough microsomal membranes
+RM	rough microsomes
+RP	radiation pneumonitis
+RP	radical prostatectomy
+RP	rapid prototyping
+RP	raynauds phenomenon
+RP	reaction product
+RP	reactivity pattern
+RP	readiness potential
+RP	recognition potential
+RP	red pulp
+RP	regulatory particle
+RP	regulatory peptides
+RP	relapse prevention
+RP	relative potency
+RP	relative power
+RP	resting pressure
+RP	retained placenta
+RP	reticulated platelets
+RP	retinitis pigmentosa
+RP	retinyl palmitate
+RP	retrograde pyelography
+RP	retroperitoneal
+RP	retruded position
+RP	reversedphase
+RP	reversephase
+RP	rheumatoid polyarthritis
+RP	rinderpest
+RP	rock phosphate
+RP	roller pump
+RR	patients with relapsingremitting
+RR	recovery room
+RR	relapsing remitting
+RR	relative recovery
+RR	relative risk of death
+RR	renin release
+RR	respiratory rates
+RR	response regulator
+RR	reversal reaction
+RR	reverse redistribution
+RR	righting reflex
+RR	ross river
+RR	roundup ready
+RS	arginineserinerich
+RS	radical surgery
+RS	radiosurgery
+RS	raman spectroscopy
+RS	rankin scale
+RS	rat serum
+RS	reedsternberg
+RS	reiters syndrome
+RS	remote sensing
+RS	renin secretion
+RS	renin substrate
+RS	repeated sequences
+RS	resistant starch
+RS	response signal
+RS	restraint scale
+RS	reyes syndrome
+RS	rio grande do sul
+RS	robin sequence
+RS	rubrospinal
+RS	xlinked juvenile retinoschisis
+RT	radiation treatment
+RT	radiotherapy alone
+RT	reactive thrombocytosis
+RT	realtime
+RT	reciprocal translocations
+RT	reciprocating tachycardia
+RT	recurrent tonsillitis
+RT	relaxation training
+RT	resistance training
+RT	respiratory tract
+RT	response times
+RT	resting tension
+RT	reverse transcribed
+RT	room temperature
+RT	tumor
+SA	cocaine selfadministration
+SA	heroin selfadministration
+SA	sarcoidosis
+SA	satellite association
+SA	separation anxiety
+SA	septic arthritis
+SA	serrated adenoma
+SA	serratus anterior
+SA	serum aldosterone
+SA	shortaxis
+SA	sideroblastic anaemia
+SA	simulated annealing
+SA	sinus arrhythmia
+SA	situation awareness
+SA	skeletal age
+SA	sleep apnea
+SA	sleep apnoea
+SA	slide agglutination
+SA	slowly adapting
+SA	sodium alginate
+SA	south africa
+SA	south african
+SA	south australia
+SA	spectral analysis
+SA	spherical aberration
+SA	spinal anaesthesia
+SA	spinal anesthesia
+SA	splenic artery
+SA	spontaneous activity
+SA	spontaneous alternation
+SA	stable angina
+SA	state anxiety
+SA	status asthmaticus
+SA	stearylamine
+SA	streptavidin
+SA	streptococcal antigen
+SA	stretchactivated
+SA	substance abuse
+SA	succinic anhydride
+SA	succinylacetone
+SA	sulcus angle
+SA	sulfanilamide
+SA	surface area
+SA	surgery alone
+SA	sympathoadrenal
+SB	saccharomyces boulardii
+SB	schiff base
+SB	scleral buckling
+SB	serum bilirubin
+SB	single bond
+SB	singlebreath
+SB	sinus bradycardia
+SB	sleep bruxism
+SB	sleeping beauty
+SB	small bowel
+SB	southern blot
+SB	southern blotting
+SB	specific binding
+SB	spina bifida
+SB	spontaneous breathing
+SB	strand breaks
+SC	administered subcutaneously
+SC	c disease
+SC	cortex
+SC	culture
+SC	immature rat sertoli cells
+SC	nucleus subcoeruleus
+SC	scatter correction
+SC	schlemms canal
+SC	sclerosing cholangitis
+SC	scrotal circumference
+SC	sebaceous carcinoma
+SC	selenite cystine
+SC	selfcompatible
+SC	semicarbazide
+SC	semicircular canal
+SC	seroconversion
+SC	sickle cellhaemoglobin c
+SC	sigmoid colon
+SC	sildenafil citrate
+SC	standard care
+SC	stem cell
+SC	stepped care
+SC	stomach cancer
+SC	stratum corneum
+SC	subtilisin carlsberg
+SC	supercoiled
+SC	superconducting
+SC	supercritical
+SC	superior colliculi
+SC	supportive counseling
+SC	sydenhams chorea
+SC	synovial chondromatosis
+SC	tcm sulfur colloid
+SD	children with speech delay
+SD	depletion
+SD	male spraguedawley
+SD	seborrheic dermatitis
+SD	seborrhoeic dermatitis
+SD	segregation distorter
+SD	selective decontamination
+SD	selfdirectedness
+SD	semantic dementia
+SD	semantic differential
+SD	serologically defined
+SD	sexual dysfunction
+SD	shinedalgarno
+SD	sleep disorders
+SD	social desirability
+SD	solid dispersion
+SD	somatization disorder
+SD	spasmodic dysphonia
+SD	spatial disorientation
+SD	spermidine
+SD	splice donor
+SD	spreading depression
+SD	stable
+SD	stable disease
+SD	standard diet
+SD	steroiddependent
+SD	striated duct
+SD	stroke distance
+SD	sudden deafness
+SD	sudden death
+SD	swine dysentery
+SE	clearfil se bond
+SE	conventional spinecho
+SE	energy
+SE	exposure
+SE	extraction
+SE	mean standard error
+SE	salmonella enteritidis
+SE	secondary electron
+SE	secondary erythrocytosis
+SE	selfefficacy
+SE	selfesteem
+SE	serine esterase
+SE	shannon entropy
+SE	shared epitope
+SE	side effects
+SE	silicone elastomer
+SE	sleep efficiency
+SE	southeast
+SE	spin echo
+SE	spongiform encephalopathy
+SE	squalene epoxidase
+SE	standard errors
+SE	staphylococcal exotoxins
+SE	staphylococcus epidermidis
+SE	starredwards
+SE	state entropy
+SE	status epilepticus
+SE	stress echocardiography
+SE	subendothelium
+SE	t and tweighted spinecho
+SE	tweighted spinecho
+SF	fibers
+SF	screenfilm
+SF	seizure free
+SF	serum ferritin
+SF	serum folate
+SF	serumfree
+SF	sexual function
+SF	sham feeding
+SF	shortening fraction
+SF	shortterm fluctuation
+SF	silk fibroin
+SF	slaframine
+SF	social functioning
+SF	sodium ferulate
+SF	soluble fiber
+SF	soluble fibrin
+SF	sorbitolfermenting
+SF	space flight
+SF	spatial frequency
+SF	spotted fever
+SF	stone formers
+SF	superficial
+SF	surfactant
+SF	surviving fraction
+SF	sustained field
+SF	sylvian fissure
+SF	symphysisfundus
+SG	pneumophila serogroup
+SG	santa gertrudis
+SG	sarcoglycan
+SG	specific gravity
+SG	spiral ganglion
+SG	stellate ganglion
+SG	stratum granulosum
+SG	substantia gelatinosa
+SG	subtotal gastrectomy
+SG	superficial gastritis
+SG	suprageniculate nucleus
+SG	sympathetic ganglia
+SH	hepatitis
+SH	hypotension
+SH	sclerosing hemangioma
+SH	secondary hypertension
+SH	severe hypoglycaemia
+SH	severe hypoglycemia
+SH	sima de los huesos
+SH	simple hyperplasia
+SH	sinus histiocytosis
+SH	sitting height
+SH	small hydrophobic
+SH	soybean hulls
+SH	spigelian hernia
+SH	spontaneously hypertensive
+SH	squamous hyperplasia
+SH	standard heparin
+SH	sternohyoid
+SH	subcortical hyperintensities
+SH	subtractive hybridization
+SH	sulphydryl
+SH	systemic hypertension
+SI	first somatosensory area
+SI	sacroiliac
+SI	sacroiliitis
+SI	selfincompatibility
+SI	selfincompatible
+SI	sensory integration
+SI	sequential injection
+SI	serum iron
+SI	silent ischemia
+SI	simulated ischemia
+SI	situs inversus
+SI	small intestinal
+SI	social interaction
+SI	social isolation
+SI	somatosensory area i
+SI	special intervention
+SI	specific insulin
+SI	spectroscopic imaging
+SI	spinal cord isolation
+SI	splenic irradiation
+SI	sputum induction
+SI	stimulation indices
+SI	stoichiometry of inhibition
+SI	stress incontinence
+SI	substantia innominata
+SI	sucraseisomaltase
+SI	suicidal ideation
+SI	syncytiainducing
+SL	cardiac sarcolemma
+SL	cardiac sarcolemmal
+SL	db sensation level
+SL	layer
+SL	scapholunate
+SL	sham laparotomy
+SL	short latency
+SL	sleep latency
+SL	smyth line
+SL	sodium lactate
+SL	spin lock
+SL	spiral ligament
+SL	spliced leader
+SL	stemloop
+SL	stereolithographic
+SL	stride length
+SL	structured lipids
+SL	sublingual
+SL	surface laplacian
+SL	surrogate light
+SL	suspensory ligament
+SM	margin
+SM	memory
+SM	salmeterol
+SM	salvia miltiorrhiza
+SM	scala media
+SM	selfmonitoring
+SM	semimembranosus
+SM	serum somatomedin
+SM	skim milk
+SM	slow myosin
+SM	standard model
+SM	steatocystoma multiplex
+SM	sternomastoid
+SM	streptomycin sulfate
+SM	stress management
+SM	submandibular
+SM	submucosal
+SM	syringomyelia
+SM	systemic mastocytosis
+SN	nerves
+SN	neurons
+SN	secretoneurin
+SN	selection negativity
+SN	semantic network
+SN	sensory neuron
+SN	sentinel lymph node
+SN	serum neutralisation
+SN	serum neutralizing
+SN	sin nombre
+SN	single nephron
+SN	sinus node
+SN	spitz nevus
+SN	spontaneous nystagmus
+SN	streptonigrin
+SN	sural nerve
+SO	output
+SO	significant other
+SO	sleep onset
+SO	slowoxidative
+SO	sphincter of oddi
+SO	stratum opticum
+SO	stratum oriens
+SO	styrene oxide
+SO	sulfite oxidase
+SO	superior oblique
+SO	supraoptic nucleus
+SO	sympathetic ophthalmia
+SP	cd or cd singlepositive
+SP	cd singlepositive
+SP	plate
+SP	power
+SP	sclerosing peritonitis
+SP	secondary polycythemia
+SP	seminal plasma
+SP	senile plaque
+SP	septum
+SP	seropositive
+SP	side population
+SP	single positive
+SP	sleep paralysis
+SP	slow pathway
+SP	smooth pursuit
+SP	social phobia
+SP	sodium pentobarbital
+SP	solid phase
+SP	spasmolytic polypeptide
+SP	spleen
+SP	splenius
+SP	spontaneous pneumothorax
+SP	spore photoproduct
+SP	storage phosphor
+SP	stratum pyramidale
+SP	streptavidinperoxidase
+SP	subplate
+SP	sulfapyridine
+SP	sulphadoxinepyrimethamine
+SP	sulphapyridine
+SP	superficial peroneal
+SP	supine position
+SP	synthetic peptides
+SP	synthetic pyrethroid
+SP	systolic pressure
+SR	racer
+SR	saccharopolyspora rectivirgula
+SR	salt resistant
+SR	sarcoplasmic reticular
+SR	sarcoplasmic reticulum membranes
+SR	saturation recovery
+SR	selfreinforced
+SR	sensory rhodopsin
+SR	serineargininerich
+SR	sex ratio
+SR	shift reagent
+SR	silicone rubber
+SR	sinus rhythm
+SR	skin resistance
+SR	spontaneous regression
+SR	spontaneous remission
+SR	spontaneous respiration
+SR	stapedial reflex
+SR	stapedius reflex
+SR	stochastic resonance
+SR	storage phosphor radiography
+SR	strain rate
+SR	stratum radiatum
+SR	stretch reflex
+SR	superior rectus
+SR	sustained responders
+SR	sustained response
+SR	synaptic ribbons
+SR	synchrotron radiation
+SR	systematic review
+SS	salbutamol sulfate
+SS	salmonellashigella
+SS	salt sensitive
+SS	scleroderma systematica
+SS	segmental shortening
+SS	selfstimulation
+SS	septic shock
+SS	serum
+SS	sewage sludge
+SS	short stature
+SS	sidestream smoke
+SS	simple spike
+SS	social support
+SS	spermatocytic seminoma
+SS	stainless steel
+SS	starch synthase
+SS	steroidsensitive
+SS	straight sinus
+SS	stresssusceptible
+SS	subsarcolemmal
+SS	supersaturation
+SS	supraspinatus
+SS	sympathetic stimulation
+SS	synchronized sleep
+SS	systolic segment shortening
+SS	systolic shortening
+ST	heat stable
+ST	heatstable toxin
+ST	pkc inhibitor staurosporine
+ST	saturation transfer
+ST	scala tympani
+ST	secondary thrombocytosis
+ST	seizure threshold
+ST	selftranscendence
+ST	seminiferous tubules
+ST	semitendinosus
+ST	septal thickness
+ST	sequence type
+ST	serum testosterone
+ST	shell thickness
+ST	shortterm
+ST	sialyltransferase
+ST	signal transduction
+ST	silent thyroiditis
+ST	sinus tachycardia
+ST	skin testing
+ST	small t antigen
+ST	solid tumors
+ST	spasmodic torticollis
+ST	standard therapy
+ST	standard treatment
+ST	stanozolol
+ST	starch
+ST	sterigmatocystin
+ST	strength training
+ST	stria terminalis
+ST	stsegment depression
+ST	stsegment elevation
+ST	styrene
+ST	sulfotransferase
+ST	supportive therapy
+ST	surgical tracheostomy
+ST	swine testicular
+ST	swine testis
+ST	syncytiotrophoblast
+ST	synovial tissues
+TA	patients with takayasu arteritis
+TA	t cells
+TA	takayasus arteritis
+TA	tannic acid
+TA	technology assessment
+TA	teichoic acids
+TA	telomerase activity
+TA	temporal artery
+TA	thoracic aorta
+TA	thyroarytenoid muscle
+TA	tibialis anterior
+TA	tibialis anterior muscle
+TA	titratable acidity
+TA	tonic accommodation
+TA	total area
+TA	toxic adenoma
+TA	tracheal agenesis
+TA	transabdominal
+TA	transactivation
+TA	transient absorption
+TA	transit amplifying
+TA	transplant arteriosclerosis
+TA	triamterene
+TA	tricuspid annulus
+TA	tricuspid atresia
+TA	truncus arteriosus
+TA	tryptamine
+TA	tumour antigens
+TA	tunica albuginea
+TB	testosterone buciclate
+TB	theobromine
+TB	thiobenzamide
+TB	thoroughbred
+TB	tissue basophils
+TB	toluidine blue
+TB	total body
+TB	tracheobronchial
+TB	trapezoid body
+TB	tributyrin
+TB	triceps brachii
+TB	trisborate
+TB	trypan blue
+TB	tuberculous
+TB	tumorbearing
+TC	cellobiose
+TC	human teratocarcinoma
+TC	taurocholic acid
+TC	temporal cortex
+TC	terminal cisternae
+TC	testicular cancer
+TC	testosterone cypionate
+TC	thalamocortical
+TC	therapeutic community
+TC	thoracic circumference
+TC	thyroid cancer
+TC	thyroid carcinoma
+TC	time constant
+TC	tinospora cordifolia
+TC	tissue culture
+TC	total carbon
+TC	total carnitine
+TC	transcarboxylase
+TC	transcervical
+TC	transcobalamin
+TC	trauma center
+TC	tubocurarine
+TC	tumoral calcinosis
+TD	tangier disease
+TD	tardive dyskinesia
+TD	tdependent
+TD	temporal difference
+TD	thanatophoric dysplasia
+TD	thermodilution
+TD	thiamine deficiency
+TD	thiamine deficient
+TD	thoracic duct
+TD	tibial dyschondroplasia
+TD	time delay
+TD	tissue doppler
+TD	total deviation
+TD	total dose
+TD	tourettes disorder
+TD	transdermal
+TD	travelers diarrhea
+TD	triple dose
+TD	true digestibility
+TD	true protein digestibility
+TD	tryptophan depletion
+TD	typical development
+TD	typically developing
+TE	duration of expiration
+TE	testosterone enanthate
+TE	thioesterase
+TE	thromboembolic
+TE	thromboembolism
+TE	thymic epithelial
+TE	thymic epithelium
+TE	tissue engineering
+TE	tonic extension
+TE	total energy
+TE	toxic encephalopathy
+TE	toxoplasma encephalitis
+TE	toxoplasmic encephalitis
+TE	trabeculectomy
+TE	tracheal epithelial
+TE	tracheoesophageal
+TE	tropoelastin
+TF	mtctetrofosmin
+TF	tail flick
+TF	tailflick reflex
+TF	tetrofosmin
+TF	thickening fraction
+TF	thomsenfriedenreich
+TF	tibiofemoral
+TF	timefrequency
+TF	total fat
+TF	transfer factors
+TF	transfer function
+TF	treatment failure
+TF	tubular fluid
+TF	typhoid fever
+TG	fc receptors for igg
+TG	glucuronide
+TG	low density lipoprotein vldltriglyceride
+TG	plasma triacylglycerol
+TG	plasma triglyceride
+TG	tetragastrin
+TG	thermogravimetric
+TG	thioglycollate
+TG	thrombin generation
+TG	thyroid gland
+TG	total gastrectomy
+TG	training group
+TG	treatment group
+TG	trigeminal
+TG	trigeminal ganglia
+TG	triglyceride concentration
+TG	triglyceride levels
+TG	tumour growth
+TG	typhus group
+TI	inspiratory duration
+TI	thalassaemia intermedia
+TI	thalassemia intermedia
+TI	theca interna
+TI	therapeutic index
+TI	thermodynamic integration
+TI	thoracic electrical impedance
+TI	thoracic irradiation
+TI	threshold intensity
+TI	thymic irradiation
+TI	tindependent
+TI	tonic immobility
+TI	transcallosal inhibition
+TI	treatment interruption
+TI	tricuspid incompetence
+TI	tricuspid insufficiency
+TI	true insulin
+TI	tuberoinfundibular
+TI	tubulointerstitial
+TM	landsat thematic mapper
+TM	neurons of the tuberomammillary
+TM	tail moment
+TM	tectorial membrane
+TM	testicular microlithiasis
+TM	thalassaemia major
+TM	thalassemia major
+TM	thrombomodulin
+TM	thrombotic microangiopathy
+TM	timolol maleate
+TM	tooth mobility
+TM	trabecular meshwork
+TM	transcendental meditation
+TM	transformed migraine
+TM	transitional mucosa
+TM	transmembrane
+TM	transmembrane region
+TM	transmembrane subunit
+TM	transverse myelitis
+TM	treadmill
+TM	tropomyosin
+TM	tuberomamillary nucleus
+TM	tubular myelin
+TM	tumour markers
+TM	tunicamycin
+TP	tail pinch
+TP	tea polyphenols
+TP	tender points
+TP	tensor palatini
+TP	terminal protein
+TP	testosterone propionate
+TP	thinprep
+TP	thinprep pap test
+TP	thrombocytopenia
+TP	thrombocytopenic purpura
+TP	thromboxane aprostaglandin endoperoxide
+TP	thromboxane receptor
+TP	thymopoietin
+TP	tibialis posterior
+TP	tooth pulp
+TP	torsades de pointes
+TP	total p
+TP	total pancreatectomy
+TP	total phosphorus
+TP	total power
+TP	transit peptide
+TP	transperitoneal
+TP	tryptophan pyrrolase
+TP	tube precipitin
+TP	turning point
+TP	tyrophagus putrescentiae
+TR	repetition
+TR	taste reactivity
+TR	texas red
+TR	thiazin red
+TR	tiazofurin
+TR	timeresolved
+TR	trained
+TR	transitional region
+TR	trapezius
+TR	treadmill running
+TR	tricuspid regurgitation
+TR	trp repressor
+TR	trypanothione reductase
+TR	trypsin
+TR	turnover rates
+TS	takagisugeno
+TS	tensile strength
+TS	test stimulus
+TS	tetanic stimulation
+TS	thermal sensation
+TS	thermostable
+TS	threshold shift
+TS	thymidylate synthetase
+TS	tobacco smoke
+TS	torus semicircularis
+TS	total sleep
+TS	total solids
+TS	tractus solitarius
+TS	transcribed strand
+TS	transition state
+TS	transmural stimulation
+TS	transthoracic sonography
+TS	trauma score
+TS	triangularis sterni
+TS	tricuspid stenosis
+TS	trophoblast stem
+TS	trypanosoma cruzi transsialidase
+TT	breath duration
+TT	genotype
+TT	talar tilt
+TT	test treatment
+TT	testicular torsion
+TT	tetrathionate
+TT	therapeutic touch
+TT	thiotepa
+TT	thrombin times
+TT	thrombolytic therapy
+TT	thrombotest
+TT	tissue thickness
+TT	total testosterone
+TT	total thyroidectomy
+TT	tracheal tube
+TT	tube thoracostomy
+TT	tuberculoid
+TT	tuberculoid leprosy
+VA	adenovirus virusassociated
+VA	alveolar ventilation
+VA	apical membrane voltage
+VA	patients with vasospastic angina
+VA	retrograde
+VA	vaccenic acid
+VA	vacuum aspiration
+VA	variant angina
+VA	vascular access
+VA	ventral anterior
+VA	ventral anterior nucleus
+VA	ventralis anterior
+VA	ventricular aneurysm
+VA	ventriculoarterial
+VA	veratryl alcohol
+VA	verbal autopsy
+VA	vessel area
+VA	vestibular aqueduct
+VA	veterans administration
+VA	villous atrophy
+VA	vinyl acetate
+VA	viscum album
+VA	visual acuity
+VA	voluntary activation
+VE	vaccine effectiveness
+VE	vaccine efficacy
+VE	variable error
+VE	vascular endothelial
+VE	venezuelan encephalitis
+VE	ventilatory
+VE	virtual endoscopy
+VE	virtual environment
+VE	visceral endoderm
+VE	vital exhaustion
+VE	vitamin e
+VE	vitelline envelope
+VE	volume expansion
+VR	valsalva ratio
+VR	valve replacement
+VR	vascular reactivity
+VR	venous return
+VR	ventilation rate
+VR	ventilatory response
+VR	ventral root
+VR	ventricular rate
+VR	vesamicol receptor
+VR	virtual reality
+VR	visual reproduction
+VR	vocational rehabilitation
+VR	volume rendering
+or	nadphcytochrome p reductase
+or	ocular retardation
+or	odds ration
+or	odorant receptor
+or	oestrogen receptor
+or	olfactory receptor
+or	open repair
+or	operations research
+or	opioid receptors
+or	optical rotation
+or	orienting reaction
+or	orienting reflex
+or	orienting response
+or	outflow resistance
+or	ovulation rate
+or	relative risk
+or	right operator

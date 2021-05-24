@@ -1,13 +1,13 @@
+from os import truncate
 import pandas as pd
-from transformers import ElectraTokenizer
 import torch
-# from itertools import compress
-
-ELECTRA_TOKENIZER = ElectraTokenizer.from_pretrained('google/electra-small-discriminator')
+from bert.model import ELECTRA_TOKENIZER, Electra
+from icecream import ic
+from itertools import compress 
 
 # Tokenizes data and converts to tensor. 
-class MedalDataset(torch.utils.data.Dataset):
-    def __init__(self, df, tokenizer, max_length=512, device='cpu'):
+class MedalDatasetTokenizer(torch.utils.data.Dataset):
+    def __init__(self, df, tokenizer, max_length=256, device='cpu'):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.device = device
@@ -19,27 +19,42 @@ class MedalDataset(torch.utils.data.Dataset):
         return self.df.shape[0]
 
     def __getitem__(self, idxs):
-        # Line of the original Medal code that I think is unnecessary and time consuming
-        # idxs = list(compress(idxs, batch_df['TEXT'].apply(lambda string: len(string.split()) < self.max_length).to_list()))
         
+        # Code to remove entries that are larger than the max length size
+        batch_df = self.df.iloc[idxs]
+        # ic(batch_df['TEXT'].apply(lambda string: len(string.split())))
+        filter = batch_df['TEXT'].apply(lambda string: len(string.split()) < self.max_length).to_list()
+        # ic(idxs, filter)
+        idxs = list(compress(idxs, filter))
+
+
         batch_df = self.df.iloc[idxs]
         locs = batch_df['LOCATION'].values
-
         label_strings = batch_df['LABEL'].values
         labels = self.label_num_series[label_strings].to_numpy()
-        # labels = labels.to(self.device)
-        tokenized = self.tokenizer.batch_encode_plus(batch_df['TEXT'].tolist(), max_length=self.max_length, \
-                    padding=True)['input_ids']
+
+        # ic(batch_df['TEXT'].tolist())
+        # ic(type(batch_df['TEXT'].tolist()[0]))
+        batch_encode = self.tokenizer(batch_df['TEXT'].tolist(), max_length=self.max_length, \
+                    padding=True, truncation = True)
+        
+        # ic(batch_encode)
+        # ic(type(batch_encode))
+
+        tokenized = batch_encode['input_ids']
+        # decoded = self.tokenizer.batch_decode(tokenized)
+        # ic(decoded, len(decoded[0].split()))
+        # ic(len(tokenized[0]), len(tokenized[1]), type(tokenized))
         return torch.tensor(tokenized), torch.tensor(locs), torch.tensor(labels)
 
 def main():
     df = pd.read_csv("datasets/medal/test1000.csv")
-    print(df.head())
-    data = MedalDataset(df, ELECTRA_TOKENIZER)
-    ids = [0, 1, 2, 3]
-    for i in range(4, 1000, 4):
-        data[list(range(i-4,i))]
-        print(i)
-    print("Done")
+    data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER)
+    ids = [6, 7]
+    ids = [7]
+    # ic(data[ids][0].size())
+
+    
+
 if __name__ == "__main__":
     main()

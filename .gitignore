@@ -144,6 +144,7 @@ dmypy.json
 # Data
 datasets/medal/csv
 *.csv
+*.txt
 
 # Mac OS Files
 .DS_Store

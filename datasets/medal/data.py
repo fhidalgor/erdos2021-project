@@ -2,33 +2,39 @@ import pandas as pd
 import time
 from icecream import ic
 
+def remove_extra_columns(data):
+    important_columns = ["ABSTRACT_ID", "TEXT", "LOCATION", "LABEL", "ABBR"]
+    return data[important_columns]
+
+def filter_entries(data, abbr_list, column = "ABBR"):
+    return data[data[column].isin(abbr_list)]
+
 def main():
-    type = "valid"
-    # type = "test"
-    type = "train"
-    start = time.time()
-    data = pd.read_csv(f"datasets/medal/{type}_total_labeled.csv", error_bad_lines=False)
-    end = time.time()
 
-    print("Data downloaded", end-start)
-    
-    # data["ABBR"] = data.apply(lambda row: row.TEXT.split()[row.LOCATION], axis=1)
 
-    freq = data["ABBR"].value_counts()
-    print(freq.head())
-    
-    top_series = freq.head(100)
-    top_abb = top_series.keys()
-    # ic(top_abb)
+    # for type in ["valid", "test", "train"]:
+    #     start = time.time()
+    #     # data = pd.read_csv(f"datasets/medal/{type}_total_labeled.csv", error_bad_lines=False)
+    #     data = pd.read_csv(f"datasets/medal/{type}_total_labeled.csv", error_bad_lines=False)
+    #     end = time.time()
+    #     print("Data downloaded", end-start)
 
-    # filter = data.ABBR.isin(top_abb)
+    #     data_filtered = filter_entries(data, ["SG"])
+    #     data_prime = remove_extra_columns(data_filtered)
+    #     data_prime.to_csv(f"datasets/medal/one_abbr/{type}.csv", index = False)
+    #     print(data_prime.head())
+    #     print("File created")
 
-    # filtered = data[filter]
-    # ic(filtered)
+    adam =pd.read_csv("datasets/adam/train_2500_sort_AB_Exp.txt", sep = '\t')
+    #adam = pd.read_csv("datasets/adam/train_2500_sort_AB_Exp.txt", sep="\t")
+    adam_short = filter_entries(adam, ["SG"], "PREFERRED_AB")
+    adam_short = adam_short.reset_index(drop=True)
+    adam_short["LABEL"] = adam_short.index
+    # print(adam_short.head())
+    adam_short.to_csv("datasets/medal/one_abbr/dict.txt", sep = '\t', index = False)
 
-    top_series.to_csv(f"datasets/medal/{type}_1000_keys.csv")
-    # print("Success")
-    # print(data.head())
+
+
 
 if __name__ == "__main__":
     main()

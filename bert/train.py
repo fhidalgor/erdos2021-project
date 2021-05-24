@@ -10,15 +10,17 @@ from tqdm import tqdm
 from datetime import datetime
 
 # Using the reduced dictionary 
-DICTIONARY: pd.DataFrame = pd.read_csv("datasets/adam/train_2500_sort_AB_Exp.txt", sep='\t')
-
-## Below is the original dictionary.
+# DICTIONARY: pd.DataFrame = pd.read_csv("datasets/adam/train_2500_sort_AB_Exp.txt", sep='\t')
 # DICTIONARY: pd.DataFrame = pd.read_csv("datasets/adam/valid_adam.txt", sep='\t')
 
 # One epoch of training.
-def train_loop(train_data, model, loss_fn, optimizer, batch_size = 1, max = -1):
-
-    size = len(train_data)
+# max is the maximum number of batchs. If max is negative, it runs all batches.
+def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
+    
+    # Switches model to training mode.
+    model.train()
+    
+    # size = len(train_data)
 
     # List of all values for the loss. Output at the end.
     loss_list = []
@@ -32,7 +34,7 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size = 1, max = -1):
     
 
     for batch, idx in enumerate(tqdm(train_loader)):
-
+        # print(idx)
         X = train_data[idx][0]
         loc = train_data[idx][1]
         y = train_data[idx][2]
@@ -52,64 +54,92 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size = 1, max = -1):
                 break
 
         if batch % 2 == 0:
-            loss, current = loss.item(), batch * len(X)
-            print(f"\nloss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
+            loss = loss.item()
+            print(f"\nloss: {loss:>7f}")
             loss_list.append(loss)
 
     return loss_list
 
-# I haven't looked at the code from the test_loop yet. It shouldn't work.
-def test_loop(dataloader, model, loss_fn):
-    size = dataloader.size
-    test_loss, correct = 0, 0
+# Tests the model on the validation data
+def valid_loop(valid_data, model, loss_fn):
+
+    # Switches model to evaluation mode
+    model.eval()
+
+    size = len(valid_data)
+    valid_loss, correct = 0, 0
 
     with torch.no_grad():
-        for X, loc, y in dataloader:
+        for id in tqdm(range(size)):
+            idx = torch.tensor([id])
+            print(id, idx)
+            X = valid_data[idx][0]
+            loc = valid_data[idx][1]
+            y = valid_data[idx][2]
             pred = model(X, loc)
-            test_loss += loss_fn(pred, y).item()
+            valid_loss += loss_fn(pred, y).item()
             correct += (pred.argmax(1) == y).type(torch.float).sum().item()
 
-    test_loss /= size
+    valid_loss /= size
     correct /= size
-    print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
+    print(f"Validation: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {valid_loss:>8f} \n")
 
 def main():
 
-    N_CPU_CORES = 2
-    torch.set_num_threads(N_CPU_CORES)
+    if torch.cuda.is_available():  
+        dev = "cuda:0" 
+    else:  
+        dev = "cpu" 
+    device = torch.device(dev) 
+
+    # N_CPU_CORES = 2
+    # torch.set_num_threads(N_CPU_CORES)
+    
+    tokenizer = ELECTRA_TOKENIZER
+
+    # Data
+    train_df = pd.read_csv("datasets/medal/one_abbr/train.csv")
+    dictionary_file = "datasets/medal/one_abbr/dict.txt"
+    output_size = 12 # Should be set to the size of the dictionary
+    train_data = MedalDatasetTokenizer(train_df, tokenizer, dictionary_file)
+
+    valid_df = pd.read_csv("datasets/medal/one_abbr/valid.csv")
+    valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file)
 
     # Hyperparameters
-    learning_rate = 1e-3
+    learning_rate = 2e-5
     batch_size = 16
     epochs = 1
     
     # Model
-    model = Electra()
+    model = Electra(output_size=output_size, device=device)
     optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
     loss_fn = nn.CrossEntropyLoss()
 
-    # Data
-    df = pd.read_csv("datasets/medal/test10000.csv")
-    train_data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER)
+    
 
     # Train the model
     for t in range(epochs):
         print(f"Epoch {t+1}\n-------------------------------")
-        loss = train_loop(train_data, model, loss_fn, optimizer, batch_size = batch_size, max = -1)
+        loss = train_loop(train_data, model, loss_fn, optimizer, batch_size = batch_size,\
+            max = 4, device = device)
 
-        # Testing whether the loss function changes
-        sample_size = 100
-        first100 = np.array(loss[:sample_size])
-        last100 = np.array(loss[-sample_size:])
-        print("Initial", np.mean(first100), np.std(first100))
-        print("Final", np.mean(last100), np.std(last100))
-        # test_loop(test_dataloader, model, loss_fn)
+        # # Testing whether the loss function changes
+        # sample_size = 20
+        # first100 = np.array(loss[:sample_size])
+        # last100 = np.array(loss[-sample_size:])
+        # print("Initial", np.mean(first100), np.std(first100))
+        # print("Final", np.mean(last100), np.std(last100))
+        loss = np.array(loss)
+        print(f"\nEpoch {t} | Mean Loss: {np.mean(loss)} | Std: {np.std(loss)}")
+        
+        # valid_loop(valid_data, model, loss_fn)
 
     # Save the model in its current state.
-    save_dir = "bert/saves"
+    save_dir = "saves"
     now = datetime.now()
     now_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
-    torch.save(model, os.path.join(save_dir, f"{now_formatted}_10000_model.pt"))
+    torch.save(model, os.path.join(save_dir, f"{now_formatted}_one_abbr_model.pt"))
     print("Model saved")
 
     

@@ -7,13 +7,14 @@ from itertools import compress
 
 # Tokenizes data and converts to tensor. 
 class MedalDatasetTokenizer(torch.utils.data.Dataset):
-    def __init__(self, df, tokenizer, max_length=256, device='cpu'):
+    def __init__(self, df, tokenizer, dictionary_file, max_length=256, device='cpu'):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.device = device
         self.df = df
-        label_df = pd.read_csv("datasets/adam/label_numbers.txt", sep='\t', index_col = "EXPANSION")
-        self.label_num_series = label_df.squeeze()
+        label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
+        self.label_ser = label_df["LABEL"].squeeze()
+
 
     def __len__(self):
         return self.df.shape[0]
@@ -31,7 +32,7 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
         batch_df = self.df.iloc[idxs]
         locs = batch_df['LOCATION'].values
         label_strings = batch_df['LABEL'].values
-        labels = self.label_num_series[label_strings].to_numpy()
+        labels = self.label_ser[label_strings].to_numpy()
 
         # ic(batch_df['TEXT'].tolist())
         # ic(type(batch_df['TEXT'].tolist()[0]))
@@ -48,13 +49,20 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
         return torch.tensor(tokenized), torch.tensor(locs), torch.tensor(labels)
 
 def main():
-    df = pd.read_csv("datasets/medal/test1000.csv")
-    data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER)
-    ids = [6, 7]
-    ids = [7]
-    # ic(data[ids][0].size())
+    df = pd.read_csv("datasets/medal/one_abbr/train_one_abbr.csv")
+    dictionary_file = "datasets/medal/one_abbr/dict.txt"
+    label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
+    # batch_df = label_df.iloc[[0, 1]]['LABEL'].values
+    # print(label_df.head(10))
+    # print(label_df.loc['casein'])
 
-    
+    model = Electra(output_size=65)
+    train_data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER, dictionary_file)
+    idx = [0, 1]
+    X = train_data[idx][0]
+    loc = train_data[idx][1]
+    y = train_data[idx][2]
+    ic(model(X,loc), y)
 
 if __name__ == "__main__":
     main()

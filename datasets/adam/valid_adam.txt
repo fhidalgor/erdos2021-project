@@ -1,4 +1,4 @@
-PREFERRED_AB	VARIANT_AB	EXPANSION
+PREFERRED_AB  VARIANT_AB  EXPANSION
 +dP/dt	+dP/dt:18|+dp/dt:3	contractility
 +dP/dt	+dP/dt:6	rate of left ventricular pressure development
 1,5-AG	1,5-AG:10|1,5AG:3	anhydrodglucitol

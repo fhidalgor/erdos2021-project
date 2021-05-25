@@ -10,3 +10,6 @@ ELECTRA = load("BruceWen120/medal", "electra")
 
 # Create electra tokenizer object
 ELECTRA_TOKENIZER = ElectraTokenizer.from_pretrained('google/electra-small-discriminator')
+
+
+from transformers import BertTokenizer

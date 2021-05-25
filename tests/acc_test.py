@@ -6,20 +6,21 @@ import torch
 import pandas as pd
 import time
 import numpy as np
+from tqdm import tqdm
 
 def main():
 
-    SAVE_DATA = True
-    NUMBER_SAMPLES = 100
+    SAVE_DATA = False
+    
 
-    valid_pd = pd.read_csv("datasets/medal/valid1000.csv")
+    valid_pd = pd.read_csv("datasets/medal/two_abbr/valid.csv")
     X_valid = valid_pd['TEXT']
     loc = valid_pd['LOCATION']
     y_valid = valid_pd['LABEL']
     # print(X_valid.head())
     # print(X_valid[0])
 
-
+    NUMBER_SAMPLES = X_valid.size
 
     start = time.time()
 
@@ -30,12 +31,15 @@ def main():
     if SAVE_DATA:
         string_output = ""
 
-    for i in range(NUMBER_SAMPLES):
+    for i in tqdm(range(NUMBER_SAMPLES)):
         note = X_valid[i]
         location = loc[i]
 
         # Tokenize text with electra tokenizer
         tokens: list = tokenizer.encode(note, return_tensors="pt")
+
+        # Switches electra into evaluation mode.
+        electra_model.eval()
 
         # Predict the long forms of the short forms
         with torch.no_grad():
@@ -54,7 +58,7 @@ def main():
             string_output += "Predict = Actual?: " + f"{correct}" + "\n\n"
 
     end = time.time()
-    print(end-start)
+    print(f"Time: {end-start}")
 
     acc_score = np.sum(acc_array)/acc_array.size
     print("Accuracy Score =", acc_score)

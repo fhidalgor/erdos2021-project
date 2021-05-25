@@ -142,9 +142,9 @@ dmypy.json
 ./literature/Deep-Learning-with-PyTorch.pdf
 
 # Data
-datasets/medal/csv
 *.csv
 *.txt
+datasets/medal/saves
 
 # Mac OS Files
 .DS_Store

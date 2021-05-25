@@ -49,20 +49,29 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
         return torch.tensor(tokenized).to(self.device), torch.tensor(locs).to(self.device), torch.tensor(labels).to(self.device)
 
 def main():
-    df = pd.read_csv("datasets/medal/one_abbr/train_one_abbr.csv")
-    dictionary_file = "datasets/medal/one_abbr/dict.txt"
+    df = pd.read_csv("datasets/medal/two_abbr/train.csv")
+    dictionary_file = "datasets/medal/two_abbr/dict.txt"
     label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
     # batch_df = label_df.iloc[[0, 1]]['LABEL'].values
     # print(label_df.head(10))
     # print(label_df.loc['casein'])
 
-    model = Electra(output_size=65)
-    train_data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER, dictionary_file)
-    idx = [0, 1]
-    X = train_data[idx][0]
-    loc = train_data[idx][1]
-    y = train_data[idx][2]
-    ic(model(X,loc), y)
+    load_path = "datasets/medal/saves/test.pt"
+    model = torch.load(load_path)
+    # model = Electra(output_size=65)
+    model.eval()
+    with torch.no_grad():
+        train_data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER, dictionary_file)
+        idx = [0, 1]
+        X = train_data[idx][0]
+        loc = train_data[idx][1]
+        y = train_data[idx][2]
+        sents = model.electra(X)
+        sents = sents[0]
+        ic(X.shape, loc)
+        output = [sents[n, idx, :] for n, idx in enumerate(loc)]
+        ic(sents.shape)
+        ic(output[0].shape)
 
 if __name__ == "__main__":
     main()

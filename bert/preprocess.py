@@ -46,7 +46,7 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
         # decoded = self.tokenizer.batch_decode(tokenized)
         # ic(decoded, len(decoded[0].split()))
         # ic(len(tokenized[0]), len(tokenized[1]), type(tokenized))
-        return torch.tensor(tokenized), torch.tensor(locs), torch.tensor(labels)
+        return torch.tensor(tokenized).to(self.device), torch.tensor(locs).to(self.device), torch.tensor(labels).to(self.device)
 
 def main():
     df = pd.read_csv("datasets/medal/one_abbr/train_one_abbr.csv")

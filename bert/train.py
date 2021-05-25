@@ -35,6 +35,7 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
     correct = 0
 
     for batch, idx in enumerate(tqdm(train_loader)):
+    # for batch, idx in enumerate(train_loader):
         # print(idx)
         X = train_data[idx][0]
         loc = train_data[idx][1]
@@ -65,10 +66,11 @@ def train_loop(train_data, model, loss_fn, optimizer, batch_size, max = -1):
     
     loss_list = np.array(loss_list)
     accuracy = correct/size
+    print(f"Accuracy: {accuracy} | Average Loss: {np.mean(loss_list):>7f}\n")
     return loss_list, accuracy
 
 # Tests the model on the validation data
-def valid_loop(valid_data, model, loss_fn):
+def valid_loop(valid_data, model, loss_fn, max = -1):
 
     # Switches model to evaluation mode
     model.eval()
@@ -78,6 +80,7 @@ def valid_loop(valid_data, model, loss_fn):
 
     with torch.no_grad():
         for id in tqdm(range(size)):
+        # for id in range(size):
             idx = torch.tensor([id])
             # print(id, idx)
             X = valid_data[idx][0]
@@ -87,17 +90,21 @@ def valid_loop(valid_data, model, loss_fn):
             valid_loss += loss_fn(pred, y).item()
             correct += (pred.argmax(1) == y).type(torch.float).sum().item()
 
+            if max > 0:
+                if id > max:
+                    break
+
     valid_loss /= size
     correct /= size
     print(f"Validation: \nAccuracy: {(100*correct):>0.1f}% | Average loss: {valid_loss:>8f} \n")
     return valid_loss, correct
 
 # Save the model in its current state.
-def save_move(model, save_dir):
+def save_model(model, save_dir):
     now = datetime.now()
     now_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
-    torch.save(model, os.path.join(save_dir, f"{now_formatted}_one_abbr_Electra.pt"))
-    print("Model saved")
+    torch.save(model, os.path.join(save_dir, f"{now_formatted}_two_abbr_Electra.pt"))
+    print("Model saved\n")
 
 def main():
 
@@ -111,15 +118,18 @@ def main():
     # torch.set_num_threads(N_CPU_CORES)
     
     tokenizer = ELECTRA_TOKENIZER
+    max = -1
 
     # Data
-    train_df = pd.read_csv("datasets/medal/one_abbr/train_max_256.csv")
-    dictionary_file = "datasets/medal/one_abbr/dict.txt"
-    output_size = 12 # Should be set to the size of the dictionary
-    train_data = MedalDatasetTokenizer(train_df, tokenizer, dictionary_file)
+    num_abbr = "two_abbr"
+    folder = "datasets/medal"
+    train_df = pd.read_csv(f"{folder}/{num_abbr}/train.csv")
+    dictionary_file = f"{folder}/{num_abbr}/dict.txt"
+    output_size = 25 # Should be set to the size of the dictionary
+    train_data = MedalDatasetTokenizer(train_df, tokenizer, dictionary_file, device = device)
 
-    valid_df = pd.read_csv("datasets/medal/one_abbr/valid_max_256.csv")
-    valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file)
+    valid_df = pd.read_csv(f"{folder}/{num_abbr}/valid.csv")
+    valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file, device = device)
 
     # Hyperparameters
     learning_rate = 2e-5
@@ -135,17 +145,19 @@ def main():
 
     # Train the model
     for t in range(epochs):
-        print(f"Epoch {t+1}\n-------------------------------")
+        print(f"\nEpoch {t+1}\n-------------------------------")
         
         loss_array, train_accuracy = train_loop(train_data, model, loss_fn, optimizer, batch_size = batch_size,\
-            max = 6)
+            max = max)
         train_loss = np.mean(loss_array)
-        print(f"\nEpoch {t+1} Finished \nAccuracy: {train_accuracy} | Average Loss: {train_loss:>7f}")
+        # print(f"\nEpoch {t+1} Finished \nAccuracy: {train_accuracy} | Average Loss: {train_loss:>7f}")
         
-        valid_loss, valid_accuracy = valid_loop(valid_data, model, loss_fn)
+        valid_loss, valid_accuracy = valid_loop(valid_data, model, loss_fn, max = max)
 
         with open("saves/loss.txt", "a") as file:
             file.writelines(f"\n{t+1},{train_loss},{train_accuracy},{valid_loss},{valid_accuracy}")
+
+        save_model(model, f"{folder}/saves")
 
     
 

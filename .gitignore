@@ -143,7 +143,6 @@ dmypy.json
 
 # Data
 *.csv
-datasets/medal/saves
 datasets/medal
 
 # Mac OS Files

@@ -94,7 +94,7 @@ def valid_loop(valid_data, model, loss_fn, valid_loader, max = -1):
 
     valid_loss = np.mean(np.array(loss_list))
     correct /= size
-    print(f"Validation| \nAccuracy: {correct:>3f} | Average loss: {valid_loss:>8f} \n")
+    print(f"=Validation= \nAccuracy: {correct:>3f} | Average loss: {valid_loss:>8f} \n")
     return valid_loss, correct
 
 
@@ -103,24 +103,44 @@ def valid_loop(valid_data, model, loss_fn, valid_loader, max = -1):
 def save_model(model, save_dir):
     now = datetime.now()
     time_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
-    torch.save(model.state_dict(), save_dir + f"{time_formatted}_StateDict.pt")
+    torch.save(model.state_dict(), save_dir + f"_{time_formatted}_StateDict.pt")
     print("Model saved\n")
 
 
 def main():
 
+    # Use GPU if available
     if torch.cuda.is_available():  
         dev = "cuda:0" 
     else:  
         dev = "cpu" 
     device = torch.device(dev) 
-
-    # N_CPU_CORES = 2
-    # torch.set_num_threads(N_CPU_CORES)
     
-    # tokenizer = ELECTRA_TOKENIZER
-    tokenizer = BERT_TOKENIZER
+    # Maximum number of training batches. Used for debugging.
     max = 5
+
+    # Hyperparameters
+    learning_rate = 2e-5
+    batch_size = 16
+    epochs = 1
+
+    ### Models
+    ### The tokenizers are in fact all identical
+    output_size = 25 # Should be set to the size of the dictionary
+
+    tokenizer = BERT_TOKENIZER
+    # model = Bert(output_size, device)
+
+    # tokenizer = ELECTRA_TOKENIZER
+    # tokenizer = ELECTRA_BASE_TOKENIZER
+    model = Electra(output_size=output_size, device=device)
+
+    ### Load a saved model. The correct model above must be initialized.
+    path = ""
+    model.load_state_dict(torch.load(path))
+
+    optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
+    loss_fn = nn.CrossEntropyLoss()
 
     # Data
     num_abbr = "two_abbr"
@@ -131,24 +151,6 @@ def main():
 
     valid_df = pd.read_csv(f"{folder}/{num_abbr}/valid.csv")
     valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file, device = device)
-
-    # Hyperparameters
-    learning_rate = 2e-5
-    batch_size = 16
-    epochs = 1
-    
-    ### Models 
-    output_size = 25 # Should be set to the size of the dictionary
-    # model = Bert(output_size, device)
-    model = Electra(output_size=output_size, device=device)
-
-    ### Load a saved model. The correct model above must be initialized.
-    path = ""
-    model.load_state_dict(torch.load(path))
-    
-    optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
-    loss_fn = nn.CrossEntropyLoss()
-
 
     # Train the model
     for t in range(epochs):

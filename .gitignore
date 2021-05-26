@@ -143,8 +143,8 @@ dmypy.json
 
 # Data
 *.csv
-*.txt
 datasets/medal/saves
+datasets/medal
 
 # Mac OS Files
 .DS_Store

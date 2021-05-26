@@ -98,11 +98,12 @@ def valid_loop(valid_data, model, loss_fn, valid_loader, max = -1):
     return valid_loss, correct
 
 
-# Save the model in its current state.
+# Save the model's state_dict in its current state. 
+# Saved file name records current time and epoch number
 def save_model(model, save_dir):
     now = datetime.now()
-    now_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
-    torch.save(model, save_dir + f"{now_formatted}_two_abbr_Electra.pt")
+    time_formatted = now.strftime("%d")+"_"+now.strftime("%H")+"_"+now.strftime("%M")
+    torch.save(model.state_dict(), save_dir + f"{time_formatted}_StateDict.pt")
     print("Model saved\n")
 
 
@@ -136,10 +137,15 @@ def main():
     batch_size = 16
     epochs = 1
     
-    # Model
+    ### Models 
     output_size = 25 # Should be set to the size of the dictionary
-    model = Bert(output_size, device)
-    #Electra(output_size=output_size, device=device)
+    # model = Bert(output_size, device)
+    model = Electra(output_size=output_size, device=device)
+
+    ### Load a saved model. The correct model above must be initialized.
+    path = ""
+    model.load_state_dict(torch.load(path))
+    
     optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
     loss_fn = nn.CrossEntropyLoss()
 
@@ -163,14 +169,14 @@ def main():
         start = time()
         train_loss, train_accuracy = train_loop(train_data, model, loss_fn, optimizer, train_loader, max = max)
         end = time()
-        print(f"Training time: {end-start}\n")
+        print(f"Training time: {end-start:>0.1f} sec\n")
 
         valid_loss, valid_accuracy = valid_loop(valid_data, model, loss_fn, valid_loader, max = max)
 
-        with open("{folder}/saves/loss.txt", "a") as file:
+        with open(f"{folder}/saves/loss.txt", "a") as file:
             file.writelines(f"\n{t+1},{train_loss},{train_accuracy},{valid_loss},{valid_accuracy}")
 
-        save_model(model, f"{folder}/saves/{num_abbr}_epoch{t}")
+        save_model(model, f"{folder}/saves/{num_abbr}_epoch{t+1}")
 
     
 if __name__ == "__main__":

@@ -39,13 +39,14 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
             torch.tensor(labels).to(self.device)
 
 def main():
-    df = pd.read_csv("datasets/medal/two_abbr/train_max_256.csv")
+    df = pd.read_csv("datasets/medal/two_abbr/train_long_loc.csv")
     dictionary_file = "datasets/medal/two_abbr/dict.txt"
     label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
     tokenizer = BERT_TOKENIZER
     batch = [0, 1, 2]
     batch_df = df.iloc[batch]
-    ic(batch_df['LONG_LOC']+1)    
+    ic(batch_df['LOCATION']) 
+    ic(np.zeros(batch_df['LOCATION'].size))
     # encoded_batch = tokenizer(text[batch].tolist(), max_length = 10, padding = True, truncation = True)
     # ic(encoded_batch['input_ids'])
     

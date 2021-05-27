@@ -28,6 +28,8 @@ def train_loop(train_data, model, loss_fn, optimizer, train_loader, max = -1):
     # For computing accuracy
     correct = 0
 
+    num_batches = len(train_loader)
+
     for batch, idx in enumerate(tqdm(train_loader)):
     # for batch, idx in enumerate(train_loader):
         # print(idx)
@@ -57,7 +59,7 @@ def train_loop(train_data, model, loss_fn, optimizer, train_loader, max = -1):
                 break
 
         # Minibatch loss
-        if batch % 20 == 0 and batch != 0:
+        if batch % (num_batches//10) == 0 and batch != 0:
             print(f"\nBatch loss: {loss_value:>7f}")
     
     loss_list = np.array(loss_list)
@@ -133,11 +135,11 @@ def main():
 
     # tokenizer = ELECTRA_TOKENIZER
     # tokenizer = ELECTRA_BASE_TOKENIZER
-    model = Electra(output_size=output_size, device=device)
+    model = Electra(output_size=output_size, size = "small", device=device)
 
-    ### Load a saved model. The correct model above must be initialized.
-    path = ""
-    model.load_state_dict(torch.load(path))
+    ### Load a saved model from the state dictionary. The correct model above must be initialized.
+    # path = ""
+    # model.load_state_dict(torch.load(path))
 
     optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
     loss_fn = nn.CrossEntropyLoss()
@@ -145,11 +147,11 @@ def main():
     # Data
     num_abbr = "two_abbr"
     folder = "datasets/medal"
-    train_df = pd.read_csv(f"{folder}/{num_abbr}/train.csv")
+    train_df = pd.read_csv(f"{folder}/{num_abbr}/train_max_256.csv")
     dictionary_file = f"{folder}/{num_abbr}/dict.txt"
     train_data = MedalDatasetTokenizer(train_df, tokenizer, dictionary_file, device = device)
 
-    valid_df = pd.read_csv(f"{folder}/{num_abbr}/valid.csv")
+    valid_df = pd.read_csv(f"{folder}/{num_abbr}/valid_max_256.csv")
     valid_data = MedalDatasetTokenizer(valid_df, tokenizer, dictionary_file, device = device)
 
     # Train the model

@@ -21,21 +21,30 @@ def tokens_to_ids(tokens, tokenizer):
     return ids
 
 def main():
-    for type in ["train", "test", "valid"]:
-        df = pd.read_csv(f"datasets/medal/two_abbr/{type}_all.csv")
-        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        # df = df.head(10)
+    keys = pd.read_csv("datasets/medal/train_all_keys.csv")
+    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    keys_list = []
+    for abbr in keys['KEYS']:
+        token = tokenizer.tokenize(abbr)
+        keys_list.append(token)
+    filtered = [x[0].upper() for x in keys_list if len(x) == 1]
+    print(filtered[-64:])
 
-        start = time.time()
-        tokens = df['TEXT'].apply(tokenizer.tokenize)
-        # df['TOKEN_IDS'] = tokens.apply(lambda t: tokens_to_ids(t, tokenizer))
-        end = time.time()
-        print(f"Tokenized in {end-start :> .1f} seconds")
+    # for type in ["train", "test", "valid"]:
+    #     df = pd.read_csv(f"datasets/medal/two_abbr/{type}_all.csv")
+    #     
+    #     # df = df.head(10)
 
-        df2 = pd.concat([tokens, df['ABBR'], df['LOCATION']], axis=1)
-        df['LONG_LOC'] = df2.apply(find_long_location, axis = 1)
-        print(df.head())
-        df.to_csv(f"datasets/medal/two_abbr/{type}_long_loc.csv")
+    #     start = time.time()
+    #     tokens = df['TEXT'].apply(tokenizer.tokenize)
+    #     # df['TOKEN_IDS'] = tokens.apply(lambda t: tokens_to_ids(t, tokenizer))
+    #     end = time.time()
+    #     print(f"Tokenized in {end-start :> .1f} seconds")
+
+    #     df2 = pd.concat([tokens, df['ABBR'], df['LOCATION']], axis=1)
+    #     df['LONG_LOC'] = df2.apply(find_long_location, axis = 1)
+    #     print(df.head())
+        # df.to_csv(f"datasets/medal/two_abbr/{type}_long_loc.csv")
         # print(df.apply(check_long_location, axis = 1 ))
     
     # df['TOKEN_LOC'] = tokens.apply(lambda t: find_long_location(t, ))

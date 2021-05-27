@@ -3,7 +3,7 @@ Module that tests the text processing functions used in the electra
 wrapper.
 """
 import unittest
-from engine.utils.text_processing import locate_short_forms, replace_short_forms
+from engine.utils.wrapper_utils import locate_short_forms, replace_short_forms
 from engine.utils.electra_loader import ADAM_DF
 
 

@@ -1,6 +1,6 @@
 """
 This module will sample a corpus containing short forms, so all short
-forms appear with a given frequency
+forms appear with a given frequency.
 """
 import os
 from typing import List, Tuple
@@ -9,15 +9,7 @@ from multiprocessing import Pool, Manager
 import pandas as pd
 
 from engine.preprocess.preprocess_superclass import Preprocess
-
-
-def divide_chunks(list_to_divide: list, size_chunks: int):
-    """
-    Chunk list into small pieces
-    """
-    # looping till length l
-    for i in range(0, len(list_to_divide), size_chunks):
-        yield list_to_divide[i : i + size_chunks]
+from engine.utils.preprocess_utils import divide_chunks
 
 
 class SampleDataset(Preprocess):

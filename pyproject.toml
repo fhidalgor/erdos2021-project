@@ -17,6 +17,8 @@ pytest = "^6.2.4"
 transformers = "^4.5.1"
 ipykernel = "^5.5.4"
 wordfreq = "^2.5.0"
+bs4 = "^0.0.1"
+lxml = "^4.6.3"
 
 
 [tool.poetry.dev-dependencies]

@@ -9,7 +9,8 @@ import string
 from collections import OrderedDict
 import pandas as pd
 
-from engine.utils.preprocessing import Preprocessor, delete_overlapping_tuples
+from engine.utils.preprocessing import Preprocessor
+from engine.utils.preprocess_utils import delete_overlapping_tuples
 from engine.preprocess.preprocess_superclass import Preprocess
 
 
@@ -20,10 +21,10 @@ class ReplaceLongForms(Preprocess):
     You can define the probability of a substitution, and the min length
     of the abstracts.
     """
-    def __init__(self, probability: float = 1, length_abstract: int = 200) -> None:
-        super().__init__()
-        self.input_path = self.input_path + str("identified_abstracts")
-        self.output_path = self.output_path + str("replaced_abstracts")
+    def __init__(self, dataset: str, df_dictionary: pd.DataFrame, probability: float = 0.3, length_abstract: int = 200) -> None:
+        super().__init__(dataset, df_dictionary)
+        self.input_path = self.input_path + str("identified")
+        self.output_path = self.output_path + str("replaced")
         self.probability = probability
         self.preprocessor = Preprocessor(num_words_to_remove=50, remove_punctuation=False)
         self.length_abstract = length_abstract
@@ -41,8 +42,7 @@ class ReplaceLongForms(Preprocess):
         When the instance of the class is executed, it will replace the
         long forms by short forms.
         """
-        if not os.path.exists(self.output_path):
-            os.makedirs(self.output_path)
+        super().__call__()
         super().batch_run()
 
     def batch_run(self) -> None:

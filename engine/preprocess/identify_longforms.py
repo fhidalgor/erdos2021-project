@@ -1,6 +1,6 @@
 """
 This Module hosts the class that will identify the long forms present in
-the pubmed abstracts according to an input dictionary.
+the pubmed abstracts/mimic notes according to an input dictionary.
 """
 
 import os
@@ -15,12 +15,12 @@ from engine.preprocess.preprocess_superclass import Preprocess
 class IdentifyLongForms(Preprocess):
     """
     This class will identify the long forms present in the dictionary in
-    the pubmed abstracts.
+    the pubmed abstracts/mimic notes.
     """
-    def __init__(self) -> None:
-        super().__init__()
-        self.input_path = self.input_path + "tokenized_abstracts"
-        self.output_path = self.output_path + "identified_abstracts"
+    def __init__(self, dataset: str, df_dictionary: pd.DataFrame) -> None:
+        super().__init__(dataset, df_dictionary)
+        self.input_path = self.input_path + "tokenized"
+        self.output_path = self.output_path + "identified"
 
         self.preprocessor = Preprocessor(num_words_to_remove=50, remove_punctuation=False)
 
@@ -29,9 +29,7 @@ class IdentifyLongForms(Preprocess):
         When the instance of the class is executed, it will extract the
         abstracts of pubmed into a txt file.
         """
-        if not os.path.exists(self.output_path):
-            os.makedirs(self.output_path)
-
+        super().__call__()
         super().batch_run()
 
     def batch_run(self) -> None:
@@ -84,5 +82,5 @@ class IdentifyLongForms(Preprocess):
                                            ignore_index=True)
 
         # Export to csv
-        new_filename: str = os.path.splitext(filename)[0] + "_longforms.csv"
+        new_filename: str = os.path.splitext(filename)[0] + "_identified.csv"
         df_results.to_csv(os.path.join(self.output_path, new_filename), index=False)

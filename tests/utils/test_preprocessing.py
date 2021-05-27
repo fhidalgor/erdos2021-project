@@ -3,7 +3,7 @@ Module that tests the preprocessing utils module.
 """
 import unittest
 from typing import List, Tuple
-from engine.utils.preprocessing import delete_overlapping_tuples
+from engine.utils.preprocess_utils import delete_overlapping_tuples
 
 
 class TestPreprocessing(unittest.TestCase):

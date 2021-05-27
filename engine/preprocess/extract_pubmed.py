@@ -13,18 +13,16 @@ class ExtractPubmedAbstracts(Preprocess):
     This class will extract the abstracts of the raw .xml pubmed files
     and return .txt files.
     """
-    def __init__(self) -> None:
-        super().__init__()
+    def __init__(self, dataset: str = 'pubmed') -> None:
+        super().__init__(dataset)
         self.input_path = self.input_path + "xml_abstracts"
-        self.output_path = self.output_path + "extracted_abstracts"
+        self.output_path = self.output_path + "extracted"
 
     def __call__(self) -> None:
         """
         When the instance of the class is executed, it will extract the
         abstracts of pubmed into a txt file.
         """
-        if not os.path.exists(self.output_path):
-            os.makedirs(self.output_path)
 
         super().batch_run()
 

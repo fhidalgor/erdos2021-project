@@ -2,7 +2,7 @@
 Module with the sub class of the wrappers to use on Electra.
 """
 import torch
-from engine.utils.text_processing import locate_short_forms, replace_short_forms
+from engine.utils.wrapper_utils import locate_short_forms, replace_short_forms
 from engine.utils.electra_loader import ELECTRA
 from engine.utils.electra_loader import ELECTRA_TOKENIZER
 from engine.wrappers.wrapper import Wrapper

@@ -16,25 +16,28 @@ ADAM_DF: pd.DataFrame = pd.read_csv("datasets/adam/valid_adam.txt", sep='\t')
 PROCESSES = 10
 
 # Path to the .txt files and output path
-INPUT_PATH: str = ("datasets/pubmed/")
-OUTPUT_PATH: str = ("datasets/pubmed/")
-
+FOLDER_PATH: str = ("datasets/")
+DATASETS = ['pubmed', 'mimiciii', 'mimiciv']
 
 class Preprocess(ABC):  # pylint: disable=too-few-public-methods
     """
     Pubmed preprocessing abstract class. Each subclass of Preprocess will
-    perform a different funtion in the preprocessing pipeline.
+    perform a different funtion in the preprocessing pipeline. The input
+    `dataset` should have the name of the folder where the raw dataset is.
     """
     @abstractmethod
-    def __init__(self):
-        self.df_dictionary = ADAM_DF
+    def __init__(self, dataset: str, df_dictionary: pd.DataFrame = ADAM_DF):
+        self.dataset = dataset
+        self.df_dictionary = df_dictionary
         self.dictionary = OrderedDict(
             zip(self.df_dictionary.EXPANSION, self.df_dictionary.PREFERRED_AB)
         )
         self.processes = PROCESSES
-        self.input_path: str = INPUT_PATH
-        self.output_path: str = OUTPUT_PATH
-
+        self.input_path: str = FOLDER_PATH + dataset + '/'
+        self.output_path: str = FOLDER_PATH + dataset + '/'
+        
+        assert dataset in DATASETS, 'Add dataset to super class.'
+        
     @abstractmethod
     def __call__(self):
         """

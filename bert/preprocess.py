@@ -27,33 +27,7 @@ class MedalDatasetTokenizer(torch.utils.data.Dataset):
     def __getitem__(self, idxs):
         
         batch_df = self.df.iloc[idxs]
-        locs = batch_df['LOCATION'].values
-        label_strings = batch_df['LABEL'].values
-        labels = self.label_ser[label_strings].to_numpy()
-
-        batch_encode = self.tokenizer(batch_df['TEXT'].tolist(), max_length=self.max_length, \
-                    padding=True, truncation = True)
-
-        tokenized = batch_encode['input_ids']
-        return torch.tensor(tokenized).to(self.device), torch.tensor(locs).to(self.device), \
-            torch.tensor(labels).to(self.device)
-
-class GlossPreprocessing(torch.utils.data.Dataset):
-    def __init__(self, df, tokenizer, dictionary_file, max_length=256, device='cpu'):
-        self.tokenizer = tokenizer
-        self.max_length = max_length
-        self.device = device
-        self.df = df
-        label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
-        self.label_ser = label_df["LABEL"].squeeze()
-
-    def __len__(self):
-        return self.df.shape[0]
-
-    def __getitem__(self, idxs):
-        
-        batch_df = self.df.iloc[idxs]
-        locs = batch_df['LOCATION'].values
+        locs = batch_df['LONG_LOC'].values+1
         label_strings = batch_df['LABEL'].values
         labels = self.label_ser[label_strings].to_numpy()
 
@@ -65,21 +39,16 @@ class GlossPreprocessing(torch.utils.data.Dataset):
             torch.tensor(labels).to(self.device)
 
 def main():
-    df = pd.read_csv("datasets/medal/two_abbr/train.csv")
+    df = pd.read_csv("datasets/medal/two_abbr/train_max_256.csv")
     dictionary_file = "datasets/medal/two_abbr/dict.txt"
     label_df = pd.read_csv(dictionary_file, sep='\t', index_col = "EXPANSION")
     tokenizer = BERT_TOKENIZER
-    expansions = label_df.index
-    length_list = []
-    for long_form in expansions:
-        tokens = tokenizer.tokenize(long_form)
-        ids = tokenizer.convert_tokens_to_ids(tokens)
-        ids.append(102)
-        ic(ids)
-        tokenized = tokenizer(long_form)['input_ids']
-        ic(tokenized)
-        length_list.append(len(tokenized))
-    ic(length_list, max(length_list))
+    batch = [0, 1, 2]
+    batch_df = df.iloc[batch]
+    ic(batch_df['LONG_LOC']+1)    
+    # encoded_batch = tokenizer(text[batch].tolist(), max_length = 10, padding = True, truncation = True)
+    # ic(encoded_batch['input_ids'])
+    
 
     with torch.no_grad():
         # train_data = MedalDatasetTokenizer(df, ELECTRA_TOKENIZER, dictionary_file)
